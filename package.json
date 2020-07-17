@@ -1,0 +1,24 @@
+{
+  "name": "goodreads-scraping",
+  "version": "1.0.0",
+  "description": "Scraping tools for goodreads",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgarethc/goodreads-scraping.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cgarethc/goodreads-scraping/issues"
+  },
+  "homepage": "https://github.com/cgarethc/goodreads-scraping#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "commander": "^5.1.0",
+    "superagent": "^5.3.1"
+  }
+}
