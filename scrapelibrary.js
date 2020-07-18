@@ -7,9 +7,9 @@ const $ = require("cheerio");
 const request = require("superagent");
 const { count } = require("console");
 
-exports.search = async (author, title, formats) => {
+exports.search = async (author, title) => {
   let searchResults = [];
-  const url = `https://discover.aucklandlibraries.govt.nz/iii/encore/search/C__St:(${title}) f:(u | z)__Orightresult__U?lang=eng&suite=def`;
+  const url = `https://discover.aucklandlibraries.govt.nz/iii/encore/search/C__St:(${title}) a:(${author}) f:(u | z)__Orightresult__U?lang=eng&suite=def`;
   console.log("Using url:", url);
   const response = await request
     .get(url)
@@ -42,17 +42,18 @@ exports.search = async (author, title, formats) => {
     .version("0.0.1")
     .arguments("node index.js")
     .option("-t, --title <title>", "Book title")
+    .option("-a, --author <author>", "Book author")
     .usage("node index.js [-t] [-a] [-f]")
     .parse(process.argv);
 
-  if (!cli.title && !cli.author) {
+  if (!cli.title || !cli.author) {
     console.error("Incorrect usage");
     cli.outputHelp(() => {
       process.exit(2);
     });
   }
 
-  const searchResults = exports.search(undefined, cli.title, "i|u");
+  const searchResults = exports.search(cli.author, cli.title, "i|u");
   (await searchResults).forEach((result) => {
     console.log(result);
   });
