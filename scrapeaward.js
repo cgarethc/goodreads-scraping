@@ -13,9 +13,10 @@ exports.scrape = async (url) => {
     const html = response.text;
 
     const titleElements = $(
-      "#all_votes > table > tbody > tr > td:nth-child(3) > a > span",
+      '[itemtype="http://schema.org/Book"] > td:nth-child(2) > a > span',
       html
     );
+    
     for (let [key, title] of Object.entries(titleElements)) {
       if (title.children && title.children[0]) {
         const bookTitle = title.children[0].data;
@@ -28,7 +29,7 @@ exports.scrape = async (url) => {
         });
       }
     }
-    const nextPage = $("#all_votes > div.pagination > a.next_page", html);
+    const nextPage = $("a.next_page", html);
     if (nextPage["0"]) {
         pageCounter++;
         process.stdout.write('.');

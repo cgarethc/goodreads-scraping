@@ -3,8 +3,18 @@ Scraping tools for goodreads
 
 Run:
 
-`node whatcaniborrow.js <URL>`
+## Lists
 
-where the URL is a full Goodreads URL for a Listopia list, e.g. 
+`node whatcaniborrow.js -l <URL>`
+
+where the URL is a full Goodreads URL for a Listopia list, e.g.
 
 `node whatcaniborrow.js -l "https://www.goodreads.com/list/show/37060.Hugo_Award_for_Best_Novel"`
+
+## Awards
+
+`node whatcaniborrow.js -a <URL>`
+
+where the URL is a full Goodreads URL for an awards list, e.g.
+
+`node whatcaniborrow.js -a https://www.goodreads.com/award/show/128-pen-hemingway-foundation-award`

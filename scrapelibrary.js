@@ -11,7 +11,7 @@ exports.search = async (author, title) => {
   const sanitisedTitle = title.replace('?', '').replace(/[\(\)\#]/g, '');
 
   let searchResults = [];
-  const url = `https://discover.aucklandlibraries.govt.nz/iii/encore/search/C__St:(${sanitisedTitle}) a:(${author}) f:(u | z)__Orightresult__U?lang=eng&suite=def`;
+  const url = `https://discover.aucklandlibraries.govt.nz/iii/encore/search/C__St:(${sanitisedTitle}) l:eng a:(${author}) f:(u | z)__Orightresult__U?lang=eng&suite=def`;
   let response;
   try {
     response = await request
