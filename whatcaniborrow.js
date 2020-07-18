@@ -10,12 +10,12 @@ const goodreads = require("./scrapelist").scrape;
     .option("-l, --list <goodreads list URL>", "List URL")
     .usage("node index.js -l list URL")
     .parse(process.argv);
-  const titles = goodreads(cli.list);
+  const titles = await goodreads(cli.list);
+  console.log('Searching for', titles.length, 'titles at the library');
   (await titles).forEach(async (title) => {
-    console.log('Looking for', title.bookTitle);
-    const results = await library(title.bookAuthor, title.bookTitle);
+    const results = await library(title.bookAuthor, title.bookTitle);    
     results.forEach(result => {
-        console.log(result);
+        console.log(result.title, result.author, result.type);
     });
   });
 })();

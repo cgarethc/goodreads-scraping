@@ -8,8 +8,8 @@ const request = require("superagent");
 
 exports.search = async (author, title) => {
 
-  const sanitisedTitle = title.replace('?', '');
-  
+  const sanitisedTitle = title.replace('?', '').replace(/[\(\)\#]/g, '');
+
   let searchResults = [];
   const url = `https://discover.aucklandlibraries.govt.nz/iii/encore/search/C__St:(${sanitisedTitle}) a:(${author}) f:(u | z)__Orightresult__U?lang=eng&suite=def`;
   let response;
@@ -35,7 +35,7 @@ exports.search = async (author, title) => {
     const titleElement = titleElements[String(counter)].children[3];
     const authorElement = titleElements[String(counter)].children[5];
     searchResults.push({
-      title: titleElement.children[1].children[0].data.trim(),
+      title: titleElement.children[1].children[0].data.trim().replace(' [electronic resource]', ''),
       author: authorElement.children[1].children[0].data
         .trim()
         .replace("/ ", ""),
