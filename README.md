@@ -1,8 +1,6 @@
 # goodreads-scraping
 Scraping tools for goodreads
 
-Run:
-
 ## Lists
 
 `node whatcaniborrow.js -l <URL>`
@@ -18,3 +16,7 @@ where the URL is a full Goodreads URL for a Listopia list, e.g.
 where the URL is a full Goodreads URL for an awards list, e.g.
 
 `node whatcaniborrow.js -a https://www.goodreads.com/award/show/128-pen-hemingway-foundation-award`
+
+## TODO
+
+- Filter expression for awards, e.g. e.g. to filter out winners vs nominees and categories (best fiction, vs non-fiction)

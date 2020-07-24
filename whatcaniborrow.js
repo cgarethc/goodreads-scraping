@@ -26,7 +26,7 @@ const goodreadsAward = require("./scrapeaward").scrape;
   (await titles).forEach(async (title) => {
     const results = await library(title.bookAuthor, title.bookTitle);
     results.forEach((result) => {
-      console.log(result.title, result.author, result.type);
+      console.log('"', result.title, '"', result.author, result.type, title.bookURL, '\n', result.url, '\n');
     });
   });
 })();

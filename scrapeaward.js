@@ -1,6 +1,4 @@
 const cli = require("commander");
-
-const fs = require("fs");
 const $ = require("cheerio");
 const request = require("superagent");
 
@@ -12,23 +10,27 @@ exports.scrape = async (url) => {
     const response = await request.get(url).set("Content-Type", "text/html").query({page:pageCounter});
     const html = response.text;
 
-    const titleElements = $(
-      '[itemtype="http://schema.org/Book"] > td:nth-child(2) > a > span',
-      html
-    );
+    const bookElements = $('[itemtype="http://schema.org/Book"]', html);
     
-    for (let [key, title] of Object.entries(titleElements)) {
-      if (title.children && title.children[0]) {
-        const bookTitle = title.children[0].data;
-        const bookAuthor = $('a[class="authorName"]', title.parent.parent)["0"]
-          .children[0].children[0].data;
-
+    for (let [key, book] of Object.entries(bookElements)) {
+      if (book.type === "tag") {
+        const titleSpan = $("a.bookTitle > span", book)["0"];
+        const bookTitle = titleSpan.children[0].data;
+        const bookURL = `https://goodreads.com/${
+          $("a.bookTitle", book)["0"].attribs["href"]
+        }`;
+        const bookAuthor = $('span[itemprop="author"] > div > a > span', book)["0"]
+          .children[0].data;
+        const awardType = $("td > i", book)["0"].children[0].data;
         titles.push({
           bookTitle,
           bookAuthor,
+          awardType,
+          bookURL
         });
       }
     }
+
     const nextPage = $("a.next_page", html);
     if (nextPage["0"]) {
         pageCounter++;

@@ -29,17 +29,20 @@ exports.search = async (author, title) => {
 
   const titleElements = $("div.dpBibTitle", response.text);
 
+
   for (let counter = 0; counter < titleElements.length; counter++) {
-    const resourceType =
-      titleElements[String(counter)].children[11].children[3].children[0].data;
-    const titleElement = titleElements[String(counter)].children[3];
-    const authorElement = titleElements[String(counter)].children[5];
+
+    const bookElement = titleElements[String(counter)];
+    const title = $('span.title > a', bookElement)['0'].children[0].data.trim().replace(' [electronic resource]', '');
+    const url = `https://discover.aucklandlibraries.govt.nz/${$('span.title > a', bookElement)['0'].attribs['href']}`;
+    const author = $('div.dpBibAuthor > a', bookElement)['0'].children[0].data.trim();
+    const resourceType = $('div > span.itemMediaDescription', bookElement)['0'].children[0].data;
+
     searchResults.push({
-      title: titleElement.children[1].children[0].data.trim().replace(' [electronic resource]', ''),
-      author: authorElement.children[1].children[0].data
-        .trim()
-        .replace("/ ", ""),
+      title,
+      author,
       type: resourceType,
+      url
     });
   }
 
