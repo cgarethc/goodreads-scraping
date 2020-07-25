@@ -8,10 +8,8 @@ const request = require("superagent");
 
 exports.search = async (author, title) => {
 
-  const sanitisedTitle = title.replace('?', '').replace(/[\(\)\#]/g, '');
-
   let searchResults = [];
-  const url = `https://discover.aucklandlibraries.govt.nz/iii/encore/search/C__St:(${sanitisedTitle}) l:eng a:(${author}) f:(u | z)__Orightresult__U?lang=eng&suite=def`;
+  const url = `https://discover.aucklandlibraries.govt.nz/iii/encore/search/C__St:(${encodeURI(title)}) l:eng a:(${encodeURI(author)}) f:(u | z)__Orightresult__U?lang=eng&suite=def`;
   let response;
   try {
     response = await request
@@ -23,7 +21,7 @@ exports.search = async (author, title) => {
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"
       );
   } catch (err) {
-    console.error("Request to", url, "failed");
+    console.error("Request to", url, "failed", err.message);
     return [];
   }
 

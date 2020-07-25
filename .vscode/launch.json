@@ -21,7 +21,8 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}/whatcaniborrow.js",
-            "args": ["-a", "https://www.goodreads.com/award/show/2129-london-book-festival"]
+            "args": ["-a", "https://www.goodreads.com/award/show/9-hugo-award"],
+            "outputCapture": "std"
         }
     ]
 }
