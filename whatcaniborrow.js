@@ -10,13 +10,14 @@ const goodreadsAward = require("./scrapeaward").scrape;
     .arguments("node index.js")
     .option("-l, --list <goodreads list URL>", "List URL")
     .option("-a, --award <goodreads award URL>", "Award URL")
+    .option("-f, --filter <filter for goodreads award type>", "Award filter")
     .usage("node index.js [-l listurl]|[-a awardurl]")
     .parse(process.argv);
   let titles;
   if (cli.list) {
     titles = await goodreadsList(cli.list);
   } else if (cli.award) {
-    titles = await goodreadsAward(cli.award);
+    titles = await goodreadsAward(cli.award, cli.filter);
   } else {
     console.error(cli.helpInformation());
     process.exit(2);
@@ -24,9 +25,10 @@ const goodreadsAward = require("./scrapeaward").scrape;
 
   console.log("Searching for", titles.length, "titles at the library");
   (await titles).forEach(async (title) => {
-    const results = await library(title.bookAuthor, title.bookTitle);
+    const results = await library(title.bookAuthor, title.bookTitle);    
     results.forEach((result) => {
-      console.log('"', result.title, '"', result.author, result.type, title.bookURL, '\n', result.url, '\n');
+      const formattedResult = `${result.type} ${title.awardType?title.awardType:''} "${result.title}" by ${result.author}\n${title.bookURL}\n${result.url}`;
+      console.log(formattedResult, '\n');
     });
   });
 })();

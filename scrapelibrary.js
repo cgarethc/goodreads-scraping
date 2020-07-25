@@ -34,8 +34,15 @@ exports.search = async (author, title) => {
 
     const bookElement = titleElements[String(counter)];
     const title = $('span.title > a', bookElement)['0'].children[0].data.trim().replace(' [electronic resource]', '');
-    const url = `https://discover.aucklandlibraries.govt.nz/${$('span.title > a', bookElement)['0'].attribs['href']}`;
-    const author = $('div.dpBibAuthor > a', bookElement)['0'].children[0].data.trim();
+    const url = `https://discover.aucklandlibraries.govt.nz${$('span.title > a', bookElement)['0'].attribs['href']}`;
+    const authorElement = $('div.dpBibAuthor > a', bookElement)['0'];
+    let author;
+    if (authorElement) {
+      author = authorElement.children[0].data.trim();
+    }
+    else {
+      console.error('\n*** Could not find author for ', title, url, '\n');
+    }
     const resourceType = $('div > span.itemMediaDescription', bookElement)['0'].children[0].data;
 
     searchResults.push({

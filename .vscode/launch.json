@@ -7,11 +7,21 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "Run test script",
             "skipFiles": [
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}/test.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Scrape award",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/whatcaniborrow.js",
+            "args": ["-a", "https://www.goodreads.com/award/show/2129-london-book-festival"]
         }
     ]
 }
