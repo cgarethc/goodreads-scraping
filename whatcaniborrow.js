@@ -1,8 +1,8 @@
 const cli = require("commander");
 
-const library = require("./scrapelibrary").search;
-const goodreadsList = require("./scrapelist").scrape;
-const goodreadsAward = require("./scrapeaward").scrape;
+const library = require("./lib/scrapelibrary").search;
+const goodreadsList = require("./lib/scrapelist").scrape;
+const goodreadsAward = require("./lib/scrapeaward").scrape;
 
 (async () => {
   cli
