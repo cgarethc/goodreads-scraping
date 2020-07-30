@@ -17,6 +17,12 @@ where the URL is a full Goodreads URL for an awards list, e.g.
 
 `node whatcaniborrow.js -a https://www.goodreads.com/award/show/128-pen-hemingway-foundation-award`
 
+## Populating Firestore
+
+Include an identifier (with allowed Firestore characters for an ID) and a name, e.g.
+
+`node populatefirestore.js -a https://www.goodreads.com/award/show/2129-london-book-festival -i london-book-festival -n "London Book Festival"`
+
 ## TODO
 
-- Filter expression for awards, e.g. e.g. to filter out winners vs nominees and categories (best fiction, vs non-fiction)
+- Make a Lambda that can read a set of definitions and process them into Firestore

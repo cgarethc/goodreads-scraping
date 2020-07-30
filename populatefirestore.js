@@ -14,6 +14,7 @@ const serviceAccount = require('./what-can-i-borrow-firebase-adminsdk-8nxq2-60df
         .option("-a, --award <goodreads award URL>", "Award URL")
         .option("-f, --filter <filter for goodreads award type>", "Award filter")
         .requiredOption("-i, --id <id for the list>", "ID")
+        .requiredOption("-n, --name <friendly name for the list>", "Name")
         .usage("node index.js [-l listurl]|[-a awardurl]")
         .parse(process.argv);
     let titles;
@@ -50,6 +51,7 @@ const serviceAccount = require('./what-can-i-borrow-firebase-adminsdk-8nxq2-60df
         databaseURL: "https://what-can-i-borrow.firebaseio.com"
     });
     const db = admin.firestore();
+    db.settings({ ignoreUndefinedProperties: true });
     const docRef = db.collection('lists').doc(cli.id);
-    await docRef.set({ id: cli.id, books: allResults });
+    await docRef.set({ id: cli.id, name: cli.name, books: allResults });
 })();
