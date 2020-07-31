@@ -25,4 +25,4 @@ Include an identifier (with allowed Firestore characters for an ID) and a name, 
 
 ## TODO
 
-- Make a Lambda that can read a set of definitions and process them into Firestore
+- Add cover images
