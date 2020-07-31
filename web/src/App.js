@@ -18,6 +18,8 @@ import "firebase/auth";
 import "firebase/firestore";
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
 
+import Book from './Book';
+
 const firebaseConfig = {
   apiKey: "AIzaSyAIOcRc5qxnGuz6RVH8fj8-0KYFXVkKzds",
   authDomain: "what-can-i-borrow.firebaseapp.com",
@@ -110,14 +112,14 @@ export default function App() {
           {loggedIn && <Avatar alt={loggedIn.displayName} src={loggedIn.photoURL} onClick={() => firebase.auth().signOut()} />}
         </Typography>
         <Typography gutterBottom>
-          This tool compares <a href="goodreads.com">Goodreads</a> lists with the digital resources
+          This tool compares <a href="https://goodreads.com">Goodreads</a> lists with the digital resources
           (eBooks and eAudioBooks) available at <a href="https://www.aucklandlibraries.govt.nz/">Auckland Libraries</a> to
            help you find your next great read.
           The lists include winners of major literature awards to make sure you're sticking
           to the <strong>really</strong> good stuff 😉.
         </Typography>
         {!loggedIn && <Typography gutterBottom>
-          This is a free service that uses a cloud database called "Firestore" which needs you to login to
+          This is a free service that uses a cloud database called "Firestore" which requires a login to
           use. You can use a Google login (GMail) if you have one, or register a username and password if
           you prefer. Your details will not be used for any other purpose.
           To get started, choose an award or a list from the menu…
@@ -149,8 +151,8 @@ export default function App() {
           {
             selectedAward && (
               <>
-                {findAwardByName(selectedAward).books.map((book, index) => {
-                  return <Typography key={index}>{book.title}</Typography>
+                {findAwardByName(selectedAward).books.map((book, index) => {                  
+                  return <Book key={index} book={book}/>
                 })}
 
               </>
