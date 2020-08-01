@@ -37,7 +37,8 @@ const serviceAccount = require('./what-can-i-borrow-firebase-adminsdk-8nxq2-60df
             const formattedResult = `${result.type} ${title.awardType ? title.awardType : ''} "${result.title}" by ${result.author}\n${title.bookURL}\n${result.url}`;
             console.log(formattedResult, '\n');
             const resultDoc = {
-                itemType: result.type, awardType: title.awardType, title: result.title, author: result.author, goodreadsURL: title.bookURL, libraryURL: result.url
+                itemType: result.type, awardType: title.awardType, title: result.title, author: result.author, 
+                goodreadsURL: title.bookURL, libraryURL: result.url, coverURL: title.bookCover
             }
             allResults.push(resultDoc);
         });

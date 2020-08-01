@@ -35,7 +35,8 @@ async function parseAward() {
       const author = $('span[itemprop="author"] > div > a > span', book)["0"]
         .children[0].data;
       const awardType = $("td > i", book)["0"].children[0].data;
-      console.log(title, url, author, awardType);
+      const bookCover = $('img.bookCover', book)['0'].attribs['src'];
+      console.log(title, url, author, awardType, bookCover);
     }
   }
 }
@@ -85,5 +86,5 @@ async function parseLibrary() {
 }
 
 (async () => {
-  parseLibrary();
+  parseAward();
 })();
