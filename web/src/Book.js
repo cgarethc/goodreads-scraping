@@ -4,6 +4,7 @@ import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
+import Avatar from '@material-ui/core/Avatar';
 import Typography from '@material-ui/core/Typography';
 import HeadsetIcon from '@material-ui/icons/Headset';
 
@@ -22,6 +23,9 @@ const useStyles = makeStyles({
     pos: {
         marginBottom: 12,
     },
+    cover: {
+        width: 70,
+    },
 });
 
 export default function Book(book) {
@@ -33,10 +37,10 @@ export default function Book(book) {
         <Card className={classes.root}>
             <CardContent>
                 <Typography className={classes.title} color="textSecondary" gutterBottom>
-    {bookToDisplay.itemType==='eAudiobook' && <HeadsetIcon/>}{bookToDisplay.itemType}
+                    {bookToDisplay.itemType === 'eAudiobook' && <HeadsetIcon />}{bookToDisplay.itemType}
                 </Typography>
                 <Typography variant="h5" component="h2">
-                    {bookToDisplay.title}
+                {bookToDisplay.coverURL && <Avatar src={bookToDisplay.coverURL}/>}{bookToDisplay.title}
                 </Typography>
                 <Typography className={classes.pos} color="textSecondary">
                     {bookToDisplay.author}
@@ -44,7 +48,8 @@ export default function Book(book) {
                 <Typography variant="body2" component="p">
                     {bookToDisplay.awardType}
                 </Typography>
-            </CardContent>
+                
+            </CardContent>            
             <CardActions>
                 <Button size="small" href={bookToDisplay.goodreadsURL}>Goodreads</Button>
                 <Button size="small" href={bookToDisplay.libraryURL}>Library</Button>
