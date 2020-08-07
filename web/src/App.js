@@ -2,13 +2,13 @@ import React from 'react';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-import Avatar from '@material-ui/core/Avatar';
 import Link from '@material-ui/core/Link';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
+import Avatar from '@material-ui/core/Avatar';
 
 import { makeStyles } from '@material-ui/core/styles';
 
@@ -127,9 +127,9 @@ export default function App() {
         <Box my={4}>
           {!loggedIn && <StyledFirebaseAuth uiConfig={uiConfig} firebaseAuth={firebase.auth()} />}
           {loading && <CircularProgress />}
-          {awards && (
+          {!loading && awards && (
             <FormControl className={classes.formControl}>
-              <InputLabel id="demo-simple-select-label">Award</InputLabel>
+              <InputLabel id="demo-simple-select-label">Select a list</InputLabel>
               <Select
                 labelId="award-select-label"
                 id="award-select"
@@ -151,8 +151,10 @@ export default function App() {
           {
             selectedAward && (
               <>
-                {findAwardByName(selectedAward).books.map((book, index) => {                  
-                  return <Book key={index} book={book}/>
+                {findAwardByName(selectedAward).books.map((book, index) => {
+                  return (
+                    <Box key={index} marginTop={2}><Book book={book} /></Box>
+                  )
                 })}
 
               </>

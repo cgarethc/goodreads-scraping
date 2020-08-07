@@ -13,6 +13,7 @@ const serviceAccount = require('./what-can-i-borrow-firebase-adminsdk-8nxq2-60df
         .option("-l, --list <goodreads list URL>", "List URL")
         .option("-a, --award <goodreads award URL>", "Award URL")
         .option("-f, --filter <filter for goodreads award type>", "Award filter")
+        .option("-p, --pages <maximum number of pages to scrape>", "Max pages")
         .requiredOption("-i, --id <id for the list>", "ID")
         .requiredOption("-n, --name <friendly name for the list>", "Name")
         .usage("node index.js [-l listurl]|[-a awardurl]")
@@ -20,9 +21,9 @@ const serviceAccount = require('./what-can-i-borrow-firebase-adminsdk-8nxq2-60df
     let titles;
 
     if (cli.list) {
-        titles = await goodreadsList(cli.list);
+        titles = await goodreadsList(cli.list, cli.pages);
     } else if (cli.award) {
-        titles = await goodreadsAward(cli.award, cli.filter);
+        titles = await goodreadsAward(cli.award, cli.filter, cli.pages);
     } else {
         console.error(cli.helpInformation());
         process.exit(2);
@@ -31,7 +32,9 @@ const serviceAccount = require('./what-can-i-borrow-firebase-adminsdk-8nxq2-60df
     const allResults = [];
 
     console.log("Searching for", titles.length, "titles at the library");
+    let titleCounter = 1;
     for (title of titles) {
+        console.log(`Title ${titleCounter++} "${title.bookTitle}" by ${title.bookAuthor}`);
         const results = await library(title.bookAuthor, title.bookTitle);
         results.forEach((result) => {
             const formattedResult = `${result.type} ${title.awardType ? title.awardType : ''} "${result.title}" by ${result.author}\n${title.bookURL}\n${result.url}`;

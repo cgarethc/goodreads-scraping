@@ -11,13 +11,14 @@ const goodreadsAward = require("./lib/scrapeaward").scrape;
     .option("-l, --list <goodreads list URL>", "List URL")
     .option("-a, --award <goodreads award URL>", "Award URL")
     .option("-f, --filter <filter for goodreads award type>", "Award filter")
+    .option("-p, --pages <maximum number of pages to scrape>", "Max pages")
     .usage("node index.js [-l listurl]|[-a awardurl]")
     .parse(process.argv);
   let titles;
   if (cli.list) {
-    titles = await goodreadsList(cli.list);
+    titles = await goodreadsList(cli.list, cli.pages);
   } else if (cli.award) {
-    titles = await goodreadsAward(cli.award, cli.filter);
+    titles = await goodreadsAward(cli.award, cli.filter, cli.pages);
   } else {
     console.error(cli.helpInformation());
     process.exit(2);

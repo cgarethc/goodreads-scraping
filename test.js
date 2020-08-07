@@ -15,7 +15,8 @@ async function parseList() {
         }`;
       const author = $('span[itemprop="author"] > div > a > span', book)["0"]
         .children[0].data;
-      console.log(title, url, author);
+      const bookCover = $('img.bookCover', book)['0'].attribs['src'];
+      console.log(title, url, author, bookCover);
     }
   }
 }
@@ -40,24 +41,6 @@ async function parseAward() {
     }
   }
 }
-async function parseList() {
-  const html = fs.readFileSync("examples/costa.htm").toString();
-
-  const bookElements = $('[itemtype="http://schema.org/Book"]', html);
-
-  for (let [key, book] of Object.entries(bookElements)) {
-    if (book.type === "tag") {
-      const titleSpan = $("a.bookTitle > span", book)["0"];
-      const title = titleSpan.children[0].data;
-      const url = `https://goodreads.com/${
-        $("a.bookTitle", book)["0"].attribs["href"]
-        }`;
-      const author = $('span[itemprop="author"] > div > a > span', book)["0"]
-        .children[0].data;
-      console.log(title, url, author);
-    }
-  }
-}
 
 async function parseLibrary() {
   const html = fs.readFileSync("examples/aucklandsearch.htm").toString();
@@ -67,8 +50,8 @@ async function parseLibrary() {
   let searchResults = [];
 
   for (let counter = 0; counter < titleElements.length; counter++) {
-  
-    const bookElement = titleElements[String(counter)];    
+
+    const bookElement = titleElements[String(counter)];
     const title = $('span.title > a', bookElement)['0'].children[0].data.trim().replace(' [electronic resource]', '');
     const url = `https://discover.aucklandlibraries.govt.nz/${$('span.title > a', bookElement)['0'].attribs['href']}`;
     const author = $('div.dpBibAuthor > a', bookElement)['0'].children[0].data.trim();
@@ -86,5 +69,5 @@ async function parseLibrary() {
 }
 
 (async () => {
-  parseAward();
+  parseList();
 })();
