@@ -5,6 +5,7 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import Tooltip from '@material-ui/core/Tooltip';
 import HeadsetIcon from '@material-ui/icons/Headset';
 import LocalLibraryIcon from '@material-ui/icons/LocalLibrary';
 import Grid from '@material-ui/core/Grid';
@@ -23,7 +24,7 @@ const useStyles = makeStyles({
         fontSize: 14,
     },
     pos: {
-        marginBottom: 12,
+        marginBottom: 6,
     },
     cover: {
         width: 70,
@@ -32,8 +33,15 @@ const useStyles = makeStyles({
 
 export default function Book(book) {
     const bookToDisplay = book.book;
-    console.log(book);
     const classes = useStyles();
+
+    let libraryIcon;
+    if (bookToDisplay.itemType === 'eAudiobook') {
+        libraryIcon = (<HeadsetIcon />);
+    }
+    else {
+        libraryIcon = (<LocalLibraryIcon />);
+    }
 
     return (
         <Card className={classes.root}>
@@ -43,30 +51,26 @@ export default function Book(book) {
                         {bookToDisplay.coverURL && <img alt={bookToDisplay.title} src={bookToDisplay.coverURL} />}
                     </Grid>
                     <Grid item>
-                        <Typography className={classes.title} color="textSecondary" gutterBottom>
-                            {bookToDisplay.itemType}
-                            {bookToDisplay.itemType === 'eAudiobook' && <HeadsetIcon />}{bookToDisplay.itemType === 'eBook' && <LocalLibraryIcon />}
-                        </Typography>
+
                     </Grid>
-                </Grid>
-                <Grid container spacing={1}>
                     <Grid item>
-                        <Typography variant="h5" component="h2">
+                        <Typography variant="body1" component="h1">
                             {bookToDisplay.title}
                         </Typography>
+                        <Typography color="textSecondary">
+                            {bookToDisplay.author}
+                        </Typography>
+                        {bookToDisplay.awardType && 
+                        <Typography variant="body2" component="p">
+                            {bookToDisplay.awardType}
+                        </Typography>}
                     </Grid>
                 </Grid>
-                <Typography className={classes.pos} color="textSecondary">
-                    {bookToDisplay.author}
-                </Typography>
-                {bookToDisplay.awardType && <Typography variant="body2" component="p">
-                    {bookToDisplay.awardType}
-                </Typography>}
 
             </CardContent>
             <CardActions>
                 <Button size="small" href={bookToDisplay.goodreadsURL}>Goodreads</Button>
-                <Button size="small" href={bookToDisplay.libraryURL}>Library</Button>
+                <Tooltip title={bookToDisplay.itemType} aria-label={bookToDisplay.itemType}><Button size="small" href={bookToDisplay.libraryURL} endIcon={libraryIcon}>Library</Button></Tooltip>
             </CardActions>
         </Card >
     );

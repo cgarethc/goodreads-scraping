@@ -9,6 +9,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 import Avatar from '@material-ui/core/Avatar';
+import Tooltip from '@material-ui/core/Tooltip';
 
 import { makeStyles } from '@material-ui/core/styles';
 
@@ -109,7 +110,7 @@ export default function App() {
       <Box my={4}>
         <Typography variant="h4" component="h1" gutterBottom>
           What can I borrow from Auckland Library?
-          {loggedIn && <Avatar alt={loggedIn.displayName} src={loggedIn.photoURL} onClick={() => firebase.auth().signOut()} />}
+          {loggedIn && <Tooltip title="Click to log out" aria-label="Log out"><Avatar alt={loggedIn.displayName} src={loggedIn.photoURL} onClick={() => firebase.auth().signOut()} /></Tooltip>}
         </Typography>
         <Typography gutterBottom>
           This tool compares <a href="https://goodreads.com">Goodreads</a> lists with the digital resources
@@ -126,8 +127,8 @@ export default function App() {
         </Typography>}
         <Box my={4}>
           {!loggedIn && <StyledFirebaseAuth uiConfig={uiConfig} firebaseAuth={firebase.auth()} />}
-          {loading && <CircularProgress />}
-          {!loading && awards && (
+          {loading && loggedIn && <CircularProgress />}
+          {!loading && loggedIn && awards && (
             <FormControl className={classes.formControl}>
               <InputLabel id="demo-simple-select-label">Select a list</InputLabel>
               <Select

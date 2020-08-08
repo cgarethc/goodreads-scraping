@@ -39,3 +39,5 @@ node populatefirestore.js -l https://www.goodreads.com/list/show/113523.100_Book
 node populatefirestore.js -l https://www.goodreads.com/list/show/88513.The_Essential_Computer_Engineer_s_Inspiration -i computer-engineer-inspiration -n "The Essential Computer Engineer's Inspiration"
 
 node populatefirestore.js -l https://www.goodreads.com/list/show/1170.Best_Business_Books -p 2 -i best-business-book -n "The Best Business Books"
+
+node populatefirestore.js -l https://www.goodreads.com/list/show/47.Best_Dystopian_and_Post_Apocalyptic_Fiction -p 2 -i dystopian -n "Best Dystopian and Post-Apocalyptic Fiction"
