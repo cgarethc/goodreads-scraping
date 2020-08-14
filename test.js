@@ -1,5 +1,6 @@
 const fs = require("fs");
 const $ = require("cheerio");
+const scrapewelly = require('./lib/scrapewellylibrary.js');
 
 async function parseList() {
   const html = fs.readFileSync("examples/costa.htm").toString();
@@ -68,6 +69,10 @@ async function parseLibrary() {
   console.log(JSON.stringify(searchResults));
 }
 
+async function parseWelly() {
+  scrapewelly.search('Evaristo, Bernardine', 'Girl, woman, other');
+}
+
 (async () => {
-  parseList();
+  parseWelly();
 })();
