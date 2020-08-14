@@ -36,7 +36,7 @@ export default function Book(book) {
     const classes = useStyles();
 
     let libraryIcon;
-    if (bookToDisplay.itemType === 'eAudiobook') {
+    if (bookToDisplay.itemType === 'eAudiobook' || bookToDisplay.itemType === 'eAudioBook') {
         libraryIcon = (<HeadsetIcon />);
     }
     else {

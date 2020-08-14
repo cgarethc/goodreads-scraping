@@ -64,6 +64,7 @@ export default function App() {
   const [loading, setLoading] = React.useState(false);
   const [awards, setAwards] = React.useState([]);
   const [selectedAward, selectAward] = React.useState('');
+  const [selectedLibrary, selectLibrary] = React.useState('Auckland');
 
   React.useEffect(() => {
     firebase.auth().onAuthStateChanged(
@@ -105,17 +106,30 @@ export default function App() {
     });
   }
 
+  const loadAndSelectLibrary = (library) => {
+    selectLibrary(library);
+    selectAward('');
+    setLoading(true);
+    db.collection(library === 'Wellington' ? 'welly' : 'lists').get().then((querySnapshot) => {
+      const allLists = [];
+      querySnapshot.forEach((doc) => {
+        allLists.push(doc.data());
+      });
+      setAwards(allLists);
+      setLoading(false);
+    });
+  }
+
   return (
     <Container maxWidth="md">
       <Box my={4}>
         <Typography variant="h4" component="h1" gutterBottom>
-          What can I borrow from Auckland Library?
+          What can I borrow?
           {loggedIn && <Tooltip title="Click to log out" aria-label="Log out"><Avatar alt={loggedIn.displayName} src={loggedIn.photoURL} onClick={() => firebase.auth().signOut()} /></Tooltip>}
         </Typography>
         <Typography gutterBottom>
           This tool compares <a href="https://goodreads.com">Goodreads</a> lists with the digital resources
-          (eBooks and eAudioBooks) available at <a href="https://www.aucklandlibraries.govt.nz/">Auckland Libraries</a> to
-           help you find your next great read.
+          (eBooks and eAudioBooks) available at <a href="https://www.aucklandlibraries.govt.nz/">Auckland Libraries</a> or <a href="https://wcl.govt.nz/">Wellington Libraries</a> to help you find your next great read.
           The lists include winners of major literature awards to make sure you're sticking
           to the <strong>really</strong> good stuff 😉.
         </Typography>
@@ -129,23 +143,39 @@ export default function App() {
           {!loggedIn && <StyledFirebaseAuth uiConfig={uiConfig} firebaseAuth={firebase.auth()} />}
           {loading && loggedIn && <CircularProgress />}
           {!loading && loggedIn && awards && (
-            <FormControl className={classes.formControl}>
-              <InputLabel id="demo-simple-select-label">Select a list</InputLabel>
-              <Select
-                labelId="award-select-label"
-                id="award-select"
-                value={selectedAward}
-                onChange={(event) => {
-                  selectAward(event.target.value);
-                }}
-              >
+            <>
+              <FormControl className={classes.formControl}>
+                <InputLabel id="select-library-label">Select a library</InputLabel>
+                <Select
+                  labelId="select-library-label"
+                  id="select-library"
+                  value={selectedLibrary}
+                  onChange={(event) => {
+                    loadAndSelectLibrary(event.target.value);
+                  }}
+                >
+                  <MenuItem value='Auckland'>Auckland</MenuItem>
+                  <MenuItem value='Wellington'>Wellington</MenuItem>
+                </Select>
+              </FormControl>
+              <FormControl className={classes.formControl}>
+                <InputLabel id="demo-simple-select-label">Select a list</InputLabel>
+                <Select
+                  labelId="award-select-label"
+                  id="award-select"
+                  value={selectedAward}
+                  onChange={(event) => {
+                    selectAward(event.target.value);
+                  }}
+                >
 
-                {awards.map((award, index) => {
-                  return <MenuItem key={index} value={award.name}>{award.name}</MenuItem>
-                })}
+                  {awards.map((award, index) => {
+                    return <MenuItem key={index} value={award.name}>{award.name}</MenuItem>
+                  })}
 
-              </Select>
-            </FormControl>
+                </Select>
+              </FormControl>
+            </>
           )}
         </Box>
         <Box>
