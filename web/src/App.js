@@ -60,11 +60,14 @@ function Copyright() {
 }
 
 export default function App() {
+  const previouslySelectedAward = window.localStorage.getItem('previouslySelectedAward');
+  const previouslySelectedLibrary = window.localStorage.getItem('previouslySelectedLibrary');
+
   const [loggedIn, setLoggedIn] = React.useState({});
   const [loading, setLoading] = React.useState(false);
   const [awards, setAwards] = React.useState([]);
   const [selectedAward, selectAward] = React.useState('');
-  const [selectedLibrary, selectLibrary] = React.useState('Auckland');
+  const [selectedLibrary, selectLibrary] = React.useState(previouslySelectedLibrary ? previouslySelectedLibrary : 'Auckland');
 
   React.useEffect(() => {
     firebase.auth().onAuthStateChanged(
@@ -78,6 +81,9 @@ export default function App() {
               allLists.push(doc.data());
             });
             setAwards(allLists);
+            if (previouslySelectedAward) {
+              selectAward(previouslySelectedAward);
+            }
             setLoading(false);
           });
         }
@@ -110,6 +116,7 @@ export default function App() {
     selectLibrary(library);
     selectAward('');
     setLoading(true);
+    window.localStorage.setItem('previouslySelectedLibrary', library);
     db.collection(library === 'Wellington' ? 'welly' : 'lists').get().then((querySnapshot) => {
       const allLists = [];
       querySnapshot.forEach((doc) => {
@@ -166,6 +173,7 @@ export default function App() {
                   value={selectedAward}
                   onChange={(event) => {
                     selectAward(event.target.value);
+                    window.localStorage.setItem('previouslySelectedAward', event.target.value);
                   }}
                 >
 
@@ -180,7 +188,7 @@ export default function App() {
         </Box>
         <Box>
           {
-            selectedAward && (
+            selectedAward && awards.length && (
               <>
                 {findAwardByName(selectedAward).books.map((book, index) => {
                   return (
