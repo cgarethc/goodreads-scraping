@@ -128,7 +128,7 @@ export default function App() {
           {loggedIn && <Tooltip title="Click to log out" aria-label="Log out"><Avatar alt={loggedIn.displayName} src={loggedIn.photoURL} onClick={() => firebase.auth().signOut()} /></Tooltip>}
         </Typography>
         <Typography gutterBottom>
-          This simple tool compares <a href="https://goodreads.com">Goodreads</a> lists with the digital resources
+          This tool compares <a href="https://goodreads.com">Goodreads</a> lists with the digital resources
           (eBooks and eAudioBooks) available at <a href="https://www.aucklandlibraries.govt.nz/">Auckland Libraries</a> or <a href="https://wcl.govt.nz/">Wellington Libraries</a> to help you find your next great read.
           The lists include winners of major literature awards to make sure you're sticking
           to the <strong>really</strong> good stuff 😉.
