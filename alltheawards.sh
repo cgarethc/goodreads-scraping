@@ -41,3 +41,5 @@ node populatefirestore.js -l https://www.goodreads.com/list/show/88513.The_Essen
 node populatefirestore.js -l https://www.goodreads.com/list/show/1170.Best_Business_Books -p 2 -i best-business-book -n "The Best Business Books"
 
 node populatefirestore.js -l https://www.goodreads.com/list/show/47.Best_Dystopian_and_Post_Apocalyptic_Fiction -p 2 -i dystopian -n "Best Dystopian and Post-Apocalyptic Fiction"
+
+node populatefirestore.js -a https://www.goodreads.com/award/show/34922-international-booker-prize -f 'Booker Prize\ \(' -i international-booker -n "International Booker Prize Winners"
