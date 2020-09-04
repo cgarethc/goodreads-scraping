@@ -1,3 +1,5 @@
+# AWARDS
+
 node populatefirestore.js -a https://www.goodreads.com/award/show/9-hugo-award -f 'Hugo Award for Best Novel ' -i hugo-novel -n "Hugo Award for Best Novel"
 
 node populatefirestore.js -a https://www.goodreads.com/award/show/13-booker-prize -f 'Booker Prize\ \(' -i booker-winners -n 'Booker Prize Winners'
@@ -28,12 +30,6 @@ node populatefirestore.js -a https://www.goodreads.com/award/show/111-whitbread-
 
 node populatefirestore.js -a https://www.goodreads.com/award/show/13720-women-s-prize-for-fiction -f "Women's Prize for Fiction\ \(" -i womens-prize-fiction -n "Women's Prize for Fiction"
 
-node populatefirestore.js -l https://www.goodreads.com/list/show/6.Best_Books_of_the_20th_Century -p 1 -i best-books-20th -n "Best books of the 20th century"
-
-node populatefirestore.js -l https://www.goodreads.com/list/show/4093 -p 1 -i best-books-2010s -n "Best Books of the Decade: 2010s"
-
-node populatefirestore.js -l https://www.goodreads.com/list/show/5 -p 1 -i best-books-2000s -n "Best Books of the Decade: 2000s"
-
 node populatefirestore.js -l https://www.goodreads.com/list/show/113523.100_Books_about_Science_and_Engineering_for_Grown_Ups -i 100-science-and-engineering -n "100 Books about Science and Engineering for Grown-Ups"
 
 node populatefirestore.js -l https://www.goodreads.com/list/show/88513.The_Essential_Computer_Engineer_s_Inspiration -i computer-engineer-inspiration -n "The Essential Computer Engineer's Inspiration"
@@ -45,3 +41,15 @@ node populatefirestore.js -l https://www.goodreads.com/list/show/47.Best_Dystopi
 node populatefirestore.js -a https://www.goodreads.com/award/show/34922-international-booker-prize -f 'Booker Prize\ \(' -i international-booker -n "International Booker Prize Winners"
 
 node populatefirestore.js -a https://www.goodreads.com/award/show/33310-international-dublin-literary-award -f 'International Dublin Literary Award\ \(' -i international-dublin -n "International Dublin Literary Award Winners"
+
+# BEST OF LISTS
+
+node populatefirestore.js -l https://www.goodreads.com/list/show/6.Best_Books_of_the_20th_Century -p 1 -i best-books-20th -n "Best books of the 20th century"
+
+node populatefirestore.js -l https://www.goodreads.com/list/show/4093 -p 1 -i best-books-2010s -n "Best Books of the Decade: 2010s"
+
+node populatefirestore.js -l https://www.goodreads.com/list/show/5 -p 1 -i best-books-2000s -n "Best Books of the Decade: 2000s"
+
+node populatefirestore.js -l https://www.goodreads.com/list/show/17 -p 1 -i best-books-1990s -n "Best Books of the Decade: 1990s"
+
+node populatefirestore.js -l https://www.goodreads.com/list/show/9 -p 1 -i best-books-1980s -n "Best Books of the Decade: 1980s"

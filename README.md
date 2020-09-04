@@ -26,3 +26,12 @@ Awards can be filtered by providing a regular expression with the "-f" parameter
 Include an identifier (with allowed Firestore characters for an ID) and a name, e.g.
 
 `node populatefirestore.js -a https://www.goodreads.com/award/show/2129-london-book-festival -i london-book-festival -n "London Book Festival"`
+
+## TODO
+
+Support a Goodreads login and:
+
+- show which books are already read
+- show which books are by authors that user has already read another book by
+
+Show the availability status at the library (whether can only hold or actually available)
