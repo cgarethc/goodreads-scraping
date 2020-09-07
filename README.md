@@ -29,6 +29,8 @@ Include an identifier (with allowed Firestore characters for an ID) and a name, 
 
 ## TODO
 
+Roll up the duplicates and show a button for each result in the same card
+
 Support a Goodreads login and:
 
 - show which books are already read

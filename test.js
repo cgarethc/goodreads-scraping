@@ -43,6 +43,25 @@ async function parseAward() {
   }
 }
 
+async function parseShelf() {
+  const html = fs.readFileSync("examples/5star.htm").toString();
+
+  const bookElements = $('#booksBody > tr', html);
+
+  for (let [key, book] of Object.entries(bookElements)) {
+    if (book.type === "tag") {
+      const titleSpan = $("td.title > div > a", book)["0"];
+      const title = titleSpan.attribs['title'];
+      const url = `https://goodreads.com/${
+        titleSpan.attribs['href']
+        }`;
+      const author = $("td.author > div > a", book)["0"].children[0].data;      
+      const bookCover = $('img', book)['0'].attribs['src'];
+      console.log(title, url, author, bookCover);
+    }
+  }
+}
+
 async function parseLibrary() {
   const html = fs.readFileSync("examples/aucklandsearch.htm").toString();
 
@@ -74,5 +93,5 @@ async function parseWelly() {
 }
 
 (async () => {
-  parseWelly();
+  parseShelf();
 })();

@@ -3,6 +3,7 @@ const cli = require("commander");
 const library = require("./lib/scrapelibrary").search;
 const goodreadsList = require("./lib/scrapelist").scrape;
 const goodreadsAward = require("./lib/scrapeaward").scrape;
+const goodreadsShelf = require("./lib/scrapeshelf").scrape;
 
 (async () => {
   cli
@@ -10,6 +11,8 @@ const goodreadsAward = require("./lib/scrapeaward").scrape;
     .arguments("node index.js")
     .option("-l, --list <goodreads list URL>", "List URL")
     .option("-a, --award <goodreads award URL>", "Award URL")
+    .option("-u, --user <goodreads user URL>", "User URL")
+    .option("-s, --shelf <goodreads user shelf name>", "User shelf name")
     .option("-f, --filter <filter for goodreads award type>", "Award filter")
     .option("-p, --pages <maximum number of pages to scrape>", "Max pages")
     .usage("node index.js [-l listurl]|[-a awardurl]")
@@ -19,7 +22,10 @@ const goodreadsAward = require("./lib/scrapeaward").scrape;
     titles = await goodreadsList(cli.list, cli.pages);
   } else if (cli.award) {
     titles = await goodreadsAward(cli.award, cli.filter, cli.pages);
-  } else {
+  } else if(cli.user && cli.shelf){
+    titles = await goodreadsShelf(cli.user, cli.shelf);
+  } 
+  else {
     console.error(cli.helpInformation());
     process.exit(2);
   }

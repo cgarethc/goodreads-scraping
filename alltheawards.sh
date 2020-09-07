@@ -42,6 +42,8 @@ node populatefirestore.js -a https://www.goodreads.com/award/show/34922-internat
 
 node populatefirestore.js -a https://www.goodreads.com/award/show/33310-international-dublin-literary-award -f 'International Dublin Literary Award\ \(' -i international-dublin -n "International Dublin Literary Award Winners"
 
+node populatefirestore.js -a https://www.goodreads.com/award/show/378-pen-faulkner-award-for-fiction -f 'Award for Fiction\ \(' -i pen-faulkner -n "PEN/Faulkner Award Winners"
+
 # BEST OF LISTS
 
 node populatefirestore.js -l https://www.goodreads.com/list/show/6.Best_Books_of_the_20th_Century -p 1 -i best-books-20th -n "Best books of the 20th century"
