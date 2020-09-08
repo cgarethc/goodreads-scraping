@@ -44,6 +44,8 @@ node populatefirestore.js -a https://www.goodreads.com/award/show/33310-internat
 
 node populatefirestore.js -a https://www.goodreads.com/award/show/378-pen-faulkner-award-for-fiction -f 'Award for Fiction\ \(' -i pen-faulkner -n "PEN/Faulkner Award Winners"
 
+node populatefirestore.js -a https://www.goodreads.com/award/show/3812-los-angeles-times-book-prize -f 'Los Angeles Times Book Prize for Young Adult Literature' -i la-times-ya -n "Los Angeles Times Book Prize for Young Adult Literature"
+
 # BEST OF LISTS
 
 node populatefirestore.js -l https://www.goodreads.com/list/show/6.Best_Books_of_the_20th_Century -p 1 -i best-books-20th -n "Best books of the 20th century"
