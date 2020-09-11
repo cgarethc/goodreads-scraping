@@ -8,8 +8,6 @@ import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
-import Avatar from '@material-ui/core/Avatar';
-import Tooltip from '@material-ui/core/Tooltip';
 
 import { makeStyles } from '@material-ui/core/styles';
 
@@ -17,7 +15,6 @@ import * as firebase from "firebase/app";
 import "firebase/analytics";
 import "firebase/auth";
 import "firebase/firestore";
-import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
 
 import Book from './Book';
 
@@ -63,46 +60,29 @@ export default function App() {
   const previouslySelectedAward = window.localStorage.getItem('previouslySelectedAward');
   const previouslySelectedLibrary = window.localStorage.getItem('previouslySelectedLibrary');
 
-  const [loggedIn, setLoggedIn] = React.useState({});
   const [loading, setLoading] = React.useState(false);
   const [awards, setAwards] = React.useState([]);
   const [selectedAward, selectAward] = React.useState('');
   const [selectedLibrary, selectLibrary] = React.useState(previouslySelectedLibrary ? previouslySelectedLibrary : 'Auckland');
 
   React.useEffect(() => {
-    firebase.auth().onAuthStateChanged(
-      (user) => {
-        setLoggedIn(user);
-        if (awards.length === 0 && !loading && user) {
-          setLoading(true);
-          db.collection("lists").get().then((querySnapshot) => {
-            const allLists = [];
-            querySnapshot.forEach((doc) => {
-              allLists.push(doc.data());
-            });
-            setAwards(allLists);
-            if (previouslySelectedAward) {
-              selectAward(previouslySelectedAward);
-            }
-            setLoading(false);
-          });
+    if (awards.length === 0 && !loading) {
+      setLoading(true);
+      db.collection("lists").get().then((querySnapshot) => {
+        const allLists = [];
+        querySnapshot.forEach((doc) => {
+          allLists.push(doc.data());
+        });
+        setAwards(allLists);
+        if (previouslySelectedAward) {
+          selectAward(previouslySelectedAward);
         }
-      }
-    );
-
-  });
-
-  const uiConfig = {
-    signInOptions: [
-      // List of OAuth providers supported.
-      firebase.auth.GoogleAuthProvider.PROVIDER_ID,
-      firebase.auth.EmailAuthProvider.PROVIDER_ID,
-    ],
-    callbacks: {
-      // Avoid redirects after sign-in.
-      signInSuccessWithAuthResult: () => false
+        setLoading(false);
+      });
     }
-  };
+  },
+    [awards.length, loading, previouslySelectedAward]
+  );
 
   const classes = useStyles();
 
@@ -132,7 +112,6 @@ export default function App() {
       <Box my={4}>
         <Typography variant="h4" component="h1" gutterBottom>
           What can I borrow?
-          {loggedIn && <Tooltip title="Click to log out" aria-label="Log out"><Avatar alt={loggedIn.displayName} src={loggedIn.photoURL} onClick={() => firebase.auth().signOut()} /></Tooltip>}
         </Typography>
         <Typography gutterBottom>
           This simple tool compares <a href="https://goodreads.com">Goodreads</a> lists with the digital resources
@@ -140,16 +119,9 @@ export default function App() {
           The lists include winners of major literature awards to make sure you're sticking
           to the <strong>really</strong> good stuff 😉.
         </Typography>
-        {!loggedIn && <Typography gutterBottom>
-          This is a free service that uses a cloud database called "Firestore" which requires a login to
-          use. You can use a Google login (GMail) if you have one, or register a username and password if
-          you prefer. Your details will not be used for any other purpose.
-          To get started, choose an award or a list from the menu…
-        </Typography>}
         <Box my={4}>
-          {!loggedIn && <StyledFirebaseAuth uiConfig={uiConfig} firebaseAuth={firebase.auth()} />}
-          {loading && loggedIn && <CircularProgress />}
-          {!loading && loggedIn && awards && (
+          {loading && <CircularProgress />}
+          {!loading && awards && (
             <>
               <FormControl className={classes.formControl}>
                 <InputLabel id="select-library-label">Select a library</InputLabel>
