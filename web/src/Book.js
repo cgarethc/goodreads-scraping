@@ -31,8 +31,8 @@ const useStyles = makeStyles({
     },
 });
 
-export default function Book(book) {
-    const bookToDisplay = book.book;
+export default function Book(props) {
+    const bookToDisplay = props.book;
     const classes = useStyles();
 
     let libraryIcon;

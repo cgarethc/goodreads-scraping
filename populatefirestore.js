@@ -6,6 +6,7 @@ const auckland = require("./lib/scrapelibrary").search;
 const wellington = require("./lib/scrapewellylibrary").search;
 const goodreadsList = require("./lib/scrapelist").scrape;
 const goodreadsAward = require("./lib/scrapeaward").scrape;
+const consolidate = require('./lib/consolidatelibrary').consolidate;
 
 const serviceAccount = require('./what-can-i-borrow-firebase-adminsdk-8nxq2-60dfb93da5.json');
 
@@ -16,8 +17,9 @@ admin.initializeApp({
 const db = admin.firestore();
 db.settings({ ignoreUndefinedProperties: true });
 
-const scrape = async (searchFunction, dbList, titles) => {
+const scrape = async (searchFunction, dbList, titles, dbConsolidatedList) => {
   const allResults = [];
+  let consolidatedResults = [];
 
   console.log("Searching for", titles.length, "titles at the library");
   let titleCounter = 1;
@@ -29,18 +31,26 @@ const scrape = async (searchFunction, dbList, titles) => {
       console.log(formattedResult, '\n');
       const resultDoc = {
         itemType: result.type, awardType: title.awardType, title: result.title, author: result.author,
-        goodreadsURL: title.bookURL, libraryURL: result.url, coverURL: title.bookCover
+        goodreadsURL: title.bookURL, libraryURL: result.url, coverURL: title.bookCover, editions: result.editions
       }
       allResults.push(resultDoc);
     });
+
+    consolidatedResults = consolidatedResults.concat(await consolidate(results, title.awardType, title.bookURL, title.bookCover));
 
   }
 
   console.log('Finished searching, adding to database');
 
-  
-  const docRef = db.collection(dbList).doc(cli.id);
+
+  let docRef = db.collection(dbList).doc(cli.id);
   await docRef.set({ id: cli.id, name: cli.name, books: allResults });
+
+  if (dbConsolidatedList) {
+    docRef = db.collection(dbConsolidatedList).doc(cli.id);
+    await docRef.set({ id: cli.id, name: cli.name, books: consolidatedResults });
+  }
+
   return allResults;
 }
 
@@ -71,11 +81,11 @@ const scrape = async (searchFunction, dbList, titles) => {
 
   if (!cli.place || cli.place === 'Wellington') {
     console.log('Searching Wellington')
-    scrape(wellington, 'welly', titles);
+    scrape(wellington, 'welly', titles, 'wellington');
   }
   if (!cli.place || cli.place === 'Auckland') {
     console.log('Searching Auckland');
-    scrape(auckland, 'lists', titles);
+    scrape(auckland, 'lists', titles, 'auckland');
   }
-  
+
 })();
