@@ -71,6 +71,7 @@ export default function Book(props) {
             <CardActions>
                 <Button size="small" href={bookToDisplay.goodreadsURL}>Goodreads</Button>
                 <Tooltip title={bookToDisplay.itemType} aria-label={bookToDisplay.itemType}><Button size="small" href={bookToDisplay.libraryURL} endIcon={libraryIcon}>Library</Button></Tooltip>
+                <Typography>{bookToDisplay.editions.length}</Typography>
             </CardActions>
         </Card >
     );

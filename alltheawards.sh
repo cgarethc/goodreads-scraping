@@ -26,7 +26,7 @@ node populatefirestore.js -a https://www.goodreads.com/award/show/90-orange-priz
 
 node populatefirestore.js -a https://www.goodreads.com/award/show/1696-shirley-jackson-award -f 'Shirley Jackson Award for Best Novel\ ' -i shirley-jackson-novel -n "Shirley Jackson Award for Best Novel"
 
-node populatefirestore.js -a https://www.goodreads.com/award/show/111-whitbread-award -f 'Whitbread Award for First Novel' -i whitebread-first-novel -n 'Whitbread Award for First Novel'
+node populatefirestore.js -a https://www.goodreads.com/award/show/111-whitbread-award -f 'Whitbread Award for First Novel' -i whitbread-first-novel -n 'Whitbread Award for First Novel'
 
 node populatefirestore.js -a https://www.goodreads.com/award/show/13720-women-s-prize-for-fiction -f "Women's Prize for Fiction\ \(" -i womens-prize-fiction -n "Women's Prize for Fiction"
 

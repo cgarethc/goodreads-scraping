@@ -68,7 +68,7 @@ export default function App() {
   React.useEffect(() => {
     if (awards.length === 0 && !loading) {
       setLoading(true);
-      db.collection("lists").get().then((querySnapshot) => {
+      db.collection("auckland").get().then((querySnapshot) => {
         const allLists = [];
         querySnapshot.forEach((doc) => {
           allLists.push(doc.data());
@@ -97,7 +97,7 @@ export default function App() {
     selectAward('');
     setLoading(true);
     window.localStorage.setItem('previouslySelectedLibrary', library);
-    db.collection(library === 'Wellington' ? 'welly' : 'lists').get().then((querySnapshot) => {
+    db.collection(library === 'Wellington' ? 'wellington' : 'auckland').get().then((querySnapshot) => {
       const allLists = [];
       querySnapshot.forEach((doc) => {
         allLists.push(doc.data());
