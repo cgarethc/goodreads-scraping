@@ -62,49 +62,67 @@ export default function App() {
 
   const [loading, setLoading] = React.useState(false);
   const [awards, setAwards] = React.useState([]);
-  const [selectedAward, selectAward] = React.useState('');
+  const [books, setBooks] = React.useState([]);
+  const [selectedAward, selectAward] = React.useState(previouslySelectedAward ? previouslySelectedAward: '');
   const [selectedLibrary, selectLibrary] = React.useState(previouslySelectedLibrary ? previouslySelectedLibrary : 'Auckland');
 
+  const libraryNameToDbList = (libraryName) => {
+    return libraryName === 'Wellington' ? 'wellington' : 'auckland';
+  };
+
   React.useEffect(() => {
-    if (awards.length === 0 && !loading) {
+    if (awards.length === 0 && !loading && selectedLibrary) {
       setLoading(true);
-      db.collection("auckland").get().then((querySnapshot) => {
+      db.collection(libraryNameToDbList(selectedLibrary)).get().then((querySnapshot) => {
         const allLists = [];
         querySnapshot.forEach((doc) => {
-          allLists.push(doc.data());
+          allLists.push({
+            name: doc.data().name,
+            id: doc.data().id
+          });
         });
         setAwards(allLists);
-        if (previouslySelectedAward) {
-          selectAward(previouslySelectedAward);
-        }
         setLoading(false);
       });
     }
   },
-    [awards.length, loading, previouslySelectedAward]
+    [awards.length, loading, selectedLibrary]
   );
 
   const classes = useStyles();
-
-  const findAwardByName = (name) => {
-    return awards.find((award) => {
-      return name === award.name
-    });
-  }
 
   const loadAndSelectLibrary = (library) => {
     selectLibrary(library);
     selectAward('');
     setLoading(true);
     window.localStorage.setItem('previouslySelectedLibrary', library);
-    db.collection(library === 'Wellington' ? 'wellington' : 'auckland').get().then((querySnapshot) => {
+    db.collection(libraryNameToDbList(library)).get().then((querySnapshot) => {
       const allLists = [];
       querySnapshot.forEach((doc) => {
-        allLists.push(doc.data());
+        allLists.push({
+          name: doc.data().name,
+          id: doc.data().id
+        });
       });
       setAwards(allLists);
       setLoading(false);
     });
+  }
+
+  const loadBooksForAward = async (award) => {
+    setBooks([]);
+    setLoading(true);
+    selectAward(award);
+    const awardRef = db.collection(libraryNameToDbList(selectedLibrary)).doc(award);
+    const awardDoc = await awardRef.get();
+    if (awardDoc.exists) {
+      setBooks(awardDoc.data().books);
+      window.localStorage.setItem('previouslySelectedAward', award);      
+    }
+    else{
+      console.error('Could find the award doc', award);
+    }
+    setLoading(false);
   }
 
   return (
@@ -144,15 +162,12 @@ export default function App() {
                   id="award-select"
                   value={selectedAward}
                   onChange={(event) => {
-                    selectAward(event.target.value);
-                    window.localStorage.setItem('previouslySelectedAward', event.target.value);
+                    loadBooksForAward(event.target.value);
                   }}
                 >
-
                   {awards.map((award, index) => {
-                    return <MenuItem key={index} value={award.name}>{award.name}</MenuItem>
+                    return <MenuItem key={index} value={award.id}>{award.name}</MenuItem>
                   })}
-
                 </Select>
               </FormControl>
             </>
@@ -160,17 +175,16 @@ export default function App() {
         </Box>
         <Box>
           {
-            selectedAward && awards.length && (
+            selectedAward && books.length > 0 && (
               <>
-                {findAwardByName(selectedAward).books.map((book, index) => {
+                {books.map((book, index) => {
                   return (
                     <Box key={index} marginTop={2}><Book book={book} /></Box>
                   )
                 })}
-
               </>
             )
-          }
+          }          
         </Box>
         <Copyright />
       </Box>
