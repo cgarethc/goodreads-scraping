@@ -17,6 +17,7 @@ import "firebase/auth";
 import "firebase/firestore";
 
 import Book from './Book';
+import Preamble from './Preamble';
 
 const firebaseConfig = {
   apiKey: "AIzaSyAIOcRc5qxnGuz6RVH8fj8-0KYFXVkKzds",
@@ -63,35 +64,15 @@ export default function App() {
   const [loading, setLoading] = React.useState(false);
   const [awards, setAwards] = React.useState([]);
   const [books, setBooks] = React.useState([]);
-  const [selectedAward, selectAward] = React.useState(previouslySelectedAward ? previouslySelectedAward: '');
+  const [selectedAward, selectAward] = React.useState('');
   const [selectedLibrary, selectLibrary] = React.useState(previouslySelectedLibrary ? previouslySelectedLibrary : 'Auckland');
 
   const libraryNameToDbList = (libraryName) => {
     return libraryName === 'Wellington' ? 'wellington' : 'auckland';
   };
 
-  React.useEffect(() => {
-    if (awards.length === 0 && !loading && selectedLibrary) {
-      setLoading(true);
-      db.collection(libraryNameToDbList(selectedLibrary)).get().then((querySnapshot) => {
-        const allLists = [];
-        querySnapshot.forEach((doc) => {
-          allLists.push({
-            name: doc.data().name,
-            id: doc.data().id
-          });
-        });
-        setAwards(allLists);
-        setLoading(false);
-      });
-    }
-  },
-    [awards.length, loading, selectedLibrary]
-  );
-
-  const classes = useStyles();
-
   const loadAndSelectLibrary = (library) => {
+    setBooks([]);
     selectLibrary(library);
     selectAward('');
     setLoading(true);
@@ -117,13 +98,40 @@ export default function App() {
     const awardDoc = await awardRef.get();
     if (awardDoc.exists) {
       setBooks(awardDoc.data().books);
-      window.localStorage.setItem('previouslySelectedAward', award);      
+      window.localStorage.setItem('previouslySelectedAward', award);
     }
-    else{
+    else {
       console.error('Could find the award doc', award);
     }
     setLoading(false);
   }
+
+  React.useEffect(() => {
+    if (awards.length === 0 && !loading && selectedLibrary) {
+      setLoading(true);
+      db.collection(libraryNameToDbList(selectedLibrary)).get().then((querySnapshot) => {
+        const allLists = [];
+        querySnapshot.forEach((doc) => {
+          allLists.push({
+            name: doc.data().name,
+            id: doc.data().id
+          });
+        });
+        setAwards(allLists);
+        setLoading(false);
+      });
+    }
+    else if (awards.length > 0 && previouslySelectedAward && !selectedAward) {
+      selectAward(previouslySelectedAward);
+    }
+    else if(selectedAward && books.length === 0){
+      loadBooksForAward(selectedAward);
+    }
+  },
+    [awards.length, loading, selectedLibrary, books.length, previouslySelectedAward]
+  );
+
+  const classes = useStyles();
 
   return (
     <Container maxWidth="md">
@@ -131,12 +139,7 @@ export default function App() {
         <Typography variant="h4" component="h1" gutterBottom>
           What can I borrow?
         </Typography>
-        <Typography gutterBottom>
-          This simple tool compares <a href="https://goodreads.com">Goodreads</a> lists with the digital resources
-          (eBooks and eAudioBooks) available at <a href="https://www.aucklandlibraries.govt.nz/">Auckland Libraries</a> or <a href="https://wcl.govt.nz/">Wellington Libraries</a> to help you find your next great read.
-          The lists include winners of major literature awards to make sure you're sticking
-          to the <strong>really</strong> good stuff 😉.
-        </Typography>
+        <Preamble/>
         <Box my={4}>
           {loading && <CircularProgress />}
           {!loading && awards && (
@@ -184,7 +187,7 @@ export default function App() {
                 })}
               </>
             )
-          }          
+          }
         </Box>
         <Copyright />
       </Box>
