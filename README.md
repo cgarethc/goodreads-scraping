@@ -29,11 +29,21 @@ Include an identifier (with allowed Firestore characters for an ID) and a name, 
 
 ## TODO
 
+### Experience
+
 Roll up the duplicates and show a button for each result in the same card
+
+Group lists into sensible sections - e.g. children's awards, literature awards, community lists
+
+Filter for awards list
 
 Support a Goodreads login and:
 
 - show which books are already read
 - show which books are by authors that user has already read another book by
 
-Show the availability status at the library (whether can only hold or actually available)
+Show the availability status at the library (whether actually available or just available to put on hold)
+
+### Management
+
+Replace shell script with a table of list/award parameters and add a reprocessing job that can run serverless somewhere (AWS Lambda+Dynamo or try GCP/Firebase actions).

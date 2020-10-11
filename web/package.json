@@ -13,12 +13,12 @@
     "@material-ui/core": "latest",
     "@material-ui/icons": "^4.9.1",
     "clsx": "latest",
-    "firebase": "^7.17.1",
+    "firebase": "^7.23.0",
     "firebaseui": "^4.6.1",
     "react": "latest",
     "react-dom": "latest",
     "react-firebaseui": "^4.1.0",
-    "react-scripts": "latest"
+    "react-scripts": "^3.4.3"
   },
   "browserslist": {
     "production": [
