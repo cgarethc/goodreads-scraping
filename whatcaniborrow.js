@@ -8,7 +8,7 @@ const goodreadsShelf = require("./lib/scrapeshelf").scrape;
 (async () => {
   cli
     .version("0.0.1")
-    .arguments("node index.js")
+    .arguments("node whatcaniborrow.js")
     .option("-l, --list <goodreads list URL>", "List URL")
     .option("-a, --award <goodreads award URL>", "Award URL")
     .option("-u, --user <goodreads user URL>", "User URL")

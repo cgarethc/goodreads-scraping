@@ -61,3 +61,7 @@ node populatefirestore.js -l https://www.goodreads.com/list/show/47.Best_Dystopi
 node populatefirestore.js -l https://www.goodreads.com/list/show/113523.100_Books_about_Science_and_Engineering_for_Grown_Ups -i 100-science-and-engineering -n "100 Books about Science and Engineering for Grown-Ups"
 
 node populatefirestore.js -l https://www.goodreads.com/list/show/1170.Best_Business_Books -p 2 -i best-business-book -n "The Best Business Books"
+
+OTHER LISTS
+
+node populatefirestore.js -l https://www.goodreads.com/list/show/154828.Books_by_Basecamp -i books-by-basecamp -n "Books by Basecamp"
