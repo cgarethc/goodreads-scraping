@@ -62,6 +62,10 @@ node populatefirestore.js -l https://www.goodreads.com/list/show/113523.100_Book
 
 node populatefirestore.js -l https://www.goodreads.com/list/show/1170.Best_Business_Books -p 2 -i best-business-book -n "The Best Business Books"
 
+node populatefirestore.js -l https://www.goodreads.com/list/show/141972.New_York_Times_100_Notable_Books_of_2019 -i ny-times-notable-2019 -n "New York Times 100 Notable Books of 2019"
+
+node populatefirestore.js -l https://www.goodreads.com/list/show/129936 -i ny-times-notable-2018 -n "New York Times 100 Notable Books of 2018"
+
 OTHER LISTS
 
 node populatefirestore.js -l https://www.goodreads.com/list/show/154828.Books_by_Basecamp -i books-by-basecamp -n "Books by Basecamp"
