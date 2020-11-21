@@ -44,11 +44,11 @@ const scrape = async (searchFunction, dbList, titles, dbConsolidatedList) => {
 
 
   let docRef = db.collection(dbList).doc(cli.id);
-  await docRef.set({ id: cli.id, name: cli.name, books: allResults });
+  await docRef.set({ id: cli.id, name: cli.name, type: cli.type, books: allResults });
 
   if (dbConsolidatedList) {
     docRef = db.collection(dbConsolidatedList).doc(cli.id);
-    await docRef.set({ id: cli.id, name: cli.name, books: consolidatedResults });
+    await docRef.set({ id: cli.id, name: cli.name, type: cli.type, books: consolidatedResults });
   }
 
   return allResults;
@@ -65,7 +65,8 @@ const scrape = async (searchFunction, dbList, titles, dbConsolidatedList) => {
     .option("-c, --place <Wellington|Auckland>", "Library (defaults to both)")
     .requiredOption("-i, --id <id for the list>", "ID")
     .requiredOption("-n, --name <friendly name for the list>", "Name")
-    .usage("node index.js [-l listurl]|[-a awardurl] -i <id for list> -n <name for list>")
+    .requiredOption("-t, --type <friendly name for the type of list>", "Type")
+    .usage("node index.js [-l listurl]|[-a awardurl] -i <id for list> -n <name for list> -t <type>")
     .parse(process.argv);
   let titles;
 

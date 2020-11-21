@@ -8,6 +8,12 @@ import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
+import ListItemIcon from '@material-ui/core/ListItemIcon';
+
+import BrightnessAutoIcon from '@material-ui/icons/BrightnessAuto';
+import PersonIcon from '@material-ui/icons/Person';
+import ComputerIcon from '@material-ui/icons/Computer';
+import MenuBookIcon from '@material-ui/icons/MenuBook';
 
 import { makeStyles } from '@material-ui/core/styles';
 
@@ -60,6 +66,9 @@ function Copyright() {
 export default function App() {
   const previouslySelectedAward = window.localStorage.getItem('previouslySelectedAward');
   const previouslySelectedLibrary = window.localStorage.getItem('previouslySelectedLibrary');
+  if (!previouslySelectedLibrary) {
+    window.localStorage.setItem('previouslySelectedLibrary', 'Auckland');
+  }
 
   const [loading, setLoading] = React.useState(false);
   const [awards, setAwards] = React.useState([]);
@@ -75,15 +84,25 @@ export default function App() {
     setBooks([]);
     selectLibrary(library);
     selectAward('');
-    setLoading(true);
     window.localStorage.setItem('previouslySelectedLibrary', library);
+    setLoading(true);
     db.collection(libraryNameToDbList(library)).get().then((querySnapshot) => {
       const allLists = [];
       querySnapshot.forEach((doc) => {
+        const data = doc.data();
         allLists.push({
-          name: doc.data().name,
-          id: doc.data().id
+          name: data.name,
+          id: data.id,
+          type: data.type
         });
+      });
+      allLists.sort((left, right) => {
+        if (left.type === right.type) {
+          return (left.name < right.name) ? -1 : (left.name > right.name) ? 1 : 0;
+        }
+        else {
+          return (left.type < right.type) ? -1 : 1;
+        }
       });
       setAwards(allLists);
       setLoading(false);
@@ -108,23 +127,12 @@ export default function App() {
 
   React.useEffect(() => {
     if (awards.length === 0 && !loading && selectedLibrary) {
-      setLoading(true);
-      db.collection(libraryNameToDbList(selectedLibrary)).get().then((querySnapshot) => {
-        const allLists = [];
-        querySnapshot.forEach((doc) => {
-          allLists.push({
-            name: doc.data().name,
-            id: doc.data().id
-          });
-        });
-        setAwards(allLists);
-        setLoading(false);
-      });
+      loadAndSelectLibrary(selectedLibrary);
     }
     else if (awards.length > 0 && previouslySelectedAward && !selectedAward) {
       selectAward(previouslySelectedAward);
     }
-    else if(selectedAward && books.length === 0){
+    else if (selectedAward && books.length === 0) {
       loadBooksForAward(selectedAward);
     }
   },
@@ -139,7 +147,7 @@ export default function App() {
         <Typography variant="h4" component="h1" gutterBottom>
           What can I borrow?
         </Typography>
-        <Preamble/>
+        <Preamble />
         <Box my={4}>
           {loading && <CircularProgress />}
           {!loading && awards && (
@@ -154,8 +162,8 @@ export default function App() {
                     loadAndSelectLibrary(event.target.value);
                   }}
                 >
-                  <MenuItem value='Auckland'>Auckland</MenuItem>
-                  <MenuItem value='Wellington'>Wellington</MenuItem>
+                  <MenuItem value='Auckland'><Typography>Auckland</Typography></MenuItem>
+                  <MenuItem value='Wellington'><Typography>Wellington</Typography></MenuItem>
                 </Select>
               </FormControl>
               <FormControl className={classes.formControl}>
@@ -169,7 +177,29 @@ export default function App() {
                   }}
                 >
                   {awards.map((award, index) => {
-                    return <MenuItem key={index} value={award.id}>{award.name}</MenuItem>
+                    let awardTypeIcon;
+                    if(award.type === 'Award'){
+                      awardTypeIcon = <BrightnessAutoIcon fontSize="small"/>;
+                    }
+                    else if(award.type === 'Goodreads List'){
+                      awardTypeIcon = <PersonIcon fontSize="small"/>;
+                    }
+                    else if(award.type === 'Goodreads List (Tech)'){
+                      awardTypeIcon = <ComputerIcon fontSize="small"/>;
+                    }
+                    else if(award.type === 'Publisher List'){
+                      awardTypeIcon = <MenuBookIcon fontSize="small"/>;
+                    }
+                    return (
+                      <MenuItem key={index} value={award.id}>
+                        <ListItemIcon>
+                          {awardTypeIcon}
+                        </ListItemIcon>
+                        <Typography variant="inherit" noWrap>
+                          {award.name}
+                        </Typography>
+                      </MenuItem>
+                    );
                   })}
                 </Select>
               </FormControl>
