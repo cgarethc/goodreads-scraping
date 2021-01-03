@@ -31,18 +31,20 @@ Include an identifier (with allowed Firestore characters for an ID) and a name, 
 
 ### Experience
 
-Roll up the duplicates and show a button for each result in the same card
+Text typeahead filter for awards list
 
-Group lists into sensible sections - e.g. children's awards, literature awards, community lists
-
-Filter for awards list
-
-Support a Goodreads login and:
+Support a Goodreads profile scrape and:
 
 - show which books are already read
 - show which books are by authors that user has already read another book by
 
-Show the availability status at the library (whether actually available or just available to put on hold)
+Support a Goodreads book details scrape and:
+
+- walk through read shelf and compile details of books on it
+
+Create a background scraper that can walk through the library site while the user is viewing the list and:
+
+- Show the availability status at the library (whether actually available or just available to put on hold)
 
 ### Management
 
