@@ -1,6 +1,7 @@
 const cli = require("commander");
 
 const goodreadsShelf = require("./lib/scrapeshelf").scrape;
+const goodreadsBook = require("./lib/scrapebook").scrape;
 
 
 (async () => {
@@ -14,6 +15,8 @@ const goodreadsShelf = require("./lib/scrapeshelf").scrape;
   const titles = await goodreadsShelf(cli.user, 'read', cli.pages && parseInt(cli.pages));
 
   for (let title of titles) {
-    console.log(title);
+    console.log('Getting details for', title);
+    const book = await goodreadsBook(title.bookURL);
+    console.log(book);
   }
 })();
