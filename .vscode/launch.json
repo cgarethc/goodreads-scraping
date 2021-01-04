@@ -17,6 +17,16 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "Run testbook",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/testbook.js",
+            "outputCapture": "std"
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "Scrape award",
             "skipFiles": [
                 "<node_internals>/**"
