@@ -21,6 +21,7 @@
     "chrono-node": "^2.1.10",
     "commander": "^5.1.0",
     "firebase-admin": "^9.0.0",
+    "lodash": "^4.17.20",
     "luxon": "^1.25.0",
     "superagent": "^5.3.1"
   },
