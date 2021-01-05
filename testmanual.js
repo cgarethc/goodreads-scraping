@@ -101,6 +101,6 @@ async function parseWelly() {
 }
 
 (async () => {
-  const results = await parseLibrary();
-  await consolidate(results);
+  const chrono = require('chrono-node');
+  console.log(chrono.parseDate('Dec 15, 2020').getFullYear());
 })();
