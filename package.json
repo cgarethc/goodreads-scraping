@@ -4,7 +4,7 @@
   "description": "Scraping tools for goodreads",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
     "firebase-admin": "^9.0.0",
     "luxon": "^1.25.0",
     "superagent": "^5.3.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
   }
 }

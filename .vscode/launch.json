@@ -4,6 +4,8 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+      
+
 
         {
             "type": "node",
@@ -38,6 +40,17 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "Show me stats",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/showmestats.js",
+            "args": ["-u", "https://www.goodreads.com/review/list/4622353", "-p", "1"],
+            "outputCapture": "std"
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "Firebase award",
             "skipFiles": [
                 "<node_internals>/**"
@@ -58,6 +71,19 @@
             "program": "${workspaceFolder}/whatcaniborrow.js",
             "args": ["-a", "https://www.goodreads.com/award/show/9-hugo-award"],
             "outputCapture": "std"
+        },
+        {
+          "name": "Debug Jest Tests",
+          "type": "node",
+          "request": "launch",
+          "runtimeArgs": [
+            "--inspect-brk",
+            "${workspaceRoot}/node_modules/.bin/jest",
+            "--runInBand"
+          ],
+          "console": "integratedTerminal",
+          "internalConsoleOptions": "neverOpen",
+          "port": 9229
         }
     ]
 }

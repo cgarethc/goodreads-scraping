@@ -12,11 +12,19 @@ const goodreadsBook = require("./lib/scrapebook").scrape;
     .option("-p, --pages <maximum number of pages to scrape>", "Max pages")
     .usage("node index.js [-u userurl]")
     .parse(process.argv);
-  const titles = await goodreadsShelf(cli.user, 'read', cli.pages && parseInt(cli.pages));
+  const books = await goodreadsShelf(cli.user, 'read', cli.pages && parseInt(cli.pages));
+  
+  console.log('Scraping', books.length, 'books');
 
-  for (let title of titles) {
-    console.log('Getting details for', title);
-    const book = await goodreadsBook(title.bookURL);
-    console.log(book);
+  const results = [];
+  for (let book of books) {
+    process.stdout.write(".");
+    const metadata = await goodreadsBook(book.bookURL);
+    results.push({
+      book,
+      metadata
+    });
   }
+
+  console.log('\n', JSON.stringify(results));
 })();
