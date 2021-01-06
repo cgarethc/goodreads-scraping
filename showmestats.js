@@ -1,4 +1,5 @@
 const cli = require("commander");
+const fs = require('fs');
 
 const goodreadsShelf = require("./lib/scrapeshelf").scrape;
 const goodreadsBook = require("./lib/scrapebook").scrape;
@@ -12,6 +13,7 @@ const crunchstats = require('./lib/crunchstats');
     .requiredOption("-u, --user <goodreads user ID>", "User ID")
     .option("-p, --pages <maximum number of pages to scrape>", "Max pages")
     .option("-l, --limit <maximum number of books to scrape>", "Max books")
+    .option("-f, --file <output file>", "File to write to")
     .usage("node index.js [-u userurl]")
     .parse(process.argv);
   const books = await goodreadsShelf(`https://www.goodreads.com/review/list/${cli.user}`, 'read', cli.pages && parseInt(cli.pages));
@@ -39,5 +41,9 @@ const crunchstats = require('./lib/crunchstats');
     genre
   }
 
-  console.log('\n', userStats);
+  if(cli.file){
+    fs.writeFileSync(cli.file, JSON.stringify(userStats), 'utf8');
+  }
+
+  console.log('Done');
 })();
