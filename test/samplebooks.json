@@ -1,0 +1,4637 @@
+{
+  "books": [
+    {
+      "book": {
+        "bookTitle": "Smuggler's Cove: Exotic Cocktails, Rum, and the Cult of Tiki",
+        "bookAuthor": "Cate, Martin",
+        "bookURL": "https://goodreads.com//book/show/27208950-smuggler-s-cove",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1454296157l/27208950._SX50_.jpg",
+        "dateRead": "2020-12-14T23:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2016,
+        "rating": 5
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Smuggler's Cove: Exotic Cocktails, Rum, and the Cult of Tiki"
+        },
+        {
+          "key": "ISBN",
+          "value": "1607747324"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Goodreads Choice Award Nominee for Food & Cookbooks (2016)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Food and Drink",
+            "Cookbooks",
+            "Nonfiction",
+            "Food",
+            "Alcohol",
+            "Cocktails",
+            "Cooking",
+            "History",
+            "Booze",
+            "Reference",
+            "Foodie"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Educated",
+        "bookAuthor": "Westover, Tara",
+        "bookURL": "https://goodreads.com//book/show/35133922-educated",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1609778147l/35133922._SY75_.jpg",
+        "dateRead": "2020-12-04T23:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2018,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Educated"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "Idaho Mountains",
+            "Idaho",
+            "Arizona",
+            "…more",
+            "Rome",
+            "Paris",
+            "Palmyra, New York",
+            "Boston, Massachusetts",
+            "Harvard University, Cambridge, Massachusetts",
+            "Cambridge, England",
+            "…less"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Audie Award for Best Female Narrator (2019)",
+            "Los Angeles Times Book Prize Nominee for Biography (2018)",
+            "ALA Alex Award (2019)",
+            "Dayton Literary Peace Prize Nominee for Nonfiction (2019)",
+            "Wellcome Book Prize Nominee for Longlist (2019)",
+            "National Book Critics Circle Award Nominee for Autobiography (2018)",
+            "Goodreads Choice Award for Memoir & Autobiography (2018)",
+            "PEN/Jean Stein Book Award Nominee for Shortlist (2019)",
+            "Reading Women Award for Nonfiction (2018)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Nonfiction",
+            "Autobiography",
+            "Memoir",
+            "Biography",
+            "Audiobook",
+            "Biography Memoir",
+            "Book Club",
+            "Adult",
+            "Education",
+            "Religion"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Trust Exercise",
+        "bookAuthor": "Choi, Susan",
+        "bookURL": "https://goodreads.com//book/show/52381081-trust-exercise",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1579067222l/52381081._SX50_SY75_.jpg",
+        "dateRead": "2020-11-25T23:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2019,
+        "rating": 3
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Trust Exercise"
+        },
+        {
+          "key": "ISBN",
+          "value": "1250231264"
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "National Book Award for Fiction (2019)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Literary Fiction",
+            "Contemporary",
+            "Audiobook",
+            "Novels",
+            "Adult",
+            "Adult Fiction",
+            "Young Adult",
+            "Coming Of Age",
+            "Literature",
+            "Historical",
+            "Historical Fiction"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "A Gentleman in Moscow",
+        "bookAuthor": "Towles, Amor",
+        "bookURL": "https://goodreads.com//book/show/34066798-a-gentleman-in-moscow",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551480896l/34066798._SY75_.jpg",
+        "dateRead": "2021-01-01T23:00:00.000Z",
+        "yearRead": 2021,
+        "datePub": 2016,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "A Gentleman in Moscow"
+        },
+        {
+          "key": "ISBN",
+          "value": "0143110438"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "URL",
+          "values": [
+            "http://www.amortowles.com/gentleman-moscow-amor-towles/"
+          ]
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "Count Alexander Rostov",
+            "Mikhail Fyodorovich Mindich",
+            "Anna Urbanova",
+            "Nina Kulikova",
+            "Sofia Kulikova"
+          ]
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "Hotel Metropol, Moscow",
+            "Moscow"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Kirkus Prize Nominee for Fiction (2016)",
+            "Goodreads Choice Award Nominee for Historical Fiction (2016)",
+            "Book of the Month Book of the Year Award Nominee (2016)",
+            "International Dublin Literary Award Nominee (2018)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Historical",
+            "Historical Fiction",
+            "Fiction",
+            "Cultural",
+            "Russia",
+            "Audiobook",
+            "Book Club",
+            "Literary Fiction",
+            "Novels",
+            "Adult",
+            "Adult Fiction"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Rework",
+        "bookAuthor": "Fried, Jason",
+        "bookURL": "https://goodreads.com//book/show/6732019-rework",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391275636l/6732019._SY75_.jpg",
+        "dateRead": "2020-11-13T23:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2010,
+        "rating": 3
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Rework"
+        },
+        {
+          "key": "ISBN",
+          "value": "0307463745"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "URL",
+          "values": [
+            "http://37signals.com/rework/"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Goodreads Choice Award Nominee for Nonfiction (2010)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Business",
+            "Nonfiction",
+            "Entrepreneurship",
+            "Management",
+            "Productivity",
+            "Self Help",
+            "Leadership",
+            "Buisness",
+            "Personal Development",
+            "Science",
+            "Technology"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Billy Bathgate",
+        "bookAuthor": "Doctorow, E.L.",
+        "bookURL": "https://goodreads.com//book/show/871284.Billy_Bathgate",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347223609l/871284._SY75_.jpg",
+        "dateRead": "2020-11-09T23:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 1989,
+        "rating": 5
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Billy Bathgate"
+        },
+        {
+          "key": "ISBN",
+          "value": "0452280028"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "New York City, New York",
+            "Bronx, New York City, New York"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Pulitzer Prize Nominee for Fiction (1990)",
+            "PEN/Faulkner Award for Fiction (1990)",
+            "William Dean Howells Medal (1990)",
+            "National Book Critics Circle Award for Fiction (1989)",
+            "National Book Award Finalist for Fiction (1989)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Historical",
+            "Historical Fiction",
+            "Mystery",
+            "Crime",
+            "Literature",
+            "New York",
+            "Literary Fiction",
+            "American",
+            "Novels",
+            "Classics"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Flights",
+        "bookAuthor": "Tokarczuk, Olga",
+        "bookURL": "https://goodreads.com//book/show/36885304-flights",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1512417961l/36885304._SX50_.jpg",
+        "dateRead": "2020-11-08T23:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2007,
+        "rating": 3
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Bieguni"
+        },
+        {
+          "key": "ISBN",
+          "value": "0525534199"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "URL",
+          "values": [
+            "https://www.penguinrandomhouse.com/books/565058/flights-by-olga-tokarczuk/9780525534204/"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Nike Literary Award (Nagroda Literacka Nike) (2008)",
+            "BTBA Best Translated Book Award Nominee for Fiction Longlist (2019)",
+            "Angelus Nominee (2008)",
+            "National Book Award Finalist for Translated Literature (2018)",
+            "Mikael Agricola -palkinto (2013)",
+            "Warwick Prize for Women in Translation Nominee for Shortlist (2018)",
+            "International Booker Prize (2018)",
+            "Openbook好書獎-年度翻譯書 (2020)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Short Stories",
+            "European Literature",
+            "Polish Literature",
+            "Cultural",
+            "Poland",
+            "Travel",
+            "Literary Fiction",
+            "Contemporary",
+            "Novels",
+            "Literature",
+            "Nobel Prize"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Ghost Towns",
+        "bookAuthor": "McNab, Chris",
+        "bookURL": "https://goodreads.com//book/show/40943455-ghost-towns",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1532520315l/40943455._SX50_.jpg",
+        "dateRead": "2020-10-27T23:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2018,
+        "rating": 3
+      },
+      "metadata": [
+        {
+          "key": "ISBN13",
+          "value": "9781782745501"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Nonfiction",
+            "Art",
+            "Photography"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "As the Earth Turns Silver",
+        "bookAuthor": "Wong, Alison",
+        "bookURL": "https://goodreads.com//book/show/6606872-as-the-earth-turns-silver",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1247807541l/6606872._SY75_.jpg",
+        "dateRead": "2020-10-23T23:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2009,
+        "rating": 3
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "As the Earth Turns Silver"
+        },
+        {
+          "key": "ISBN",
+          "value": "0143011677"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Prime Minister's Literary Awards Nominee for Fiction (2010)",
+            "Ockham New Zealand Book Awards for Fiction (NZ Post Awards) (2010)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Historical",
+            "Historical Fiction",
+            "Fiction",
+            "Cultural",
+            "China",
+            "Book Club",
+            "Romance",
+            "Womens",
+            "Contemporary",
+            "Love",
+            "Adult"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Oranges Are Not the Only Fruit",
+        "bookAuthor": "Winterson, Jeanette",
+        "bookURL": "https://goodreads.com//book/show/15055.Oranges_Are_Not_the_Only_Fruit",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1267717580l/15055._SY75_.jpg",
+        "dateRead": "2020-10-18T23:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 1985,
+        "rating": 3
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Oranges Are Not the Only Fruit"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "United Kingdom"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Whitbread Award for First Novel (1985)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "LGBT",
+            "GLBT",
+            "Queer",
+            "Contemporary",
+            "Classics",
+            "Feminism",
+            "Religion",
+            "Novels",
+            "Lesbian",
+            "European Literature",
+            "British Literature"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Coming Rain",
+        "bookAuthor": "Daisley, Stephen",
+        "bookURL": "https://goodreads.com//book/show/24897241-coming-rain",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1423549397l/24897241._SY75_.jpg",
+        "dateRead": "2020-10-16T23:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2015,
+        "rating": 5
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Coming Rain"
+        },
+        {
+          "key": "ISBN",
+          "value": "1922182028"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Ockham New Zealand Book Awards for Fiction (2016)",
+            "International Dublin Literary Award Nominee (2017)",
+            "Voss Literary Prize Nominee for Shortlist (2016)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Cultural",
+            "Australia",
+            "Book Club",
+            "Historical",
+            "Historical Fiction",
+            "Literary Fiction"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Severance",
+        "bookAuthor": "Ma, Ling",
+        "bookURL": "https://goodreads.com//book/show/36348525-severance",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1507060524l/36348525._SY75_.jpg",
+        "dateRead": "2020-11-15T23:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2018,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Severance"
+        },
+        {
+          "key": "ISBN",
+          "value": "0374261598"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "Candace Chen"
+          ]
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "New York City, New York"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Locus Award Nominee for First Novel (2019)",
+            "Kirkus Prize for Fiction (2018)",
+            "Goodreads Choice Award Nominee for Science Fiction (2018)",
+            "Aspen Words Literary Prize Nominee for Longlist (2019)",
+            "Neukom Literary Arts Award Nominee for Debut Speculative Fiction (2019)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Science Fiction",
+            "Dystopia",
+            "Apocalyptic",
+            "Post Apocalyptic",
+            "Contemporary",
+            "Audiobook",
+            "Adult",
+            "Literary Fiction",
+            "Speculative Fiction"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Eve",
+        "bookAuthor": "Carey, Anna",
+        "bookURL": "https://goodreads.com//book/show/9297774-eve",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389188190l/9297774._SY75_.jpg",
+        "dateRead": "2020-10-06T23:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2011,
+        "rating": 2
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Eve"
+        },
+        {
+          "key": "ISBN",
+          "value": "0062048503"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "URL",
+          "values": [
+            "http://annacareybooks.com/books/"
+          ]
+        },
+        {
+          "key": "Series",
+          "values": [
+            "Eve #1"
+          ]
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "Eve (Eve)",
+            "Caleb (Eve)"
+          ]
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "Lake Tahoe",
+            "Sedona, Arizona",
+            "San Francisco Bay Area, California"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Science Fiction",
+            "Dystopia",
+            "Young Adult",
+            "Romance",
+            "Fantasy",
+            "Apocalyptic",
+            "Post Apocalyptic",
+            "Fiction",
+            "Adventure",
+            "Teen",
+            "Survival"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The Discomfort of Evening",
+        "bookAuthor": "Rijneveld, Marieke Lucas",
+        "bookURL": "https://goodreads.com//book/show/49374086-the-discomfort-of-evening",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1576211183l/49374086._SY75_.jpg",
+        "dateRead": "2020-10-02T23:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2018,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "De avond is ongemak"
+        },
+        {
+          "key": "ISBN",
+          "value": "0571349366"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Libris Literatuurprijs Nominee (2019)",
+            "International Booker Prize (2020)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Contemporary",
+            "Literary Fiction",
+            "European Literature",
+            "Dutch Literature",
+            "Literature",
+            "21st Century",
+            "Adult",
+            "Novels",
+            "Roman",
+            "Audiobook"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "A Spell of Winter",
+        "bookAuthor": "Dunmore, Helen",
+        "bookURL": "https://goodreads.com//book/show/408888.A_Spell_of_Winter",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328015445l/408888._SY75_.jpg",
+        "dateRead": "2020-09-26T23:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 1995,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "A Spell of Winter"
+        },
+        {
+          "key": "ISBN",
+          "value": "0871137828"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "Catherine Allen",
+            "Rob Allen"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Orange Prize for Fiction (1996)",
+            "Women's Prize for Fiction (1996)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Historical",
+            "Historical Fiction",
+            "Gothic",
+            "Literary Fiction",
+            "Romance",
+            "Novels",
+            "Mystery",
+            "Adult",
+            "Adult Fiction"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The Tidal Zone",
+        "bookAuthor": "Moss, Sarah",
+        "bookURL": "https://goodreads.com//book/show/30325865-the-tidal-zone",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1479891054l/30325865._SY75_.jpg",
+        "dateRead": "2020-11-23T23:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2016,
+        "rating": 5
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "The Tidal Zone"
+        },
+        {
+          "key": "ISBN",
+          "value": "1783783079"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Wellcome Book Prize Nominee (2017)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Contemporary",
+            "Literary Fiction",
+            "Family",
+            "Adult Fiction",
+            "European Literature",
+            "British Literature",
+            "Adult",
+            "Audiobook",
+            "Novels",
+            "Literature",
+            "21st Century"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Night Boat to Tangier",
+        "bookAuthor": "Barry, Kevin",
+        "bookURL": "https://goodreads.com//book/show/43256597-night-boat-to-tangier",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555566030l/43256597._SY75_.jpg",
+        "dateRead": "2020-09-16T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2019,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "ISBN",
+          "value": "0385540310"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Booker Prize Nominee for Longlist (2019)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Cultural",
+            "Ireland",
+            "Literary Fiction",
+            "European Literature",
+            "Irish Literature",
+            "Contemporary",
+            "Spain",
+            "Novels",
+            "Audiobook",
+            "Mystery",
+            "Crime",
+            "Literature"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Real Modern: Everyday New Zealand in the 1950s and 1960s",
+        "bookAuthor": "Labrum, Bronwyn",
+        "bookURL": "https://goodreads.com//book/show/25246351-real-modern",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427756084l/25246351._SX50_.jpg",
+        "dateRead": "2020-09-21T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2015,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "ISBN",
+          "value": "0994104170"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Ockham New Zealand Book Awards Nominee for Illustrated Nonfiction (Shortlist) (2016)"
+          ]
+        },
+        {
+          "key": "\nOther Editions\n",
+          "values": [
+            "All Editions",
+            "Add a New Edition",
+            "Combine"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Nonfiction",
+            "History"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Charming Billy",
+        "bookAuthor": "McDermott, Alice",
+        "bookURL": "https://goodreads.com//book/show/11773.Charming_Billy",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1166485801l/11773._SY75_.jpg",
+        "dateRead": "2020-08-27T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 1998,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Charming Billy"
+        },
+        {
+          "key": "ISBN",
+          "value": "2264031115"
+        },
+        {
+          "key": "Edition Language",
+          "value": "French"
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "Eva Hayes",
+            "Billy (Charming Billy)"
+          ]
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "United States of America",
+            "Ireland"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "National Book Award for Fiction (1998)",
+            "Orange Prize Nominee for Fiction Longlist (2000)",
+            "American Book Award (1999)",
+            "International Dublin Literary Award Nominee for Shortlist (2000)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Contemporary",
+            "Novels",
+            "Literary Fiction",
+            "European Literature",
+            "Irish Literature",
+            "Literature",
+            "Cultural",
+            "Ireland",
+            "Book Club",
+            "Historical",
+            "Historical Fiction",
+            "New York"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The Debt to Pleasure",
+        "bookAuthor": "Lanchester, John",
+        "bookURL": "https://goodreads.com//book/show/169510.The_Debt_to_Pleasure",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1312009160l/169510._SX50_.jpg",
+        "dateRead": "2020-08-28T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 1996,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "The Debt to Pleasure"
+        },
+        {
+          "key": "ISBN",
+          "value": "0312420366"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "Mrs. Willoughby",
+            "Tarquin Winot",
+            "Bartholomew Winot",
+            "Laura Tavistock",
+            "Hywl Tavistock",
+            "Mrs. Winot",
+            "Mr. Winot",
+            "Mary-Theresa",
+            "Mitthaug"
+          ]
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "France",
+            "England"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Whitbread Award for First Novel (1996)",
+            "Hawthornden Prize (1997)",
+            "Betty Trask Award (1996)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Food and Drink",
+            "Food",
+            "Mystery",
+            "Literary Fiction",
+            "Cultural",
+            "France",
+            "Humor",
+            "Contemporary",
+            "Literature",
+            "European Literature",
+            "British Literature",
+            "Cooking"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Larry's Party",
+        "bookAuthor": "Shields, Carol",
+        "bookURL": "https://goodreads.com//book/show/356768.Larry_s_Party",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327971107l/356768._SY75_.jpg",
+        "dateRead": "2020-09-05T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 1997,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Larry's Party"
+        },
+        {
+          "key": "ISBN",
+          "value": "0679309519"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "URL",
+          "values": [
+            "http://www.carol-shields.com/larrysparty.html"
+          ]
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "Larry Weller"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Orange Prize for Fiction (1998)",
+            "Women's Prize for Fiction (1998)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Cultural",
+            "Canada",
+            "Contemporary",
+            "Literary Fiction",
+            "Novels",
+            "Literature",
+            "Canadian Literature",
+            "Adult Fiction",
+            "20th Century",
+            "Book Club"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "You Don't Have to Say You Love Me",
+        "bookAuthor": "Alexie, Sherman",
+        "bookURL": "https://goodreads.com//book/show/31420708-you-don-t-have-to-say-you-love-me",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1483038395l/31420708._SY75_.jpg",
+        "dateRead": "2020-10-11T23:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2017,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "You Don't Have to Say You Love Me"
+        },
+        {
+          "key": "ISBN",
+          "value": "031627075X"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Goodreads Choice Award Nominee for Memoir & Autobiography (2017)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Autobiography",
+            "Memoir",
+            "Nonfiction",
+            "Poetry",
+            "Biography",
+            "Audiobook",
+            "Biography Memoir",
+            "Adult",
+            "Family",
+            "Native Americans"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Daring Greatly: How the Courage to Be Vulnerable Transforms the Way We Live, Love, Parent, and Lead",
+        "bookAuthor": "Brown, Brené",
+        "bookURL": "https://goodreads.com//book/show/13588356-daring-greatly",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1337110319l/13588356._SY75_.jpg",
+        "dateRead": "2020-08-14T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2012,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Daring Greatly: How the Courage to Be Vulnerable Transforms the Way We Live, Love, Parent, and Lead"
+        },
+        {
+          "key": "ISBN",
+          "value": "1592407331"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Nonfiction",
+            "Self Help",
+            "Psychology",
+            "Personal Development",
+            "Audiobook",
+            "Leadership",
+            "Parenting",
+            "Business",
+            "Spirituality",
+            "Relationships"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Last Call: Bartenders on Their Final Drink and the Wisdom and Rituals of Closing Time",
+        "bookAuthor": "Parsons, Brad Thomas",
+        "bookURL": "https://goodreads.com//book/show/43878801-last-call",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1565968399l/43878801._SX50_.jpg",
+        "dateRead": "2020-08-16T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2019,
+        "rating": 5
+      },
+      "metadata": [
+        {
+          "key": "ISBN",
+          "value": "0399582762"
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Food and Drink",
+            "Cookbooks"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The Satanic Verses",
+        "bookAuthor": "Rushdie, Salman",
+        "bookURL": "https://goodreads.com//book/show/12781.The_Satanic_Verses",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1281988101l/12781._SX50_.jpg",
+        "dateRead": "2020-08-08T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 1988,
+        "rating": 3
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "The Satanic Verses"
+        },
+        {
+          "key": "ISBN",
+          "value": "0312270828"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "Gibreel Farishta",
+            "Saladin Chamcha"
+          ]
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "London, England",
+            "Bombay"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Booker Prize Nominee (1988)",
+            "Whitbread Award for Novel (1988)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Magical Realism",
+            "Classics",
+            "Cultural",
+            "India",
+            "Fantasy",
+            "Literature",
+            "Religion",
+            "Novels",
+            "Contemporary",
+            "Banned Books"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Restless",
+        "bookAuthor": "Boyd, William",
+        "bookURL": "https://goodreads.com//book/show/72148.Restless",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1330951946l/72148._SY75_.jpg",
+        "dateRead": "2020-09-06T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2006,
+        "rating": 5
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Restless"
+        },
+        {
+          "key": "ISBN",
+          "value": "0747589372"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "Eva Delectorskaya",
+            "Lucas Romer",
+            "Ruth Gilmartin"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Costa Book Award for Novel (2006)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Historical",
+            "Historical Fiction",
+            "Mystery",
+            "Thriller",
+            "Spy Thriller",
+            "Espionage",
+            "War",
+            "World War II",
+            "Audiobook",
+            "European Literature",
+            "British Literature"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Things Fall Apart",
+        "bookAuthor": "Achebe, Chinua",
+        "bookURL": "https://goodreads.com//book/show/37781.Things_Fall_Apart",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1352082529l/37781._SY75_.jpg",
+        "dateRead": "2020-09-26T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 1958,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Things Fall Apart"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Series",
+          "values": [
+            "The African Trilogy #1"
+          ]
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "Okonkwo",
+            "Ikemefuna",
+            "Ezinma",
+            "Nwoye"
+          ]
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "Africa",
+            "Nigeria"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Classics",
+            "Historical",
+            "Historical Fiction",
+            "Cultural",
+            "Africa",
+            "Academic",
+            "School",
+            "Literature",
+            "Novels",
+            "African Literature",
+            "Read For School",
+            "Western Africa",
+            "Nigeria"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Three Apples Fell from the Sky",
+        "bookAuthor": "Abgaryan, Narine",
+        "bookURL": "https://goodreads.com//book/show/51551602-three-apples-fell-from-the-sky",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1580657341l/51551602._SX50_SY75_.jpg",
+        "dateRead": "2020-06-24T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2015,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "С неба упали три яблока"
+        },
+        {
+          "key": "ISBN",
+          "value": "1786077310"
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "Armenia"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Ясная Поляна for XXI век (2016)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Cultural",
+            "Russia",
+            "Historical",
+            "Historical Fiction",
+            "Contemporary",
+            "Magical Realism",
+            "Literature",
+            "Russian Literature",
+            "Audiobook",
+            "Adult"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The history of Mount Eden : the district and its people / edited by Helen B. Laurenson",
+        "bookAuthor": "Laurenson, Helen B.",
+        "bookURL": "https://goodreads.com//book/show/53453916-the-history-of-mount-eden",
+        "bookCover": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
+        "dateRead": "2020-06-08T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2019,
+        "rating": 5
+      },
+      "metadata": [
+        {
+          "key": "ISBN",
+          "value": "0473460017"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "\nOther Editions\n",
+          "values": [
+            "All Editions",
+            "Add a New Edition",
+            "Combine"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": []
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Boy Swallows Universe",
+        "bookAuthor": "Dalton, Trent",
+        "bookURL": "https://goodreads.com//book/show/37558445-boy-swallows-universe",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519792733l/37558445._SY75_.jpg",
+        "dateRead": "2020-06-24T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2018,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Boy Swallows Universe"
+        },
+        {
+          "key": "ISBN",
+          "value": "1460753895"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "Brisbane, Queensland"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "New South Wales Premier's Literary Award for People's Choice,  UTS Glenda Adams New Writing Nominated for Best Fiction (2019)",
+            "Miles Franklin Literary Award Nominee for Longlist (2019)",
+            "Australian Independent Booksellers Indie Book Award for Book of the Year & Debut Fiction (2019)",
+            "Goodreads Choice Award Nominee for Debut Novel (2019)",
+            "MUD Literary Prize Debut Fiction (2019)",
+            "Voss Literary Prize Nominee for Shortlist (2019)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Contemporary",
+            "Cultural",
+            "Australia",
+            "Book Club",
+            "Mystery",
+            "Crime",
+            "Young Adult",
+            "Coming Of Age",
+            "Literary Fiction",
+            "Historical",
+            "Historical Fiction",
+            "Audiobook",
+            "Adult Fiction"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Team Topologies: Organizing Business and Technology Teams for Fast Flow",
+        "bookAuthor": "Skelton, Matthew",
+        "bookURL": "https://goodreads.com//book/show/44135420-team-topologies",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563409554l/44135420._SX50_.jpg",
+        "dateRead": "2020-06-11T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2019,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "ISBN",
+          "value": "1942788827"
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Business",
+            "Management",
+            "Leadership",
+            "Nonfiction",
+            "Science",
+            "Technology",
+            "Computer Science",
+            "Software",
+            "Technical",
+            "Programming",
+            "Engineering"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Clay",
+        "bookAuthor": "Harrison, Melissa",
+        "bookURL": "https://goodreads.com//book/show/15793589-clay",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1350952721l/15793589._SX50_.jpg",
+        "dateRead": "2020-06-04T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2013,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "ISBN",
+          "value": "1608199789"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Environment",
+            "Nature",
+            "Novels",
+            "Literary Fiction"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "There There",
+        "bookAuthor": "Orange, Tommy",
+        "bookURL": "https://goodreads.com//book/show/36692478-there-there",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1512071034l/36692478._SY75_.jpg",
+        "dateRead": "2020-06-09T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2018,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "There There"
+        },
+        {
+          "key": "ISBN",
+          "value": "0525520376"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "Tony Loneman",
+            "Dene Oxendene",
+            "Opal Viola Victoria Bear Shield",
+            "Edwin Black",
+            "Bill Davis",
+            "Calvin Johnson",
+            "Jacquie Red Feather",
+            "Orvil Red Feather",
+            "Octavio Gomez",
+            "Daniel Gonzales",
+            "Blue",
+            "Thomas Frank",
+            "Loother Red Feather",
+            "Lony Red Feather"
+          ]
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "Oakland, California"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Pulitzer Prize Nominee for Fiction (2019)",
+            "National Book Award Nominee for Fiction (2018)",
+            "PEN/Hemingway Foundation Award (2019)",
+            "Anisfield-Wolf Book Award for Fiction (2019)",
+            "Los Angeles Times Book Prize Nominee for First Fiction (2018)",
+            "Dayton Literary Peace Prize Nominee for Fiction (2019)",
+            "National Book Critics Circle Award for John Leonard Prize (2018)",
+            "The Center for Fiction First Novel Prize (2018)",
+            "Andrew Carnegie Medal Nominee for Fiction (2019)",
+            "Goodreads Choice Award Nominee for Fiction and for Debut Author (2018)",
+            "Aspen Words Literary Prize Nominee for Longlist (2019)",
+            "Rathbones Folio Prize Nominee (2019)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Contemporary",
+            "Literary Fiction",
+            "Audiobook",
+            "Adult Fiction",
+            "Adult",
+            "Novels",
+            "Book Club",
+            "Race",
+            "Literature"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The Go-Between",
+        "bookAuthor": "Hartley, L.P.",
+        "bookURL": "https://goodreads.com//book/show/258079.The_Go_Between",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386925313l/258079._SY75_.jpg",
+        "dateRead": "2020-07-17T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 1953,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "The Go-Between"
+        },
+        {
+          "key": "ISBN",
+          "value": "0940322994"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "Leo Colston",
+            "Marcus Maudsley",
+            "Marian Maudsley",
+            "Ted Burgess",
+            "Hugh Trimingham",
+            "Denys Maudsley"
+          ]
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "Norfolk, England"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "W.H. Heinemann Award (1954)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Classics",
+            "Fiction",
+            "Historical",
+            "Historical Fiction",
+            "European Literature",
+            "British Literature",
+            "Literature",
+            "20th Century",
+            "Young Adult",
+            "Coming Of Age",
+            "Novels",
+            "Literary Fiction",
+            "Modern Classics"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The Woman in White",
+        "bookAuthor": "Collins, Wilkie",
+        "bookURL": "https://goodreads.com//book/show/5890.The_Woman_in_White",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1295661017l/5890._SY75_.jpg",
+        "dateRead": "2020-05-31T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 1859,
+        "rating": 5
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "The Woman in White"
+        },
+        {
+          "key": "ISBN",
+          "value": "0141439610"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "Walter Hartright",
+            "Marian Halcombe",
+            "Anne Catherick",
+            "Sir Percival Glyde",
+            "Count Fosco",
+            "Frederick Fairlie",
+            "Laura Fairlie",
+            "Madame Fosco",
+            "Mr. Gilmore"
+          ]
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "Cumberland, England",
+            "London, England",
+            "Hampshire, England",
+            "…more",
+            "England",
+            "United Kingdom",
+            "…less"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Audie Award for Classic (2011)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Classics",
+            "Mystery",
+            "Fiction",
+            "Gothic",
+            "Horror",
+            "Literature",
+            "19th Century",
+            "Historical",
+            "Victorian",
+            "Historical Fiction",
+            "European Literature",
+            "British Literature"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Influenza: The Hundred-Year Hunt to Cure the Deadliest Disease in History",
+        "bookAuthor": "Brown, Jeremy",
+        "bookURL": "https://goodreads.com//book/show/36580666-influenza",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1538302874l/36580666._SY75_.jpg",
+        "dateRead": "2020-06-27T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2018,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "ISBN",
+          "value": "1501181246"
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Nonfiction",
+            "Science",
+            "History",
+            "Health",
+            "Medicine",
+            "Medical",
+            "Audiobook",
+            "Illness",
+            "Disease",
+            "Biology",
+            "Health Care"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "This is Going to Hurt: Secret Diaries of a Junior Doctor",
+        "bookAuthor": "Kay, Adam",
+        "bookURL": "https://goodreads.com//book/show/35510008-this-is-going-to-hurt",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1498340278l/35510008._SY75_.jpg",
+        "dateRead": "2020-04-07T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2017,
+        "rating": 3
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "This is Going to Hurt"
+        },
+        {
+          "key": "ASIN",
+          "value": "B06XWDJRGS"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "London, England"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Nonfiction",
+            "Health",
+            "Medicine",
+            "Autobiography",
+            "Memoir",
+            "Audiobook",
+            "Medical",
+            "Science",
+            "Biography",
+            "Humor",
+            "Nurses",
+            "Nursing",
+            "Doctors"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Sea Monsters",
+        "bookAuthor": "Aridjis, Chloe",
+        "bookURL": "https://goodreads.com//book/show/40626794-sea-monsters",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529881243l/40626794._SY75_.jpg",
+        "dateRead": "2020-06-13T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2019,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "ISBN",
+          "value": "1936787865"
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "PEN/Faulkner Award for Fiction (2020)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Historical",
+            "Historical Fiction",
+            "Literary Fiction",
+            "Novels",
+            "Literature",
+            "Young Adult",
+            "Coming Of Age",
+            "Contemporary",
+            "21st Century",
+            "Cultural",
+            "Latin American"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "A Thousand Moons",
+        "bookAuthor": "Barry, Sebastian",
+        "bookURL": "https://goodreads.com//book/show/52255586-a-thousand-moons",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1566404592l/52255586._SX50_SY75_.jpg",
+        "dateRead": "2020-07-07T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2020,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "A Thousand Moons"
+        },
+        {
+          "key": "ISBN",
+          "value": "0735223106"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Series",
+          "values": [
+            "Days Without End #2"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Historical",
+            "Historical Fiction",
+            "Fiction",
+            "LGBT",
+            "Literary Fiction",
+            "European Literature",
+            "Irish Literature",
+            "Audiobook",
+            "Cultural",
+            "Ireland",
+            "Westerns",
+            "Military History",
+            "Civil War"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The Library Book",
+        "bookAuthor": "Orlean, Susan",
+        "bookURL": "https://goodreads.com//book/show/39507318-the-library-book",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1599591284l/39507318._SY75_.jpg",
+        "dateRead": "2020-05-09T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2018,
+        "rating": 3
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "The Library Book"
+        },
+        {
+          "key": "ISBN",
+          "value": "1476740186"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "URL",
+          "values": [
+            "https://www.simonandschuster.com/books/The-Library-Book/Susan-Orlean/9781476740188"
+          ]
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "California",
+            "Los Angeles, California"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Los Angeles Times Book Prize Nominee for Current Interest (2018)",
+            "Goodreads Choice Award Nominee for Nonfiction (2018)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Nonfiction",
+            "History",
+            "Writing",
+            "Books About Books",
+            "Crime",
+            "True Crime",
+            "Audiobook",
+            "Adult",
+            "Historical",
+            "Mystery",
+            "Book Club"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Ghost Wall",
+        "bookAuthor": "Moss, Sarah",
+        "bookURL": "https://goodreads.com//book/show/38922230-ghost-wall",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1521962112l/38922230._SY75_.jpg",
+        "dateRead": "2020-07-02T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2018,
+        "rating": 5
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Ghost Wall"
+        },
+        {
+          "key": "ISBN",
+          "value": "1783784458"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "Northumberland, England"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "The Royal Society of Literature Ondaatje Prize Nominee for Longlist (2019)",
+            "Women's Prize for Fiction Nominee for Longlist (2019)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Horror",
+            "Literary Fiction",
+            "Contemporary",
+            "Novella",
+            "Audiobook",
+            "European Literature",
+            "British Literature",
+            "Historical",
+            "Historical Fiction",
+            "Adult",
+            "Novels"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "At Hawthorn Time",
+        "bookAuthor": "Harrison, Melissa",
+        "bookURL": "https://goodreads.com//book/show/22929598-at-hawthorn-time",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1411667172l/22929598._SY75_.jpg",
+        "dateRead": "2020-04-20T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2015,
+        "rating": 5
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "At Hawthorn Time"
+        },
+        {
+          "key": "ISBN",
+          "value": "1620409941"
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Costa Book Award Nominee for Novel (2015)",
+            "Women's Prize for Fiction Nominee for Longlist (2016)",
+            "RSL Encore Award Nominee (2015)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Environment",
+            "Nature",
+            "Literary Fiction",
+            "European Literature",
+            "British Literature",
+            "Novels",
+            "Contemporary",
+            "Adult Fiction",
+            "Literature",
+            "21st Century",
+            "Marriage"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The Paper Menagerie and Other Stories",
+        "bookAuthor": "Liu, Ken",
+        "bookURL": "https://goodreads.com//book/show/24885533-the-paper-menagerie-and-other-stories",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1511290092l/24885533._SY75_.jpg",
+        "dateRead": "2020-04-23T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2016,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "The Paper Menagerie and Other Stories"
+        },
+        {
+          "key": "ISBN",
+          "value": "1481442546"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Locus Award for Best Collection (2017)",
+            "Goodreads Choice Award Nominee for Fantasy (2016)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Short Stories",
+            "Fantasy",
+            "Fiction",
+            "Science Fiction",
+            "Magical Realism",
+            "Anthologies",
+            "Historical",
+            "Historical Fiction",
+            "Science Fiction Fantasy",
+            "Speculative Fiction",
+            "Audiobook"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Hillbilly Elegy: A Memoir of a Family and Culture in Crisis",
+        "bookAuthor": "Vance, J.D.",
+        "bookURL": "https://goodreads.com//book/show/27161156-hillbilly-elegy",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1463569814l/27161156._SY75_.jpg",
+        "dateRead": "2020-03-15T23:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2016,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Hillbilly Elegy: A Memoir of a Family and Culture in Crisis"
+        },
+        {
+          "key": "ISBN",
+          "value": "0062300547"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "Middletown, Ohio",
+            "New Haven, Connecticut",
+            "Jackson, Kentucky"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Audie Award for Nonfiction (2017)",
+            "Dayton Literary Peace Prize Nominee for Nonfiction (2017)",
+            "Ohioana Book Award for About Ohio or an Ohioan (2017)",
+            "Kirkus Prize Nominee for Nonfiction (2016)",
+            "Goodreads Choice Award Nominee for Memoir & Autobiography (2016)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Nonfiction",
+            "Autobiography",
+            "Memoir",
+            "Biography",
+            "Audiobook",
+            "Politics",
+            "Biography Memoir",
+            "Sociology",
+            "History",
+            "Adult"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Death's End",
+        "bookAuthor": "Liu, Cixin",
+        "bookURL": "https://goodreads.com//book/show/32884495-death-s-end",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1478470287l/32884495._SY75_.jpg",
+        "dateRead": "2020-04-08T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2010,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "死神永生"
+        },
+        {
+          "key": "ISBN",
+          "value": "1784971650"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Series",
+          "values": [
+            "Remembrance of Earth's Past #3"
+          ]
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "Ye Wenjie",
+            "Manuel Rey Diaz",
+            "Yang Dong",
+            "Ding Yi",
+            "Zhang Beihai",
+            "Secretary General Say",
+            "Luo Ji"
+          ]
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "China"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Hugo Award Nominee for Best Novel (2017)",
+            "Locus Award for Best Science Fiction Novel (2017)",
+            "Kurd-Laßwitz-Preis Nominee for Bestes ausländisches Werk (2020)",
+            "Goodreads Choice Award Nominee for Science Fiction (2016)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Science Fiction",
+            "Fiction",
+            "Cultural",
+            "China",
+            "Science Fiction Fantasy",
+            "Audiobook",
+            "Fantasy",
+            "Space",
+            "Space Opera",
+            "Aliens",
+            "Speculative Fiction"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Where Reasons End",
+        "bookAuthor": "Li, Yiyun",
+        "bookURL": "https://goodreads.com//book/show/40147915-where-reasons-end",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1538195431l/40147915._SX50_.jpg",
+        "dateRead": "2020-03-22T23:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2019,
+        "rating": 3
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Where Reasons End"
+        },
+        {
+          "key": "ISBN",
+          "value": "198481737X"
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "PEN/Faulkner Award for Fiction Nominee (2020)",
+            "PEN/Jean Stein Book Award (2020)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Contemporary",
+            "Literary Fiction",
+            "Health",
+            "Mental Health",
+            "Novels",
+            "Cultural",
+            "China",
+            "Literature",
+            "Death",
+            "Asian Literature",
+            "Audiobook"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Writers & Lovers",
+        "bookAuthor": "King, Lily",
+        "bookURL": "https://goodreads.com//book/show/45289222-writers-lovers",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1580228175l/45289222._SX50_.jpg",
+        "dateRead": "2020-08-07T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2020,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Writers & Lovers"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Goodreads Choice Award Nominee for Fiction (2020)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Contemporary",
+            "Literary Fiction",
+            "Romance",
+            "Audiobook",
+            "Adult Fiction",
+            "Adult",
+            "Novels",
+            "Language",
+            "Writing",
+            "Books About Books"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The City We Became",
+        "bookAuthor": "Jemisin, N.K.",
+        "bookURL": "https://goodreads.com//book/show/42074525-the-city-we-became",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1585327950l/42074525._SY75_.jpg",
+        "dateRead": "2020-05-25T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2020,
+        "rating": 3
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "The City We Became"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Series",
+          "values": [
+            "Great Cities #1"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Goodreads Choice Award Nominee for Fantasy (2020)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fantasy",
+            "Fiction",
+            "Urban Fantasy",
+            "Science Fiction",
+            "Adult",
+            "Audiobook",
+            "Science Fiction Fantasy",
+            "LGBT",
+            "Speculative Fiction",
+            "GLBT",
+            "Queer"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The Glass Hotel",
+        "bookAuthor": "Mandel, Emily St. John",
+        "bookURL": "https://goodreads.com//book/show/45754981-the-glass-hotel",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564199892l/45754981._SX50_.jpg",
+        "dateRead": "2020-07-27T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2020,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "The Glass Hotel"
+        },
+        {
+          "key": "ISBN",
+          "value": "0525521143"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "Canada"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Scotiabank Giller Prize Nominee (2020)",
+            "Goodreads Choice Award Nominee for Fiction (2020)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Contemporary",
+            "Literary Fiction",
+            "Mystery",
+            "Audiobook",
+            "Adult",
+            "Adult Fiction",
+            "Cultural",
+            "Canada",
+            "Novels",
+            "Thriller",
+            "Mystery Thriller"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Conversations with Friends",
+        "bookAuthor": "Rooney, Sally",
+        "bookURL": "https://goodreads.com//book/show/32187419-conversations-with-friends",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1500031338l/32187419._SY75_.jpg",
+        "dateRead": "2020-04-14T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2017,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Conversations with Friends"
+        },
+        {
+          "key": "ASIN",
+          "value": "B01M6XMA62"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Dylan Thomas Prize Nominee for Shortlist (2018)",
+            "Desmond Elliott Prize Nominee for Longlist (2018)",
+            "Europese Literatuurprijs Nominee (2018)",
+            "International Dublin Literary Award Nominee for Shortlist (2019)",
+            "Rathbones Folio Prize Nominee (2018)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Contemporary",
+            "Literary Fiction",
+            "Cultural",
+            "Ireland",
+            "Novels",
+            "European Literature",
+            "Irish Literature",
+            "Romance",
+            "Audiobook",
+            "LGBT",
+            "Adult"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The Crossing",
+        "bookAuthor": "McCarthy, Cormac",
+        "bookURL": "https://goodreads.com//book/show/365990.The_Crossing",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1518965878l/365990._SY75_.jpg",
+        "dateRead": "2020-03-03T23:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 1994,
+        "rating": 3
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "The Crossing"
+        },
+        {
+          "key": "ISBN",
+          "value": "0394574753"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Series",
+          "values": [
+            "The Border Trilogy #2"
+          ]
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "Billy Parham"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Westerns",
+            "Literature",
+            "Historical",
+            "Historical Fiction",
+            "Novels",
+            "American",
+            "Literary Fiction",
+            "Contemporary",
+            "Classics",
+            "Adventure"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Felicia's Journey",
+        "bookAuthor": "Trevor, William",
+        "bookURL": "https://goodreads.com//book/show/930842.Felicia_s_Journey",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1309211767l/930842._SY75_.jpg",
+        "dateRead": "2020-08-17T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 1994,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Felicia's Journey"
+        },
+        {
+          "key": "ISBN",
+          "value": "0140253602"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "Midlands, England"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Whitbread Award for Novel and Book of the Year (1994)",
+            "Los Angeles Times Book Prize Nominee for Fiction (1995)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Cultural",
+            "Ireland",
+            "European Literature",
+            "Irish Literature",
+            "Novels",
+            "Thriller",
+            "Mystery",
+            "Contemporary",
+            "Literature",
+            "Literary Fiction",
+            "20th Century"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "All Among The Barley",
+        "bookAuthor": "Harrison, Melissa",
+        "bookURL": "https://goodreads.com//book/show/36667206-all-among-the-barley",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1518297988l/36667206._SY75_.jpg",
+        "dateRead": "2020-02-11T23:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2018,
+        "rating": 5
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Among the Barley"
+        },
+        {
+          "key": "ISBN",
+          "value": "1408897997"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "URL",
+          "values": [
+            "https://bloomsbury.com/uk/all-among-the-barley-9781408897997/"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Historical",
+            "Historical Fiction",
+            "Fiction",
+            "Literary Fiction",
+            "Young Adult",
+            "Coming Of Age",
+            "Environment",
+            "Nature",
+            "Novels",
+            "European Literature",
+            "British Literature",
+            "Literature",
+            "Womens"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Women, Men and the Whole Damn Thing",
+        "bookAuthor": "Leser, David",
+        "bookURL": "https://goodreads.com//book/show/45889853-women-men-and-the-whole-damn-thing",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558334327l/45889853._SY75_.jpg",
+        "dateRead": "2020-05-02T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2019,
+        "rating": 3
+      },
+      "metadata": [
+        {
+          "key": "ISBN13",
+          "value": "9781925266108"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "URL",
+          "values": [
+            "https://www.allenandunwin.com/browse/books/general-books/current-affairs-politics/Women-Men-and-the-Whole-Damn-Thing-David-Leser-9781925266108"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Nonfiction",
+            "Feminism",
+            "Gender"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The Fishermen",
+        "bookAuthor": "Obioma, Chigozie",
+        "bookURL": "https://goodreads.com//book/show/22875103-the-fishermen",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1451434679l/22875103._SY75_.jpg",
+        "dateRead": "2020-02-11T23:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2015,
+        "rating": 5
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "The Fishermen"
+        },
+        {
+          "key": "ISBN",
+          "value": "0316338370"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "Nigeria"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Booker Prize Nominee (2015)",
+            "Guardian First Book Award Nominee (2015)",
+            "Los Angeles Times Book Prize for Art Seidenbaum Award First Fiction (2015)",
+            "Hurston/Wright Legacy Award Nominee for Debut Fiction (2016)",
+            "The Center for Fiction First Novel Prize Nominee for Shortlist (2015)",
+            "Goodreads Choice Award Nominee for Debut Goodreads Author (2015)",
+            "FT/OppenheimerFunds Emerging Voices Award (2015)",
+            "Go On Girl! Book Club Award for New Author of the Year (2016)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Cultural",
+            "Africa",
+            "Western Africa",
+            "Nigeria",
+            "Contemporary",
+            "Literary Fiction",
+            "Literature",
+            "African Literature",
+            "Novels",
+            "Audiobook",
+            "Historical",
+            "Historical Fiction",
+            "Family"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Horror Stories: A Memoir",
+        "bookAuthor": "Phair, Liz",
+        "bookURL": "https://goodreads.com//book/show/44525549-horror-stories",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1556895127l/44525549._SY75_.jpg",
+        "dateRead": "2020-01-17T23:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2019,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Horror Stories"
+        },
+        {
+          "key": "ISBN",
+          "value": "0525511989"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Autobiography",
+            "Memoir",
+            "Music",
+            "Nonfiction",
+            "Biography",
+            "Biography Memoir",
+            "Writing",
+            "Essays",
+            "Short Stories",
+            "Audiobook",
+            "Womens"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The Sport of Kings",
+        "bookAuthor": "Morgan, C.E.",
+        "bookURL": "https://goodreads.com//book/show/28636686-the-sport-of-kings",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1453292276l/28636686._SY75_.jpg",
+        "dateRead": "2020-02-03T23:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2016,
+        "rating": 5
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "The Sport of Kings"
+        },
+        {
+          "key": "ISBN",
+          "value": "0007313268"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Pulitzer Prize Nominee for Fiction (2017)",
+            "James Tait Black Memorial Prize Nominee for Fiction (2016)",
+            "Women's Prize for Fiction Nominee (2017)",
+            "Andrew Carnegie Medal Nominee for Fiction (2017)",
+            "Kirkus Prize for Fiction (2016)",
+            "Kentucky Literary Award (2018)",
+            "Rathbones Folio Prize Nominee (2017)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Historical",
+            "Historical Fiction",
+            "Literary Fiction",
+            "Sports",
+            "Animals",
+            "Novels",
+            "Race",
+            "Audiobook",
+            "Horses"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The Bompas & Parr Cocktail Book: Recipes for Mixing Extraordinary Drinks",
+        "bookAuthor": "Bompas, Sam",
+        "bookURL": "https://goodreads.com//book/show/44499845-the-bompas-parr-cocktail-book",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1561638495l/44499845._SX50_.jpg",
+        "dateRead": "2020-01-03T23:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2019,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "ISBN",
+          "value": "1911624849"
+        },
+        {
+          "key": "\nOther Editions\n",
+          "values": [
+            "All Editions",
+            "Add a New Edition",
+            "Combine"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": []
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking",
+        "bookAuthor": "Nosrat, Samin",
+        "bookURL": "https://goodreads.com//book/show/35019164-salt-fat-acid-heat",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493587329l/35019164._SX50_.jpg",
+        "dateRead": "2020-06-13T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2017,
+        "rating": 5
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking"
+        },
+        {
+          "key": "ISBN",
+          "value": "1782112308"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Goodreads Choice Award Nominee for Food & Cookbooks (2017)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Food and Drink",
+            "Cookbooks",
+            "Cooking",
+            "Food",
+            "Nonfiction",
+            "Reference",
+            "Science",
+            "Health",
+            "Culinary",
+            "Audiobook"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "How to Read Water: Clues & Patterns from Puddles to the Sea",
+        "bookAuthor": "Gooley, Tristan",
+        "bookURL": "https://goodreads.com//book/show/30138153-how-to-read-water",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1544583803l/30138153._SY75_.jpg",
+        "dateRead": "2020-02-29T23:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2016,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "ISBN",
+          "value": "1473615224"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Nonfiction",
+            "Science",
+            "Environment",
+            "Nature",
+            "Outdoors",
+            "Reference",
+            "Travel",
+            "Biology",
+            "Ecology",
+            "Natural History",
+            "How To"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Flight: The Evolution of Aviation",
+        "bookAuthor": "Woolford, Stephen",
+        "bookURL": "https://goodreads.com//book/show/41825565-flight",
+        "bookCover": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
+        "dateRead": "2019-12-18T23:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2015,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "ISBN",
+          "value": "0233005749"
+        },
+        {
+          "key": "Genres",
+          "values": []
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The World Without Us",
+        "bookAuthor": "Weisman, Alan",
+        "bookURL": "https://goodreads.com//book/show/248787.The_World_Without_Us",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441986417l/248787._SY75_.jpg",
+        "dateRead": "2019-12-20T23:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2007,
+        "rating": 3
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "The World Without Us"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Orion Book Award Nominee (2008)",
+            "National Book Critics Circle Award Nominee for General Nonfiction (2007)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Nonfiction",
+            "Science",
+            "Environment",
+            "Nature",
+            "History",
+            "Biology",
+            "Ecology",
+            "Apocalyptic",
+            "Post Apocalyptic",
+            "Sustainability",
+            "Audiobook",
+            "Popular Science"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "If Beale Street Could Talk",
+        "bookAuthor": "Baldwin, James",
+        "bookURL": "https://goodreads.com//book/show/38463.If_Beale_Street_Could_Talk",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388182698l/38463._SY75_.jpg",
+        "dateRead": "2019-12-30T23:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 1974,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "If Beale Street Could Talk"
+        },
+        {
+          "key": "ISBN",
+          "value": "0307275930"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Classics",
+            "Cultural",
+            "African American",
+            "Race",
+            "Audiobook",
+            "Romance",
+            "Novels",
+            "Literary Fiction",
+            "Historical",
+            "Historical Fiction",
+            "Literature"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "We Are Water",
+        "bookAuthor": "Lamb, Wally",
+        "bookURL": "https://goodreads.com//book/show/17349023-we-are-water",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1361329815l/17349023._SY75_.jpg",
+        "dateRead": "2019-12-17T23:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2013,
+        "rating": 3
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "We Are Water"
+        },
+        {
+          "key": "ISBN",
+          "value": "0061941026"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Lambda Literary Award Nominee for Lesbian General Fiction (2014)",
+            "Goodreads Choice Award Nominee for Fiction (2013)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Contemporary",
+            "Audiobook",
+            "Literary Fiction",
+            "Family",
+            "Adult Fiction",
+            "LGBT",
+            "Adult",
+            "Novels",
+            "Book Club"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Disappearing Earth",
+        "bookAuthor": "Phillips, Julia",
+        "bookURL": "https://goodreads.com//book/show/34563821-disappearing-earth",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1541103539l/34563821._SY75_.jpg",
+        "dateRead": "2020-09-18T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2019,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Disappearing Earth"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "Kamchatka"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "National Book Award Finalist for Fiction (2019)",
+            "Goodreads Choice Award Nominee for Mystery & Thriller (2019)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Mystery",
+            "Cultural",
+            "Russia",
+            "Thriller",
+            "Mystery Thriller",
+            "Literary Fiction",
+            "Contemporary",
+            "Adult",
+            "Audiobook",
+            "Novels"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The Five Dysfunctions of a Team: A Leadership Fable",
+        "bookAuthor": "Lencioni, Patrick",
+        "bookURL": "https://goodreads.com//book/show/21343.The_Five_Dysfunctions_of_a_Team",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1400841022l/21343._SY75_.jpg",
+        "dateRead": "2019-11-17T23:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2002,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "The Five Dysfunctions of a Team"
+        },
+        {
+          "key": "ISBN",
+          "value": "0787960756"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Business",
+            "Leadership",
+            "Nonfiction",
+            "Management",
+            "Self Help",
+            "Buisness",
+            "Personal Development",
+            "Psychology",
+            "Entrepreneurship",
+            "Audiobook"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Girl, Woman, Other",
+        "bookAuthor": "Evaristo, Bernardine",
+        "bookURL": "https://goodreads.com//book/show/41081373-girl-woman-other",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1542296262l/41081373._SY75_.jpg",
+        "dateRead": "2020-01-06T23:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2019,
+        "rating": 5
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Girl, Woman, Other"
+        },
+        {
+          "key": "ISBN",
+          "value": "0241364906"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Booker Prize (2019)",
+            "Orwell Prize Nominee for Political Fiction for Shortlist (2020)",
+            "Women's Prize for Fiction Nominee for Shortlist (2020)",
+            "Goodreads Choice Award Nominee for Fiction (2019)",
+            "Reading Women Award for Fiction (2020)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Feminism",
+            "Contemporary",
+            "Short Stories",
+            "Literary Fiction",
+            "LGBT",
+            "Race",
+            "Audiobook",
+            "Novels",
+            "Book Club"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "From A to Eames: A Visual Guide to Mid Century Modern Design",
+        "bookAuthor": "Whybrow, Lauren",
+        "bookURL": "https://goodreads.com//book/show/40928681-from-a-to-eames",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1547887763l/40928681._SX50_.jpg",
+        "dateRead": "2019-10-09T23:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2019,
+        "rating": 3
+      },
+      "metadata": [
+        {
+          "key": "ISBN",
+          "value": "1925811018"
+        },
+        {
+          "key": "\nOther Editions\n",
+          "values": [
+            "All Editions",
+            "Add a New Edition",
+            "Combine"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Nonfiction",
+            "Design"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The Dutch House",
+        "bookAuthor": "Patchett, Ann",
+        "bookURL": "https://goodreads.com//book/show/44318414-the-dutch-house",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1552334367l/44318414._SY75_.jpg",
+        "dateRead": "2019-12-26T23:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2019,
+        "rating": 5
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "The Dutch House"
+        },
+        {
+          "key": "ISBN",
+          "value": "0062963678"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "Cyril Conroy",
+            "Danny Conroy",
+            "Maeve Conroy"
+          ]
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "Elkins Park, Pennsylvania",
+            "Manhattan, New York City, New York"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Pulitzer Prize Nominee for Fiction (2020)",
+            "Women's Prize for Fiction Nominee for Longlist (2020)",
+            "Goodreads Choice Award Nominee for Historical Fiction (2019)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Historical",
+            "Historical Fiction",
+            "Audiobook",
+            "Literary Fiction",
+            "Adult",
+            "Adult Fiction",
+            "Contemporary",
+            "Book Club",
+            "Family"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "50 Self Help Classics 2nd Edition: Your shortcut to the most important ideas on happiness and fulfilment",
+        "bookAuthor": "Butler-Bowdon, Tom",
+        "bookURL": "https://goodreads.com//book/show/34220501-50-self-help-classics-2nd-edition",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1499777439l/34220501._SY75_.jpg",
+        "dateRead": "2019-12-11T23:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2003,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "50 Self-Help Classics"
+        },
+        {
+          "key": "ISBN",
+          "value": "1473658284"
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Self Help",
+            "Nonfiction",
+            "Psychology",
+            "Reference",
+            "Personal Development",
+            "Audiobook",
+            "Spirituality",
+            "Philosophy",
+            "Business",
+            "Classics"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "A Little Life",
+        "bookAuthor": "Yanagihara, Hanya",
+        "bookURL": "https://goodreads.com//book/show/22822858-a-little-life",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1446469353l/22822858._SY75_.jpg",
+        "datePub": 2015
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "A Little Life"
+        },
+        {
+          "key": "ISBN",
+          "value": "0385539258"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "Jude St. Francis",
+            "Willem Ragnarsson",
+            "Malcom Irvine",
+            "Jean-Baptiste (JB) Marion",
+            "Harold Stein",
+            "Julia Altman",
+            "Andy Contractor",
+            "Richard Goldfarb",
+            "Ana"
+          ]
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "New York City, New York",
+            "SoHo, New York City, New York"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Booker Prize Nominee (2015)",
+            "Dayton Literary Peace Prize Nominee for Fiction (2016)",
+            "Women's Prize for Fiction Nominee (2016)",
+            "Andrew Carnegie Medal Nominee for Fiction (Shortlist) (2016)",
+            "National Book Award Finalist for Fiction (2015)",
+            "Kirkus Prize for Fiction (2015)",
+            "Goodreads Choice Award Nominee for Fiction (2015)",
+            "Waterstones Book of the Year Nominee (2015)",
+            "Jarl Hellemann -palkinto (2017)",
+            "International Dublin Literary Award Nominee for Shortlist (2017)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Contemporary",
+            "LGBT",
+            "Literary Fiction",
+            "Adult",
+            "Novels",
+            "GLBT",
+            "Queer",
+            "Adult Fiction",
+            "Audiobook",
+            "Literature"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The Reluctant Fundamentalist",
+        "bookAuthor": "Hamid, Mohsin",
+        "bookURL": "https://goodreads.com//book/show/40961543-the-reluctant-fundamentalist",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1532715321l/40961543._SY75_.jpg",
+        "dateRead": "2019-09-29T23:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2007,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "The Reluctant Fundamentalist"
+        },
+        {
+          "key": "ASIN",
+          "value": "B004IPPINW"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "Changez",
+            "Érica"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Booker Prize Nominee (2007)",
+            "James Tait Black Memorial Prize Nominee for Fiction (2007)",
+            "Anisfield-Wolf Book Award (2008)",
+            "Ambassador Book Award for Fiction (2008)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Cultural",
+            "Pakistan",
+            "Contemporary",
+            "Literary Fiction",
+            "Novels",
+            "Literature",
+            "Asia",
+            "Religion",
+            "Academic",
+            "School",
+            "Adult"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The Testaments",
+        "bookAuthor": "Atwood, Margaret",
+        "bookURL": "https://goodreads.com//book/show/42975172-the-testaments",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549292344l/42975172._SY75_.jpg",
+        "dateRead": "2019-12-02T23:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2019,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "The Testaments"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Series",
+          "values": [
+            "The Handmaid's Tale  #2"
+          ]
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "Aunt Lydia",
+            "Agnes Jemima",
+            "Daisy"
+          ]
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "Republic of Gilead",
+            "Toronto, Ontario"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Booker Prize (2019)",
+            "Locus Award Nominee for Best SF Novel (2020)",
+            "Kurd-Laßwitz-Preis for Bestes ausländisches Werk (2020)",
+            "Scotiabank Giller Prize Nominee (2019)",
+            "Audie Award Nominee for Audiobook of the Year (2020)",
+            "Prometheus Award Nominee for Best Novel (2020)",
+            "Goodreads Choice Award for Fiction (2019)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Science Fiction",
+            "Dystopia",
+            "Feminism",
+            "Audiobook",
+            "Adult",
+            "Cultural",
+            "Canada",
+            "Speculative Fiction",
+            "Literary Fiction",
+            "Adult Fiction"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Quichotte",
+        "bookAuthor": "Rushdie, Salman",
+        "bookURL": "https://goodreads.com//book/show/43811212-quichotte",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563963578l/43811212._SY75_.jpg",
+        "dateRead": "2020-02-02T23:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2019,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Quichotte"
+        },
+        {
+          "key": "ISBN",
+          "value": "178733192X"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Booker Prize Nominee (2019)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Fantasy",
+            "Magical Realism",
+            "Literary Fiction",
+            "Contemporary",
+            "Cultural",
+            "India",
+            "Novels",
+            "Literature",
+            "Audiobook",
+            "Retellings"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Underworld",
+        "bookAuthor": "DeLillo, Don",
+        "bookURL": "https://goodreads.com//book/show/11761.Underworld",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1334304280l/11761._SY75_.jpg",
+        "dateRead": "2019-11-03T23:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 1997,
+        "rating": 3
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Underworld"
+        },
+        {
+          "key": "ISBN",
+          "value": "0330369954"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "Brian Glassic",
+            "Nick Shay",
+            "Klara Sax"
+          ]
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "New Jersey",
+            "Nevada"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Pulitzer Prize Nominee for Fiction (1998)",
+            "American Book Award (1998)",
+            "William Dean Howells Medal (2000)",
+            "Ambassador Book Award for Fiction (1998)",
+            "National Book Critics Circle Award Nominee for Fiction (1997)",
+            "National Book Award Finalist for Fiction (1997)",
+            "International Dublin Literary Award Nominee for Shortlist (1999)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Literature",
+            "Novels",
+            "American",
+            "Literary Fiction",
+            "Classics",
+            "Contemporary",
+            "Historical",
+            "Historical Fiction",
+            "20th Century",
+            "Americana"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The Story of Lucy Gault",
+        "bookAuthor": "Trevor, William",
+        "bookURL": "https://goodreads.com//book/show/167302.The_Story_of_Lucy_Gault",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1311648314l/167302._SY75_.jpg",
+        "dateRead": "2020-02-25T23:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2002,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "The Story of Lucy Gault"
+        },
+        {
+          "key": "ISBN",
+          "value": "014200331X"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "Lucy Gault",
+            "Everard Gault",
+            "Heloise Gault"
+          ]
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "County Cork"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Booker Prize Nominee (2002)",
+            "James Tait Black Memorial Prize Nominee for Fiction (2002)",
+            "Whitbread Award Nominee for Novel (2002)",
+            "Kerry Group Irish Fiction Award (2003)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Cultural",
+            "Ireland",
+            "Historical",
+            "Historical Fiction",
+            "European Literature",
+            "Irish Literature",
+            "Literature",
+            "Literary Fiction",
+            "Novels",
+            "Contemporary",
+            "Family"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The Nickel Boys",
+        "bookAuthor": "Whitehead, Colson",
+        "bookURL": "https://goodreads.com//book/show/42270835-the-nickel-boys",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1593115396l/42270835._SY75_.jpg",
+        "dateRead": "2020-04-27T00:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2019,
+        "rating": 5
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "The Nickel Boys"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "Florida"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Pulitzer Prize for Fiction (2020)",
+            "National Book Award Nominee for Fiction (2019)",
+            "Orwell Prize for Political Fiction (2020)",
+            "Audie Award Nominee for Best Male Narrator (2020)",
+            "Los Angeles Times Book Prize Nominee for Fiction (2019)",
+            "ALA Alex Award (2020)",
+            "Dayton Literary Peace Prize Nominee for Fiction (2020)",
+            "National Book Critics Circle Award Nominee for Fiction (2019)",
+            "Lincoln Award (2021)",
+            "Kirkus Prize for Fiction (2019)",
+            "Goodreads Choice Award Nominee for Historical Fiction (2019)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Historical",
+            "Historical Fiction",
+            "Audiobook",
+            "Race",
+            "Literary Fiction",
+            "Cultural",
+            "African American",
+            "Adult",
+            "Adult Fiction",
+            "Novels"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Chances Are...",
+        "bookAuthor": "Russo, Richard",
+        "bookURL": "https://goodreads.com//book/show/44037144-chances-are",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1553005320l/44037144._SX50_.jpg",
+        "dateRead": "2020-01-12T23:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2019,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "ISBN",
+          "value": "1101947748"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Mystery",
+            "Literary Fiction",
+            "Contemporary",
+            "Audiobook",
+            "Adult",
+            "Novels",
+            "Thriller",
+            "Mystery Thriller",
+            "Literature",
+            "Historical",
+            "Historical Fiction"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Akin",
+        "bookAuthor": "Donoghue, Emma",
+        "bookURL": "https://goodreads.com//book/show/43209291-akin",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1567137138l/43209291._SY75_.jpg",
+        "dateRead": "2019-11-20T23:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2019,
+        "rating": 3
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Akin"
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Historical",
+            "Historical Fiction",
+            "Contemporary",
+            "Cultural",
+            "France",
+            "Audiobook",
+            "Literary Fiction",
+            "Mystery",
+            "Adult Fiction",
+            "Family"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Behold the Dreamers",
+        "bookAuthor": "Mbue, Imbolo",
+        "bookURL": "https://goodreads.com//book/show/35259724-behold-the-dreamers",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1498483394l/35259724._SY75_.jpg",
+        "dateRead": "2019-09-12T00:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2016,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Behold the Dreamers"
+        },
+        {
+          "key": "ISBN",
+          "value": "0525509712"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "Jende Jonga",
+            "Neni",
+            "Clark Edwards",
+            "Cindy Edwards"
+          ]
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "Harlem, New York City, New York"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "PEN/Faulkner Award for Fiction (2017)",
+            "PEN Open Book Award Nominee for Longlist (2017)",
+            "Andrew Carnegie Medal Nominee for Fiction (2017)",
+            "Goodreads Choice Award Nominee for Debut Goodreads Author (2016)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Cultural",
+            "Africa",
+            "Contemporary",
+            "Audiobook",
+            "Literary Fiction",
+            "New York",
+            "Adult Fiction",
+            "Adult",
+            "Novels",
+            "Central Africa",
+            "Cameroon"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Inland",
+        "bookAuthor": "Obreht, Téa",
+        "bookURL": "https://goodreads.com//book/show/43062975-inland",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1562573214l/43062975._SX50_.jpg",
+        "dateRead": "2019-11-29T23:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2019,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Inland"
+        },
+        {
+          "key": "ISBN",
+          "value": "0449807053"
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "Arizona Territory"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Historical",
+            "Historical Fiction",
+            "Westerns",
+            "Literary Fiction",
+            "Magical Realism",
+            "Audiobook",
+            "Adult",
+            "Adult Fiction",
+            "Novels"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Homesick for Another World",
+        "bookAuthor": "Moshfegh, Ottessa",
+        "bookURL": "https://goodreads.com//book/show/30079724-homesick-for-another-world",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1469408007l/30079724._SY75_.jpg",
+        "dateRead": "2019-09-24T00:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2017,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Homesick for Another World"
+        },
+        {
+          "key": "ISBN",
+          "value": "0399562885"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Short Stories",
+            "Fiction",
+            "Contemporary",
+            "Literary Fiction",
+            "Literature",
+            "American",
+            "Short Story Collection",
+            "Science Fiction",
+            "21st Century",
+            "Adult Fiction"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Luck of a Lancaster: 107 Operations, 244 Crew, 103 Killed in Action",
+        "bookAuthor": "Thorburn, Gordon",
+        "bookURL": "https://goodreads.com//book/show/17593640-luck-of-a-lancaster",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1365996767l/17593640._SX50_.jpg",
+        "dateRead": "2019-09-23T00:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2013,
+        "rating": 3
+      },
+      "metadata": [
+        {
+          "key": "ISBN",
+          "value": "1781590737"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Genres",
+          "values": []
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Beautiful Days",
+        "bookAuthor": "Oates, Joyce Carol",
+        "bookURL": "https://goodreads.com//book/show/35068855-beautiful-days",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1500882810l/35068855._SY75_.jpg",
+        "dateRead": "2019-07-22T00:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2018,
+        "rating": 2
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Beautiful Days"
+        },
+        {
+          "key": "ISBN",
+          "value": "0062795805"
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Short Stories",
+            "Fiction",
+            "Literary Fiction",
+            "Short Story Collection",
+            "Literature",
+            "American"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The Midwich Cuckoos",
+        "bookAuthor": "Wyndham, John",
+        "bookURL": "https://goodreads.com//book/show/826847.The_Midwich_Cuckoos",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1537992350l/826847._SY75_.jpg",
+        "datePub": 1957,
+        "rating": 3
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "The Midwich Cuckoos"
+        },
+        {
+          "key": "ISBN",
+          "value": "0140014403"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Science Fiction",
+            "Fiction",
+            "Horror",
+            "Classics",
+            "Fantasy",
+            "Science Fiction Fantasy",
+            "European Literature",
+            "British Literature",
+            "Speculative Fiction",
+            "Novels",
+            "Aliens"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Cryptonomicon",
+        "bookAuthor": "Stephenson, Neal",
+        "bookURL": "https://goodreads.com//book/show/816.Cryptonomicon",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327931476l/816._SY75_.jpg",
+        "datePub": 1999,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Cryptonomicon"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "Douglas MacArthur",
+            "Enoch Root",
+            "Lawrence Pritchard Waterhouse",
+            "Robert Shaftoe",
+            "Earl Comstock",
+            "Rudolf von Hacklheber",
+            "Alan Turing"
+          ]
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "Bletchley Park, Buckinghamshire, England",
+            "Southeast Asia",
+            "Philippines"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Hugo Award Nominee for Best Novel (2000)",
+            "Prometheus Hall of Fame Award (2013)",
+            "Locus Award for Best Science Fiction Novel (2000)",
+            "Arthur C. Clarke Award Nominee (2000)",
+            "Prometheus Award Nominee for Best Novel (2000)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Science Fiction",
+            "Historical",
+            "Historical Fiction",
+            "Cyberpunk",
+            "Thriller",
+            "Science Fiction Fantasy",
+            "War",
+            "Fantasy",
+            "Novels"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The Caprices",
+        "bookAuthor": "Murray, Sabina",
+        "bookURL": "https://goodreads.com//book/show/1058452.The_Caprices",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328856912l/1058452._SX50_.jpg",
+        "dateRead": "2019-09-03T00:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2002,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "The Caprices"
+        },
+        {
+          "key": "ISBN",
+          "value": "080214313X"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "PEN/Faulkner Award for Fiction (2003)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Short Stories",
+            "Literary Fiction",
+            "Literature",
+            "Academic",
+            "School",
+            "War",
+            "World War II"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The Great Alone",
+        "bookAuthor": "Hannah, Kristin",
+        "bookURL": "https://goodreads.com//book/show/34912895-the-great-alone",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1501852423l/34912895._SY75_.jpg",
+        "dateRead": "2019-07-03T00:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2018,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "The Great Alone"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "Lenora \"Leni\" Allbright",
+            "Cora Allbright",
+            "Ernt Allbright",
+            "Matthew Walker"
+          ]
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "Alaska"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Audie Award Nominee for Fiction (2019)",
+            "Goodreads Choice Award for Historical Fiction (2018)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Historical",
+            "Historical Fiction",
+            "Audiobook",
+            "Adult",
+            "Adult Fiction",
+            "Romance",
+            "Book Club",
+            "Contemporary",
+            "Family"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Far From the Madding Crowd",
+        "bookAuthor": "Hardy, Thomas",
+        "bookURL": "https://goodreads.com//book/show/31463.Far_From_the_Madding_Crowd",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388279695l/31463._SY75_.jpg",
+        "dateRead": "2019-07-01T00:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 1874,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Far from the Madding Crowd"
+        },
+        {
+          "key": "ISBN",
+          "value": "0141439653"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "Gabriel Oak",
+            "Bathsheba Everdene",
+            "William Boldwood",
+            "Francis Troy",
+            "Fanny Robin"
+          ]
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "United Kingdom",
+            "Wessex, England",
+            "Casterbridge, England"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Classics",
+            "Fiction",
+            "Romance",
+            "Historical",
+            "Historical Fiction",
+            "Literature",
+            "19th Century",
+            "European Literature",
+            "British Literature",
+            "Victorian",
+            "Classic Literature",
+            "Novels"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Machines Like Me",
+        "bookAuthor": "McEwan, Ian",
+        "bookURL": "https://goodreads.com//book/show/42086795-machines-like-me",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1552757135l/42086795._SY75_.jpg",
+        "dateRead": "2019-08-06T00:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2019,
+        "rating": 4
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Machines Like Me"
+        },
+        {
+          "key": "ISBN",
+          "value": "1787331679"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "URL",
+          "values": [
+            "https://www.penguin.co.uk/books/111/1117889/machines-like-me/9781787331662.html"
+          ]
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "London, England"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Goodreads Choice Award Nominee for Science Fiction (2019)",
+            "Dragon Award Nominee for Best Alternate History Novel (2019)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Science Fiction",
+            "Literary Fiction",
+            "Audiobook",
+            "Speculative Fiction",
+            "Dystopia",
+            "European Literature",
+            "British Literature",
+            "Alternate History",
+            "Contemporary",
+            "Novels"
+          ]
+        }
+      ]
+    }
+  ]
+}
