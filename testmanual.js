@@ -2,6 +2,7 @@ const fs = require("fs");
 const $ = require("cheerio");
 const scrapewelly = require('./lib/scrapewellylibrary.js');
 const consolidate = require('./lib/consolidatelibrary').consolidate;
+const _ = require('lodash');
 
 async function parseList() {
   const html = fs.readFileSync("examples/costa.htm").toString();
@@ -101,8 +102,22 @@ async function parseWelly() {
 }
 
 (async () => {
-  const _ = require('lodash');
+
   var fs = require('fs');
-  var doc = JSON.parse(fs.readFileSync('gareth.json', 'utf8'));
-  console.log('done');
+  var data = JSON.parse(fs.readFileSync('gareth.json', 'utf8'));
+
+  const dataItems = [];
+  const years = new Set();
+  _.forOwn(data.genre, function (genreBooks, genreName) {
+    console.log(genreBooks.byReadYear);
+    const dataItem = { name: genreName };
+    _.forOwn(genreBooks.byReadYear, function (yearBooks, year) {
+      dataItem[year] = yearBooks.count;
+      years.add(year);
+    });
+    dataItems.push(dataItem);
+    
+  });
+  console.log(dataItems);
+  console.log(years);
 })();
