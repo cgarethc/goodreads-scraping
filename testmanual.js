@@ -101,6 +101,8 @@ async function parseWelly() {
 }
 
 (async () => {
-  const chrono = require('chrono-node');
-  console.log(chrono.parseDate('Dec 15, 2020').getFullYear());
+  const _ = require('lodash');
+  var fs = require('fs');
+  var doc = JSON.parse(fs.readFileSync('gareth.json', 'utf8'));
+  console.log('done');
 })();
