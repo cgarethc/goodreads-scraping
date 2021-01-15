@@ -49,3 +49,15 @@ Create a background scraper that can walk through the library site while the use
 ### Management
 
 Replace shell script with a table of list/award parameters and add a reprocessing job that can run serverless somewhere (AWS Lambda+Dynamo or try GCP/Firebase actions).
+
+### Stats scraping
+
+Parallelise shelf book detail scraping to a sensible degree
+
+Impose basic shelf/genre data model on top to take out audiobook as a genre, amplify fiction vs non-fiction
+
+### Notes
+
+Gareth 4622353
+Abby 4665939
+Fiona 3408361

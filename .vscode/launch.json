@@ -45,7 +45,7 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}/showmestats.js",
-            "args": ["-u", "4622353", "-p", "1", "-l", "3", "-d"],
+            "args": ["-u", "4622353", "-p", "1", "-l", "5", "-d"],
             "outputCapture": "std"
         },
         {

@@ -1,0 +1,9 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "max-len": [1, 120]
+  },
+  "plugins": [
+    "import"
+  ]
+}
