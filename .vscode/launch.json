@@ -40,12 +40,12 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Show me stats",
+            "name": "Run stats",
             "skipFiles": [
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}/showmestats.js",
-            "args": ["-u", "4622353", "-p", "1", "-l", "5", "-d"],
+            "args": ["-u", "4622353", "-d", "-m", "stats"],
             "outputCapture": "std"
         },
         {

@@ -31,11 +31,14 @@ db.settings({ ignoreUndefinedProperties: true });
     .parse(process.argv);
 
 
-  const books = await goodreadsShelf(`https://www.goodreads.com/review/list/${cli.user}`, 'read', cli.pages && parseInt(cli.pages));
+
 
   let allBooks = [];
 
   if (cli.mode === 'books' || cli.mode === 'both') {
+
+    const books = await goodreadsShelf(`https://www.goodreads.com/review/list/${cli.user}`, 'read', cli.pages && parseInt(cli.pages));
+
     console.log('Scraping', books.length, 'books');
 
 
@@ -92,6 +95,7 @@ db.settings({ ignoreUndefinedProperties: true });
     let docRef = db.collection('userstats').doc(`${cli.user}-books`);
     const result = await docRef.get();
     allBooks = result.data().books;
+    console.log(allBooks.length, 'books');
   }
 
   if (cli.mode === 'both' || cli.mode === 'stats') {
@@ -100,7 +104,7 @@ db.settings({ ignoreUndefinedProperties: true });
     const genre = await crunchstats.crunchGenre(allBooks);
     const yearRead = await crunchstats.countByBookProperty(allBooks, 'yearRead');
     const yearPublished = await crunchstats.countByBookProperty(allBooks, 'datePub');
-    const category = await crunchstats.countByBookProperty(allBooks, 'category');
+    const category = await crunchstats.countByCategoryAndYear(allBooks);
 
     const userStats = {
       id: cli.user,
