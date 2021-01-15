@@ -2,6 +2,56 @@
   "books": [
     {
       "book": {
+        "bookTitle": "The Drunken Botanist: The Plants That Create the World's Great Drinks",
+        "bookAuthor": "Stewart, Amy",
+        "bookURL": "https://goodreads.com//book/show/16277245-the-drunken-botanist",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1404581364l/16277245._SX50_.jpg",
+        "dateRead": "2021-01-12T23:00:00.000Z",
+        "yearRead": 2021,
+        "datePub": 2013,
+        "rating": 5,
+        "category": "Nonfiction"
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "The Drunken Botanist: The Plants that Create the World's Great Drinks"
+        },
+        {
+          "key": "ISBN",
+          "value": "1616200464"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "James Beard Foundation Book Award Nominee for Beverage (2014)",
+            "Goodreads Choice Award Nominee for Food & Cookbooks (2013)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Nonfiction",
+            "Science",
+            "Food and Drink",
+            "Food",
+            "History",
+            "Cookbooks",
+            "Gardening",
+            "Cooking",
+            "Environment",
+            "Nature",
+            "Plants"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
         "bookTitle": "Smuggler's Cove: Exotic Cocktails, Rum, and the Cult of Tiki",
         "bookAuthor": "Cate, Martin",
         "bookURL": "https://goodreads.com//book/show/27208950-smuggler-s-cove",
@@ -9,7 +59,8 @@
         "dateRead": "2020-12-14T23:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2016,
-        "rating": 5
+        "rating": 5,
+        "category": "Nonfiction"
       },
       "metadata": [
         {
@@ -57,7 +108,8 @@
         "dateRead": "2020-12-04T23:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2018,
-        "rating": 4
+        "rating": 4,
+        "category": "Nonfiction"
       },
       "metadata": [
         {
@@ -74,14 +126,12 @@
             "Idaho Mountains",
             "Idaho",
             "Arizona",
-            "…more",
             "Rome",
             "Paris",
             "Palmyra, New York",
             "Boston, Massachusetts",
             "Harvard University, Cambridge, Massachusetts",
-            "Cambridge, England",
-            "…less"
+            "Cambridge, England"
           ]
         },
         {
@@ -108,8 +158,8 @@
             "Audiobook",
             "Biography Memoir",
             "Book Club",
-            "Adult",
             "Education",
+            "Adult",
             "Religion"
           ]
         }
@@ -124,7 +174,8 @@
         "dateRead": "2020-11-25T23:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2019,
-        "rating": 3
+        "rating": 3,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -169,7 +220,8 @@
         "dateRead": "2021-01-01T23:00:00.000Z",
         "yearRead": 2021,
         "datePub": 2016,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -243,7 +295,8 @@
         "dateRead": "2020-11-13T23:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2010,
-        "rating": 3
+        "rating": 3,
+        "category": "Nonfiction"
       },
       "metadata": [
         {
@@ -297,7 +350,8 @@
         "dateRead": "2020-11-09T23:00:00.000Z",
         "yearRead": 2020,
         "datePub": 1989,
-        "rating": 5
+        "rating": 5,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -338,8 +392,8 @@
             "Mystery",
             "Crime",
             "Literature",
-            "New York",
             "Literary Fiction",
+            "New York",
             "American",
             "Novels",
             "Classics"
@@ -356,7 +410,8 @@
         "dateRead": "2020-11-08T23:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2007,
-        "rating": 3
+        "rating": 3,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -418,7 +473,8 @@
         "dateRead": "2020-10-27T23:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2018,
-        "rating": 3
+        "rating": 3,
+        "category": "Nonfiction"
       },
       "metadata": [
         {
@@ -448,7 +504,8 @@
         "dateRead": "2020-10-23T23:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2009,
-        "rating": 3
+        "rating": 3,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -497,7 +554,8 @@
         "dateRead": "2020-10-18T23:00:00.000Z",
         "yearRead": 2020,
         "datePub": 1985,
-        "rating": 3
+        "rating": 3,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -548,7 +606,8 @@
         "dateRead": "2020-10-16T23:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2015,
-        "rating": 5
+        "rating": 5,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -594,7 +653,8 @@
         "dateRead": "2020-11-15T23:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2018,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -657,7 +717,8 @@
         "dateRead": "2020-10-06T23:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2011,
-        "rating": 2
+        "rating": 2,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -726,7 +787,8 @@
         "dateRead": "2020-10-02T23:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2018,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -775,7 +837,8 @@
         "dateRead": "2020-09-26T23:00:00.000Z",
         "yearRead": 2020,
         "datePub": 1995,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -812,10 +875,10 @@
             "Historical Fiction",
             "Gothic",
             "Literary Fiction",
+            "Adult",
             "Romance",
             "Novels",
             "Mystery",
-            "Adult",
             "Adult Fiction"
           ]
         }
@@ -830,7 +893,8 @@
         "dateRead": "2020-11-23T23:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2016,
-        "rating": 5
+        "rating": 5,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -879,7 +943,8 @@
         "dateRead": "2020-09-16T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2019,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -908,9 +973,9 @@
             "Contemporary",
             "Spain",
             "Novels",
-            "Audiobook",
             "Mystery",
             "Crime",
+            "Audiobook",
             "Literature"
           ]
         }
@@ -925,7 +990,8 @@
         "dateRead": "2020-09-21T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2015,
-        "rating": 4
+        "rating": 4,
+        "category": "Nonfiction"
       },
       "metadata": [
         {
@@ -968,7 +1034,8 @@
         "dateRead": "2020-08-27T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 1998,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -1035,7 +1102,8 @@
         "dateRead": "2020-08-28T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 1996,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -1108,7 +1176,8 @@
         "dateRead": "2020-09-05T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 1997,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -1169,7 +1238,8 @@
         "dateRead": "2020-10-11T23:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2017,
-        "rating": 4
+        "rating": 4,
+        "category": "Nonfiction"
       },
       "metadata": [
         {
@@ -1216,7 +1286,8 @@
         "dateRead": "2020-08-14T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2012,
-        "rating": 4
+        "rating": 4,
+        "category": "Nonfiction"
       },
       "metadata": [
         {
@@ -1242,8 +1313,8 @@
             "Leadership",
             "Parenting",
             "Business",
-            "Spirituality",
-            "Relationships"
+            "Relationships",
+            "Spirituality"
           ]
         }
       ]
@@ -1257,7 +1328,8 @@
         "dateRead": "2020-08-16T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2019,
-        "rating": 5
+        "rating": 5,
+        "category": "Unknown"
       },
       "metadata": [
         {
@@ -1282,7 +1354,8 @@
         "dateRead": "2020-08-08T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 1988,
-        "rating": 3
+        "rating": 3,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -1345,7 +1418,8 @@
         "dateRead": "2020-09-06T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2006,
-        "rating": 5
+        "rating": 5,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -1402,7 +1476,8 @@
         "dateRead": "2020-09-26T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 1958,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -1448,10 +1523,10 @@
             "School",
             "Literature",
             "Novels",
-            "African Literature",
-            "Read For School",
             "Western Africa",
-            "Nigeria"
+            "Nigeria",
+            "African Literature",
+            "Read For School"
           ]
         }
       ]
@@ -1465,7 +1540,8 @@
         "dateRead": "2020-06-24T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2015,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -1515,7 +1591,8 @@
         "dateRead": "2020-06-08T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2019,
-        "rating": 5
+        "rating": 5,
+        "category": "Unknown"
       },
       "metadata": [
         {
@@ -1549,7 +1626,8 @@
         "dateRead": "2020-06-24T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2018,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -1611,7 +1689,8 @@
         "dateRead": "2020-06-11T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2019,
-        "rating": 4
+        "rating": 4,
+        "category": "Nonfiction"
       },
       "metadata": [
         {
@@ -1645,7 +1724,8 @@
         "dateRead": "2020-06-04T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2013,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -1677,7 +1757,8 @@
         "dateRead": "2020-06-09T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2018,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -1760,7 +1841,8 @@
         "dateRead": "2020-07-17T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 1953,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -1827,7 +1909,8 @@
         "dateRead": "2020-05-31T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 1859,
-        "rating": 5
+        "rating": 5,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -1862,10 +1945,8 @@
             "Cumberland, England",
             "London, England",
             "Hampshire, England",
-            "…more",
             "England",
-            "United Kingdom",
-            "…less"
+            "United Kingdom"
           ]
         },
         {
@@ -1902,7 +1983,8 @@
         "dateRead": "2020-06-27T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2018,
-        "rating": 4
+        "rating": 4,
+        "category": "Nonfiction"
       },
       "metadata": [
         {
@@ -1936,7 +2018,8 @@
         "dateRead": "2020-04-07T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2017,
-        "rating": 3
+        "rating": 3,
+        "category": "Nonfiction"
       },
       "metadata": [
         {
@@ -1967,12 +2050,11 @@
             "Memoir",
             "Audiobook",
             "Medical",
-            "Science",
             "Biography",
             "Humor",
+            "Biography Memoir",
             "Nurses",
-            "Nursing",
-            "Doctors"
+            "Nursing"
           ]
         }
       ]
@@ -1986,7 +2068,8 @@
         "dateRead": "2020-06-13T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2019,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -2027,7 +2110,8 @@
         "dateRead": "2020-07-07T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2020,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -2056,12 +2140,12 @@
             "Fiction",
             "LGBT",
             "Literary Fiction",
+            "Audiobook",
             "European Literature",
             "Irish Literature",
-            "Audiobook",
+            "Westerns",
             "Cultural",
             "Ireland",
-            "Westerns",
             "Military History",
             "Civil War"
           ]
@@ -2077,7 +2161,8 @@
         "dateRead": "2020-05-09T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2018,
-        "rating": 3
+        "rating": 3,
+        "category": "Nonfiction"
       },
       "metadata": [
         {
@@ -2139,7 +2224,8 @@
         "dateRead": "2020-07-02T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2018,
-        "rating": 5
+        "rating": 5,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -2195,7 +2281,8 @@
         "dateRead": "2020-04-20T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2015,
-        "rating": 5
+        "rating": 5,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -2242,7 +2329,8 @@
         "dateRead": "2020-04-23T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2016,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -2291,7 +2379,8 @@
         "dateRead": "2020-03-15T23:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2016,
-        "rating": 4
+        "rating": 4,
+        "category": "Nonfiction"
       },
       "metadata": [
         {
@@ -2350,7 +2439,8 @@
         "dateRead": "2020-04-08T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2010,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -2409,8 +2499,8 @@
             "Audiobook",
             "Fantasy",
             "Space",
-            "Space Opera",
             "Aliens",
+            "Space Opera",
             "Speculative Fiction"
           ]
         }
@@ -2425,7 +2515,8 @@
         "dateRead": "2020-03-22T23:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2019,
-        "rating": 3
+        "rating": 3,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -2471,7 +2562,8 @@
         "dateRead": "2020-08-07T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2020,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -2515,7 +2607,8 @@
         "dateRead": "2020-05-25T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2020,
-        "rating": 3
+        "rating": 3,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -2565,7 +2658,8 @@
         "dateRead": "2020-07-27T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2020,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -2621,7 +2715,8 @@
         "dateRead": "2020-04-14T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2017,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -2674,7 +2769,8 @@
         "dateRead": "2020-03-03T23:00:00.000Z",
         "yearRead": 2020,
         "datePub": 1994,
-        "rating": 3
+        "rating": 3,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -2728,7 +2824,8 @@
         "dateRead": "2020-08-17T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 1994,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -2784,7 +2881,8 @@
         "dateRead": "2020-02-11T23:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2018,
-        "rating": 5
+        "rating": 5,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -2834,7 +2932,8 @@
         "dateRead": "2020-05-02T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2019,
-        "rating": 3
+        "rating": 3,
+        "category": "Nonfiction"
       },
       "metadata": [
         {
@@ -2870,7 +2969,8 @@
         "dateRead": "2020-02-11T23:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2015,
-        "rating": 5
+        "rating": 5,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -2934,7 +3034,8 @@
         "dateRead": "2020-01-17T23:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2019,
-        "rating": 4
+        "rating": 4,
+        "category": "Nonfiction"
       },
       "metadata": [
         {
@@ -2962,7 +3063,7 @@
             "Essays",
             "Short Stories",
             "Audiobook",
-            "Womens"
+            "Art"
           ]
         }
       ]
@@ -2976,7 +3077,8 @@
         "dateRead": "2020-02-03T23:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2016,
-        "rating": 5
+        "rating": 5,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -3029,7 +3131,8 @@
         "dateRead": "2020-01-03T23:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2019,
-        "rating": 4
+        "rating": 4,
+        "category": "Unknown"
       },
       "metadata": [
         {
@@ -3059,7 +3162,8 @@
         "dateRead": "2020-06-13T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2017,
-        "rating": 5
+        "rating": 5,
+        "category": "Nonfiction"
       },
       "metadata": [
         {
@@ -3106,7 +3210,8 @@
         "dateRead": "2020-02-29T23:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2016,
-        "rating": 4
+        "rating": 4,
+        "category": "Nonfiction"
       },
       "metadata": [
         {
@@ -3127,9 +3232,9 @@
             "Outdoors",
             "Reference",
             "Travel",
+            "Natural History",
             "Biology",
             "Ecology",
-            "Natural History",
             "How To"
           ]
         }
@@ -3144,7 +3249,8 @@
         "dateRead": "2019-12-18T23:00:00.000Z",
         "yearRead": 2019,
         "datePub": 2015,
-        "rating": 4
+        "rating": 4,
+        "category": "Unknown"
       },
       "metadata": [
         {
@@ -3166,7 +3272,8 @@
         "dateRead": "2019-12-20T23:00:00.000Z",
         "yearRead": 2019,
         "datePub": 2007,
-        "rating": 3
+        "rating": 3,
+        "category": "Nonfiction"
       },
       "metadata": [
         {
@@ -3212,7 +3319,8 @@
         "dateRead": "2019-12-30T23:00:00.000Z",
         "yearRead": 2019,
         "datePub": 1974,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -3255,7 +3363,8 @@
         "dateRead": "2019-12-17T23:00:00.000Z",
         "yearRead": 2019,
         "datePub": 2013,
-        "rating": 3
+        "rating": 3,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -3303,7 +3412,8 @@
         "dateRead": "2020-09-18T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2019,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -3354,7 +3464,8 @@
         "dateRead": "2019-11-17T23:00:00.000Z",
         "yearRead": 2019,
         "datePub": 2002,
-        "rating": 4
+        "rating": 4,
+        "category": "Nonfiction"
       },
       "metadata": [
         {
@@ -3395,7 +3506,8 @@
         "dateRead": "2020-01-06T23:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2019,
-        "rating": 5
+        "rating": 5,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -3431,8 +3543,8 @@
             "LGBT",
             "Race",
             "Audiobook",
-            "Novels",
-            "Book Club"
+            "Book Club",
+            "Novels"
           ]
         }
       ]
@@ -3446,7 +3558,8 @@
         "dateRead": "2019-10-09T23:00:00.000Z",
         "yearRead": 2019,
         "datePub": 2019,
-        "rating": 3
+        "rating": 3,
+        "category": "Nonfiction"
       },
       "metadata": [
         {
@@ -3479,7 +3592,8 @@
         "dateRead": "2019-12-26T23:00:00.000Z",
         "yearRead": 2019,
         "datePub": 2019,
-        "rating": 5
+        "rating": 5,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -3543,7 +3657,8 @@
         "dateRead": "2019-12-11T23:00:00.000Z",
         "yearRead": 2019,
         "datePub": 2003,
-        "rating": 4
+        "rating": 4,
+        "category": "Nonfiction"
       },
       "metadata": [
         {
@@ -3577,7 +3692,8 @@
         "bookAuthor": "Yanagihara, Hanya",
         "bookURL": "https://goodreads.com//book/show/22822858-a-little-life",
         "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1446469353l/22822858._SY75_.jpg",
-        "datePub": 2015
+        "datePub": 2015,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -3655,7 +3771,8 @@
         "dateRead": "2019-09-29T23:00:00.000Z",
         "yearRead": 2019,
         "datePub": 2007,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -3714,7 +3831,8 @@
         "dateRead": "2019-12-02T23:00:00.000Z",
         "yearRead": 2019,
         "datePub": 2019,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -3785,7 +3903,8 @@
         "dateRead": "2020-02-02T23:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2019,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -3833,7 +3952,8 @@
         "dateRead": "2019-11-03T23:00:00.000Z",
         "yearRead": 2019,
         "datePub": 1997,
-        "rating": 3
+        "rating": 3,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -3902,7 +4022,8 @@
         "dateRead": "2020-02-25T23:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2002,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -3968,7 +4089,8 @@
         "dateRead": "2020-04-27T00:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2019,
-        "rating": 5
+        "rating": 5,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -4028,7 +4150,8 @@
         "dateRead": "2020-01-12T23:00:00.000Z",
         "yearRead": 2020,
         "datePub": 2019,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -4067,7 +4190,8 @@
         "dateRead": "2019-11-20T23:00:00.000Z",
         "yearRead": 2019,
         "datePub": 2019,
-        "rating": 3
+        "rating": 3,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -4101,7 +4225,8 @@
         "dateRead": "2019-09-12T00:00:00.000Z",
         "yearRead": 2019,
         "datePub": 2016,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -4168,7 +4293,8 @@
         "dateRead": "2019-11-29T23:00:00.000Z",
         "yearRead": 2019,
         "datePub": 2019,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -4211,7 +4337,8 @@
         "dateRead": "2019-09-24T00:00:00.000Z",
         "yearRead": 2019,
         "datePub": 2017,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -4237,8 +4364,8 @@
             "American",
             "Short Story Collection",
             "Science Fiction",
-            "21st Century",
-            "Adult Fiction"
+            "Adult Fiction",
+            "21st Century"
           ]
         }
       ]
@@ -4252,7 +4379,8 @@
         "dateRead": "2019-09-23T00:00:00.000Z",
         "yearRead": 2019,
         "datePub": 2013,
-        "rating": 3
+        "rating": 3,
+        "category": "Unknown"
       },
       "metadata": [
         {
@@ -4278,7 +4406,8 @@
         "dateRead": "2019-07-22T00:00:00.000Z",
         "yearRead": 2019,
         "datePub": 2018,
-        "rating": 2
+        "rating": 2,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -4309,7 +4438,8 @@
         "bookURL": "https://goodreads.com//book/show/826847.The_Midwich_Cuckoos",
         "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1537992350l/826847._SY75_.jpg",
         "datePub": 1957,
-        "rating": 3
+        "rating": 3,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -4337,7 +4467,8 @@
             "British Literature",
             "Speculative Fiction",
             "Novels",
-            "Aliens"
+            "Literature",
+            "20th Century"
           ]
         }
       ]
@@ -4349,7 +4480,8 @@
         "bookURL": "https://goodreads.com//book/show/816.Cryptonomicon",
         "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327931476l/816._SY75_.jpg",
         "datePub": 1999,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -4416,7 +4548,8 @@
         "dateRead": "2019-09-03T00:00:00.000Z",
         "yearRead": 2019,
         "datePub": 2002,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -4461,7 +4594,8 @@
         "dateRead": "2019-07-03T00:00:00.000Z",
         "yearRead": 2019,
         "datePub": 2018,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -4520,7 +4654,8 @@
         "dateRead": "2019-07-01T00:00:00.000Z",
         "yearRead": 2019,
         "datePub": 1874,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -4581,7 +4716,8 @@
         "dateRead": "2019-08-06T00:00:00.000Z",
         "yearRead": 2019,
         "datePub": 2019,
-        "rating": 4
+        "rating": 4,
+        "category": "Fiction"
       },
       "metadata": [
         {
@@ -4626,9 +4762,1662 @@
             "Dystopia",
             "European Literature",
             "British Literature",
-            "Alternate History",
             "Contemporary",
+            "Alternate History",
             "Novels"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "An American Marriage",
+        "bookAuthor": "Jones, Tayari",
+        "bookURL": "https://goodreads.com//book/show/33590210-an-american-marriage",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1491493625l/33590210._SY75_.jpg",
+        "dateRead": "2019-08-20T00:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2018,
+        "rating": 4,
+        "category": "Fiction"
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "An American Marriage"
+        },
+        {
+          "key": "ISBN",
+          "value": "1616201347"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "URL",
+          "values": [
+            "http://www.tayarijones.com/books/an-american-marriage/"
+          ]
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "Atlanta, Georgia",
+            "Louisiana"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "National Book Award Nominee for Fiction (2018)",
+            "Orwell Prize Nominee for Political Fiction for Longlist (2019)",
+            "Audie Award Nominee for Audiobook of the Year (2019)",
+            "Los Angeles Times Book Prize Nominee for Fiction (2018)",
+            "Women's Prize for Fiction (2019)",
+            "Goodreads Choice Award Nominee for Fiction (2018)",
+            "NAACP Image Award Nominee for Fiction (2019)",
+            "Aspen Words Literary Prize (2019)",
+            "Clara Johnson Award for Women’s Literature (2019)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Contemporary",
+            "Audiobook",
+            "Literary Fiction",
+            "Adult Fiction",
+            "Adult",
+            "Cultural",
+            "African American",
+            "Romance",
+            "Book Club",
+            "Race"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "American Pastoral",
+        "bookAuthor": "Roth, Philip",
+        "bookURL": "https://goodreads.com//book/show/11650.American_Pastoral",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1504801263l/11650._SY75_.jpg",
+        "dateRead": "2019-06-21T00:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 1997,
+        "rating": 4,
+        "category": "Fiction"
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "American Pastoral"
+        },
+        {
+          "key": "ISBN",
+          "value": "0099771810"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Series",
+          "values": [
+            "Complete Nathan Zuckerman #6"
+          ]
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "Nathan Zuckerman",
+            "Seymour Levov",
+            "Meredith Levov",
+            "Jerry Levov",
+            "Dawn Dwyer"
+          ]
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "Newark, New Jersey",
+            "New Jersey"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Pulitzer Prize for Fiction (1998)",
+            "Audie Award for Solo Narration - Male (1998)",
+            "Prix du Meilleur Livre Étranger for Roman (2000)",
+            "National Book Critics Circle Award Nominee for Fiction (1997)",
+            "International Dublin Literary Award Nominee (1999)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Classics",
+            "Literature",
+            "Novels",
+            "American",
+            "Literary Fiction",
+            "Historical",
+            "Historical Fiction",
+            "Contemporary",
+            "Americana",
+            "The United States Of America"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Reasons to Stay Alive",
+        "bookAuthor": "Haig, Matt",
+        "bookURL": "https://goodreads.com//book/show/25733573-reasons-to-stay-alive",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1453057036l/25733573._SX50_.jpg",
+        "dateRead": "2019-06-22T00:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2015,
+        "rating": 4,
+        "category": "Nonfiction"
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Reasons To Stay Alive"
+        },
+        {
+          "key": "ISBN",
+          "value": "0143128728"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Waterstones Book of the Year Nominee (2015)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Nonfiction",
+            "Health",
+            "Mental Health",
+            "Psychology",
+            "Autobiography",
+            "Memoir",
+            "Self Help",
+            "Biography",
+            "Audiobook",
+            "Mental Illness"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The Good Lord Bird",
+        "bookAuthor": "McBride, James",
+        "bookURL": "https://goodreads.com//book/show/16171272-the-good-lord-bird",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1385349791l/16171272._SX50_.jpg",
+        "dateRead": "2020-12-31T23:00:00.000Z",
+        "yearRead": 2021,
+        "datePub": 2013,
+        "rating": 3,
+        "category": "Fiction"
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "The Good Lord Bird"
+        },
+        {
+          "key": "ISBN",
+          "value": "1594486344"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "John Brown",
+            "Frederick Douglass"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "National Book Award for Fiction (2013)",
+            "Hurston/Wright Legacy Award Nominee for Fiction (2014)",
+            "Andrew Carnegie Medal Nominee for Fiction (2014)",
+            "The Rooster -- The Morning News Tournament of Books (2014)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Historical",
+            "Historical Fiction",
+            "Fiction",
+            "Cultural",
+            "African American",
+            "Audiobook",
+            "Military History",
+            "Civil War",
+            "Literary Fiction",
+            "Novels",
+            "Adult Fiction",
+            "Literature"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The Friend",
+        "bookAuthor": "Nunez, Sigrid",
+        "bookURL": "https://goodreads.com//book/show/40164365-the-friend",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1544364669l/40164365._SY75_.jpg",
+        "dateRead": "2019-08-01T00:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2018,
+        "rating": 3,
+        "category": "Fiction"
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "The Friend"
+        },
+        {
+          "key": "ISBN",
+          "value": "0735219451"
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "National Book Award for Fiction (2018)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Animals",
+            "Literary Fiction",
+            "Contemporary",
+            "Dogs",
+            "Novels",
+            "Audiobook",
+            "Literature",
+            "Adult Fiction",
+            "Adult"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "How to Be Both",
+        "bookAuthor": "Smith, Ali",
+        "bookURL": "https://goodreads.com//book/show/20439328-how-to-be-both",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405890478l/20439328._SY75_.jpg",
+        "dateRead": "2019-08-08T00:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2014,
+        "rating": 4,
+        "category": "Fiction"
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "How to Be Both"
+        },
+        {
+          "key": "ASIN",
+          "value": "B00IPXLLO8"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Booker Prize Nominee (2014)",
+            "Costa Book Award for Novel (2014)",
+            "Women's Prize for Fiction (2015)",
+            "Specsavers National Book Award Nominee for UK Author of the Year (2014)",
+            "Goldsmiths Prize (2014)",
+            "Saltire Society Literary Award for Literary Book (2014)",
+            "Rathbones Folio Prize Nominee (2015)",
+            "Women's Prize for Fiction (2015)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Historical",
+            "Historical Fiction",
+            "Contemporary",
+            "Art",
+            "Literary Fiction",
+            "LGBT",
+            "Novels",
+            "GLBT",
+            "Queer",
+            "European Literature",
+            "British Literature"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "May We Be Forgiven",
+        "bookAuthor": "Homes, A.M.",
+        "bookURL": "https://goodreads.com//book/show/16061734-may-we-be-forgiven",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349221581l/16061734._SY75_.jpg",
+        "dateRead": "2019-11-04T23:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2012,
+        "rating": 5,
+        "category": "Fiction"
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "May We Be Forgiven"
+        },
+        {
+          "key": "ISBN",
+          "value": "0670025488"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Green Carnation Prize Nominee (2013)",
+            "Women's Prize for Fiction (2013)",
+            "Women's Prize for Fiction (2013)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Contemporary",
+            "Novels",
+            "Literary Fiction",
+            "Literature",
+            "American",
+            "Family",
+            "Adult Fiction",
+            "Mystery",
+            "Crime",
+            "Humor"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "A Girl Is a Half-formed Thing",
+        "bookAuthor": "McBride, Eimear",
+        "bookURL": "https://goodreads.com//book/show/18218630-a-girl-is-a-half-formed-thing",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1374386236l/18218630._SX50_.jpg",
+        "dateRead": "2019-07-28T00:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2013,
+        "rating": 3,
+        "category": "Fiction"
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "A Girl Is a Half-Formed Thing"
+        },
+        {
+          "key": "ISBN",
+          "value": "0957185324"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Dylan Thomas Prize Nominee (2014)",
+            "Desmond Elliott Prize (2014)",
+            "Geoffrey Faber Memorial Prize (2013)",
+            "Women's Prize for Fiction (2014)",
+            "Specsavers National Book Award Nominee for International Author of the Year (2014)",
+            "Goldsmiths Prize (2013)",
+            "Kerry Group Irish Fiction Award (2014)",
+            "Rathbones Folio Prize Nominee (2014)",
+            "Women's Prize for Fiction (2014)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Contemporary",
+            "Cultural",
+            "Ireland",
+            "Literary Fiction",
+            "European Literature",
+            "Irish Literature",
+            "Novels",
+            "Feminism",
+            "Adult Fiction",
+            "Audiobook",
+            "Womens"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The History of Epsom",
+        "bookAuthor": "Bush, Graham",
+        "bookURL": "https://goodreads.com//book/show/45898413-the-history-of-epsom",
+        "bookCover": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
+        "dateRead": "2019-07-01T00:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2006,
+        "rating": 5,
+        "category": "Unknown"
+      },
+      "metadata": [
+        {
+          "key": "ISBN",
+          "value": "0473111020"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "\nOther Editions\n",
+          "values": [
+            "All Editions",
+            "Add a New Edition",
+            "Combine"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": []
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Netherland",
+        "bookAuthor": "O'Neill, Joseph",
+        "bookURL": "https://goodreads.com//book/show/2615008-netherland",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344205853l/2615008._SY75_.jpg",
+        "dateRead": "2019-05-22T00:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2008,
+        "rating": 4,
+        "category": "Fiction"
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Netherland"
+        },
+        {
+          "key": "ISBN",
+          "value": "0307377040"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "Hans van den Broek",
+            "Chuck Ramkissoon"
+          ]
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "New York City, New York",
+            "Chelsea, Manhattan, New York City, New York"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Booker Prize Nominee for Longlist (2008)",
+            "Warwick Prize for Writing Nominee for Longlist (2009)",
+            "PEN/Faulkner Award for Fiction (2009)",
+            "Kerry Group Irish Fiction Award (2009)",
+            "International Dublin Literary Award Nominee for Shortlist (2010)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "New York",
+            "Novels",
+            "Literary Fiction",
+            "Contemporary",
+            "Literature",
+            "Book Club",
+            "Sports",
+            "Unfinished",
+            "American"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "A Gate at the Stairs",
+        "bookAuthor": "Moore, Lorrie",
+        "bookURL": "https://goodreads.com//book/show/6076387-a-gate-at-the-stairs",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327909646l/6076387._SY75_.jpg",
+        "dateRead": "2019-05-13T00:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2009,
+        "rating": 2,
+        "category": "Fiction"
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "A Gate at the Stairs"
+        },
+        {
+          "key": "ISBN",
+          "value": "0375409289"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "Tassie Keltjin",
+            "Sarah Brink"
+          ]
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "Troy, Ohio"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Orange Prize Nominee for Fiction Shortlist (2010)",
+            "PEN/Faulkner Award for Fiction Nominee (2010)",
+            "Goodreads Choice Award Nominee for Fiction (2009)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Novels",
+            "Contemporary",
+            "Literary Fiction",
+            "Audiobook",
+            "Young Adult",
+            "Coming Of Age",
+            "Parenting",
+            "Adoption",
+            "Adult",
+            "Adult Fiction",
+            "Book Club"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Exit West",
+        "bookAuthor": "Hamid, Mohsin",
+        "bookURL": "https://goodreads.com//book/show/30688435-exit-west",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1477324680l/30688435._SY75_.jpg",
+        "dateRead": "2019-05-06T00:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2017,
+        "rating": 3,
+        "category": "Fiction"
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Exit West"
+        },
+        {
+          "key": "ISBN",
+          "value": "0735212171"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "San Diego, California",
+            "La Jolla, San Diego, California",
+            "Marrakesh",
+            "Mykonos, Cyclades"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Booker Prize Nominee (2017)",
+            "Los Angeles Times Book Prize for Fiction (2017)",
+            "Dayton Literary Peace Prize Nominee for Fiction (2018)",
+            "National Book Critics Circle Award Nominee for Fiction (2017)",
+            "Andrew Carnegie Medal Nominee for Fiction (2018)",
+            "Kirkus Prize Nominee for Fiction (2017)",
+            "Goodreads Choice Award Nominee for Fiction (2017)",
+            "Brooklyn Public Library Literary Prize Nominee for Fiction (2017)",
+            "International Dublin Literary Award Nominee for Shortlist (2019)",
+            "Aspen Words Literary Prize (2018)",
+            "Rathbones Folio Prize Nominee (2018)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Magical Realism",
+            "Fantasy",
+            "Contemporary",
+            "Literary Fiction",
+            "Audiobook",
+            "Romance",
+            "Adult",
+            "War",
+            "Novels"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Exhalation",
+        "bookAuthor": "Chiang, Ted",
+        "bookURL": "https://goodreads.com//book/show/41709682-exhalation",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1536061860l/41709682._SX50_.jpg",
+        "dateRead": "2019-07-18T00:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2019,
+        "rating": 5,
+        "category": "Fiction"
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Exhalation"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "URL",
+          "values": [
+            "https://www.penguinrandomhouse.com/books/538034/exhalation-by-ted-chiang/"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Hugo Award Nominee for Best Novelette for \"Omphalos\" (2020)",
+            "Nebula Award Nominee for Best Novella for \"Anxiety Is the Dizziness of Freedom\" (2019)",
+            "Locus Award for Best Collection and Best Novelette for \"Omphalos\" and Nominee for Best Novella for \"Anxiety Is the Dizziness of Freedom\" (2020)",
+            "Los Angeles Times Book Prize Nominee for Science Fiction, Fantasy & Speculative Fiction (Ray Bradbury Prize) (2020)",
+            "Goodreads Choice Award Nominee for Science Fiction (2019)",
+            "IGNYTE Award Nominee for Best Novella Nomination for \"Omphalos\" (2020)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Short Stories",
+            "Science Fiction",
+            "Fiction",
+            "Fantasy",
+            "Science Fiction Fantasy",
+            "Speculative Fiction",
+            "Audiobook",
+            "Anthologies",
+            "Time Travel",
+            "Philosophy"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The Death of the Heart",
+        "bookAuthor": "Bowen, Elizabeth",
+        "bookURL": "https://goodreads.com//book/show/91494.The_Death_of_the_Heart",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1497190244l/91494._SY75_.jpg",
+        "dateRead": "2019-08-24T00:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 1938,
+        "rating": 4,
+        "category": "Fiction"
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "The Death of the Heart"
+        },
+        {
+          "key": "ISBN",
+          "value": "0385720173"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "Eddie",
+            "Portia Quayne",
+            "Thomas Quayne",
+            "Anna Quayne",
+            "Matchett",
+            "St. Quentin Miller",
+            "Daphne Heccomb",
+            "Dickie Heccomb",
+            "Mrs. Heccomb"
+          ]
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "London, England"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Classics",
+            "Romance",
+            "Literature",
+            "20th Century",
+            "Novels",
+            "European Literature",
+            "British Literature",
+            "Literary Fiction",
+            "Irish Literature",
+            "Historical",
+            "Historical Fiction"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Home Fire",
+        "bookAuthor": "Shamsie, Kamila",
+        "bookURL": "https://goodreads.com//book/show/33621427-home-fire",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587378360l/33621427._SY75_.jpg",
+        "dateRead": "2019-07-16T00:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2017,
+        "rating": 4,
+        "category": "Fiction"
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Home Fire"
+        },
+        {
+          "key": "ISBN",
+          "value": "0735217688"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Booker Prize Nominee for Longlist (2017)",
+            "Costa Book Award Nominee for Novel (2017)",
+            "Australian Book Industry Award (ABIA) Nominee for International Book (2018)",
+            "Women's Prize for Fiction (2018)",
+            "Goodreads Choice Award Nominee for Fiction (2017)",
+            "Europese Literatuurprijs Nominee (2019)",
+            "International Dublin Literary Award Nominee for Shortlist (2019)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Contemporary",
+            "Literary Fiction",
+            "Cultural",
+            "Pakistan",
+            "Audiobook",
+            "Book Club",
+            "Retellings",
+            "Novels",
+            "Adult Fiction",
+            "European Literature",
+            "British Literature"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The Secret Scripture",
+        "bookAuthor": "Barry, Sebastian",
+        "bookURL": "https://goodreads.com//book/show/3419808-the-secret-scripture",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1325714117l/3419808._SY75_.jpg",
+        "dateRead": "2019-04-28T00:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2008,
+        "rating": 4,
+        "category": "Fiction"
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "The Secret Scripture"
+        },
+        {
+          "key": "ISBN",
+          "value": "0571215289"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Series",
+          "values": [
+            "McNulty Family"
+          ]
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "Roseanne McNulty",
+            "Dr Grene"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Booker Prize Nominee (2008)",
+            "James Tait Black Memorial Prize for Fiction (2008)",
+            "Costa Book Award for Novel (2008)",
+            "Los Angeles Times Book Prize Nominee for Fiction (2008)",
+            "Bord Gáis Energy Irish Book Award for Hughes & Hughes Irish Novel of the Year (2009)",
+            "Costa Book of the Year (2008)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Historical",
+            "Historical Fiction",
+            "Cultural",
+            "Ireland",
+            "European Literature",
+            "Irish Literature",
+            "Literary Fiction",
+            "Mystery",
+            "Audiobook",
+            "Literature",
+            "Book Club"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Faces in the Crowd",
+        "bookAuthor": "Luiselli, Valeria",
+        "bookURL": "https://goodreads.com//book/show/20662248-faces-in-the-crowd",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391196407l/20662248._SY75_.jpg",
+        "dateRead": "2019-04-16T00:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2011,
+        "rating": 2,
+        "category": "Fiction"
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Los ingrávidos"
+        },
+        {
+          "key": "ISBN",
+          "value": "1847085075"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "URL",
+          "values": [
+            "http://grantabooks.com/Faces-in-the-Crowd-2"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Internationaler Literaturpreis – Haus der Kulturen der Welt Nominee (2013)",
+            "BTBA Best Translated Book Award Nominee for Fiction Longlist (2015)",
+            "Los Angeles Times Book Prize for Art Seidenbaum Award for First Fiction (2014)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Contemporary",
+            "Cultural",
+            "Latin American",
+            "Novels",
+            "European Literature",
+            "Spanish Literature",
+            "Literary Fiction",
+            "Literature",
+            "Womens",
+            "21st Century",
+            "Latin American Literature"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Everything Under",
+        "bookAuthor": "Johnson, Daisy",
+        "bookURL": "https://goodreads.com//book/show/36396289-everything-under",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1522082835l/36396289._SY75_.jpg",
+        "dateRead": "2019-06-06T00:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2018,
+        "rating": 4,
+        "category": "Fiction"
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Everything Under"
+        },
+        {
+          "key": "ISBN",
+          "value": "191070234X"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "URL",
+          "values": [
+            "https://www.penguin.co.uk/books/1110035/everything-under/9781910702345/"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Booker Prize Nominee (2018)",
+            "Shirley Jackson Award Nominee for Novel (2018)",
+            "Desmond Elliott Prize Nominee for Longlist (2019)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Magical Realism",
+            "Literary Fiction",
+            "Contemporary",
+            "Fantasy",
+            "Retellings",
+            "Novels",
+            "LGBT",
+            "European Literature",
+            "British Literature",
+            "Literature"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The Girls of Atomic City: The Untold Story of the Women Who Helped Win World War II",
+        "bookAuthor": "Kiernan, Denise",
+        "bookURL": "https://goodreads.com//book/show/15801668-the-girls-of-atomic-city",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1352912866l/15801668._SX50_.jpg",
+        "dateRead": "2019-06-19T00:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2013,
+        "rating": 4,
+        "category": "Nonfiction"
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "The Girls of Atomic City: The Untold Story of the Women Who Helped Win World War II"
+        },
+        {
+          "key": "ISBN",
+          "value": "1451617526"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "Tennessee"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "APSA Woodrow Wilson Foundation Award (2014)",
+            "Goodreads Choice Award Nominee for History & Biography (2013)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Nonfiction",
+            "History",
+            "War",
+            "World War II",
+            "Science",
+            "Historical",
+            "North American Hi...",
+            "American History",
+            "Biography",
+            "Womens",
+            "Audiobook"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Sapiens: A Brief History of Humankind",
+        "bookAuthor": "Harari, Yuval Noah",
+        "bookURL": "https://goodreads.com//book/show/23692271-sapiens",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595674533l/23692271._SY75_.jpg",
+        "dateRead": "2019-04-08T00:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2011,
+        "rating": 4,
+        "category": "Nonfiction"
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "קיצור תולדות האנושות‎, [Ḳitsur toldot ha-enoshut]"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Royal Society of Biology General Book Prize Nominee (2015)",
+            "J. A. Hollon palkinto (2017)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Nonfiction",
+            "History",
+            "Science",
+            "Philosophy",
+            "Anthropology",
+            "Audiobook",
+            "Sociology",
+            "Psychology",
+            "Historical",
+            "Biology",
+            "Evolution"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "My Name Is Lucy Barton",
+        "bookAuthor": "Strout, Elizabeth",
+        "bookURL": "https://goodreads.com//book/show/25893709-my-name-is-lucy-barton",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1450653428l/25893709._SX50_.jpg",
+        "dateRead": "2019-03-28T23:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2016,
+        "rating": 3,
+        "category": "Fiction"
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "My Name is Lucy Barton"
+        },
+        {
+          "key": "ISBN",
+          "value": "1400067693"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Series",
+          "values": [
+            "Amgash #1"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Booker Prize Nominee for Longlist (2016)",
+            "NAIBA Book of the Year for Fiction (2016)",
+            "Women's Prize for Fiction Nominee for Longlist (2016)",
+            "Andrew Carnegie Medal Nominee for Fiction (2017)",
+            "Goodreads Choice Award Nominee for Fiction (2016)",
+            "International Dublin Literary Award Nominee for Shortlist (2018)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Literary Fiction",
+            "Contemporary",
+            "Audiobook",
+            "Adult Fiction",
+            "Family",
+            "Novels",
+            "Adult",
+            "Book Club",
+            "Literature",
+            "American"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "No Country for Old Men",
+        "bookAuthor": "McCarthy, Cormac",
+        "bookURL": "https://goodreads.com//book/show/12497.No_Country_for_Old_Men",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1443231179l/12497._SY75_.jpg",
+        "dateRead": "2019-07-26T00:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2005,
+        "rating": 4,
+        "category": "Fiction"
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "No Country for Old Men"
+        },
+        {
+          "key": "ISBN",
+          "value": "0375706674"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "Ed Tom Bell",
+            "Llewelyn Moss",
+            "Anton Chigurh",
+            "Carla Jean Moss",
+            "Dead Dawg",
+            "Carson Wells",
+            "Deputy Wendell",
+            "Loretta Bell"
+          ]
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "United States of America",
+            "Terrell County, Texas"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Hammett Prize Nominee (2005)",
+            "Audie Award for Audiobook Adaptation (2011)",
+            "Exclusive Books Boeke Prize Nominee (2007)",
+            "Falcon Award (2008)",
+            "International Dublin Literary Award Nominee for Shortlist (2007)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Thriller",
+            "Mystery",
+            "Crime",
+            "Westerns",
+            "Literature",
+            "Novels",
+            "Classics",
+            "Contemporary",
+            "American"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The Next Big Thing",
+        "bookAuthor": "Brookner, Anita",
+        "bookURL": "https://goodreads.com//book/show/84520.The_Next_Big_Thing",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1171055506l/84520._SY75_.jpg",
+        "dateRead": "2019-03-24T23:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2002,
+        "rating": 4,
+        "category": "Fiction"
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "The Next Big Thing"
+        },
+        {
+          "key": "ISBN",
+          "value": "0141009926"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Booker Prize Nominee for Longlist (2002)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "European Literature",
+            "British Literature",
+            "Literary Fiction",
+            "Contemporary",
+            "Classics",
+            "Literature"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Winners Take All: The Elite Charade of Changing the World",
+        "bookAuthor": "Giridharadas, Anand",
+        "bookURL": "https://goodreads.com//book/show/37506348-winners-take-all",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1528750369l/37506348._SY75_.jpg",
+        "dateRead": "2019-05-05T00:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2018,
+        "rating": 4,
+        "category": "Nonfiction"
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Winners Take All"
+        },
+        {
+          "key": "ISBN",
+          "value": "0451493249"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Nonfiction",
+            "Politics",
+            "Economics",
+            "Business",
+            "Sociology",
+            "Social Movements",
+            "Social Justice",
+            "Audiobook",
+            "History",
+            "Culture",
+            "Society",
+            "Cultural"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Unsheltered",
+        "bookAuthor": "Kingsolver, Barbara",
+        "bookURL": "https://goodreads.com//book/show/37959904-unsheltered",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1539624556l/37959904._SX50_.jpg",
+        "dateRead": "2019-09-10T00:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2018,
+        "rating": 4,
+        "category": "Fiction"
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Unsheltered"
+        },
+        {
+          "key": "ISBN",
+          "value": "0062865501"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Nautilus Book Award for Fiction: Large Publisher (Gold) (2019)",
+            "Goodreads Choice Award Nominee for Historical Fiction (2018)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Historical",
+            "Historical Fiction",
+            "Literary Fiction",
+            "Audiobook",
+            "Contemporary",
+            "Adult Fiction",
+            "Novels",
+            "Adult",
+            "Family"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "All the Pretty Horses",
+        "bookAuthor": "McCarthy, Cormac",
+        "bookURL": "https://goodreads.com//book/show/469571.All_the_Pretty_Horses",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1538659953l/469571._SY75_.jpg",
+        "dateRead": "2019-04-28T00:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 1992,
+        "rating": 4,
+        "category": "Fiction"
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "All the Pretty Horses"
+        },
+        {
+          "key": "ISBN",
+          "value": "0679744398"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Series",
+          "values": [
+            "The Border Trilogy #1"
+          ]
+        },
+        {
+          "key": "Characters",
+          "values": [
+            "John Grady Cole",
+            "Rawlins",
+            "Blevins",
+            "Alejandra"
+          ]
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "Texas",
+            "Mexico"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "National Book Award for Fiction (1992)",
+            "National Book Critics Circle Award for Fiction (1992)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Fiction",
+            "Westerns",
+            "Historical",
+            "Historical Fiction",
+            "Classics",
+            "Literature",
+            "Novels",
+            "Literary Fiction",
+            "American",
+            "Contemporary",
+            "Adventure"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The Night Watch",
+        "bookAuthor": "Waters, Sarah",
+        "bookURL": "https://goodreads.com//book/show/25584847-the-night-watch",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432343095l/25584847._SY75_.jpg",
+        "dateRead": "2019-03-01T23:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 2006,
+        "rating": 3,
+        "category": "Fiction"
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "The Night Watch"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Setting",
+          "values": [
+            "United Kingdom"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Booker Prize Nominee (2006)",
+            "Orange Prize Nominee for Fiction Shortlist (2006)",
+            "James Tait Black Memorial Prize Nominee for Fiction (2006)",
+            "Golden Crown Literary Award for Lesbian Dramatic/General Fiction (2007)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Historical",
+            "Historical Fiction",
+            "Fiction",
+            "LGBT",
+            "GLBT",
+            "Queer",
+            "War",
+            "World War II",
+            "Lesbian",
+            "European Literature",
+            "British Literature",
+            "Novels"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "Children of Time",
+        "bookAuthor": "Tchaikovsky, Adrian",
+        "bookURL": "https://goodreads.com//book/show/25499718-children-of-time",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431014197l/25499718._SY75_.jpg",
+        "dateRead": "2020-01-11T23:00:00.000Z",
+        "yearRead": 2020,
+        "datePub": 2015,
+        "rating": 4,
+        "category": "Fiction"
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "Children of Time"
+        },
+        {
+          "key": "ISBN",
+          "value": "1447273281"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Series",
+          "values": [
+            "Children of Time #1"
+          ]
+        },
+        {
+          "key": "Literary Awards",
+          "values": [
+            "Arthur C. Clarke Award (2016)",
+            "Grand Prix de l'Imaginaire Nominee for Roman étranger (2019)"
+          ]
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Science Fiction",
+            "Fiction",
+            "Space",
+            "Space Opera",
+            "Audiobook",
+            "Fantasy",
+            "Science Fiction Fantasy",
+            "Adult",
+            "Apocalyptic",
+            "Post Apocalyptic",
+            "Dystopia"
+          ]
+        }
+      ]
+    },
+    {
+      "book": {
+        "bookTitle": "The Mother Tongue: English and How It Got That Way",
+        "bookAuthor": "Bryson, Bill",
+        "bookURL": "https://goodreads.com//book/show/29.The_Mother_Tongue",
+        "bookCover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388209925l/29._SY75_.jpg",
+        "dateRead": "2019-02-21T23:00:00.000Z",
+        "yearRead": 2019,
+        "datePub": 1990,
+        "rating": 4,
+        "category": "Nonfiction"
+      },
+      "metadata": [
+        {
+          "key": "Original Title",
+          "value": "The Mother Tongue: English and How It Got That Way"
+        },
+        {
+          "key": "ISBN",
+          "value": "0380715430"
+        },
+        {
+          "key": "Edition Language",
+          "value": "English"
+        },
+        {
+          "key": "Genres",
+          "values": [
+            "Nonfiction",
+            "History",
+            "Humanities",
+            "Language",
+            "Linguistics",
+            "Humor",
+            "Writing",
+            "Audiobook",
+            "Travel",
+            "Reference",
+            "Science"
           ]
         }
       ]

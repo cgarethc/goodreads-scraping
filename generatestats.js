@@ -60,6 +60,7 @@ db.settings({ ignoreUndefinedProperties: true });
           }
           else {
             console.log('WARN Not shelved as fiction or non-fiction', book.bookURL);
+            book.category = 'Unknown'
           }
         }
 
@@ -77,6 +78,8 @@ db.settings({ ignoreUndefinedProperties: true });
         break;
       }
     }
+
+    console.log(JSON.stringify(allBooks));
 
     if (cli.database) {
       let docRef = db.collection('userstats').doc(`${cli.user}-books`);
