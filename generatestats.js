@@ -82,7 +82,7 @@ db.settings({ ignoreUndefinedProperties: true });
       }
     }
 
-    console.log(JSON.stringify(allBooks));
+    // console.log(JSON.stringify(allBooks));
 
     if (cli.database) {
       let docRef = db.collection('userstats').doc(`${cli.user}-books`);
@@ -105,10 +105,11 @@ db.settings({ ignoreUndefinedProperties: true });
     const yearRead = await crunchstats.countByBookProperty(allBooks, 'yearRead');
     const yearPublished = await crunchstats.countByBookProperty(allBooks, 'datePub');
     const category = await crunchstats.countByCategoryAndYear(allBooks);
+    const author = await crunchstats.countByAuthorAndYear(allBooks);
 
     const userStats = {
       id: cli.user,
-      summary: { yearRead, yearPublished, category },
+      summary: { yearRead, yearPublished, category, author },
       genre
     }
 

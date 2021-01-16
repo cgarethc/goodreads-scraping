@@ -106,10 +106,12 @@ async function parseWelly() {
   var fs = require('fs');
   var data = JSON.parse(fs.readFileSync('test/samplebooks.json', 'utf8'));
 
-  const result = _(data.books).filter(book => book.book.yearRead).groupBy('book.yearRead').value();
+  const result = _(data.books).filter(book => book.book.bookAuthor).groupBy('book.bookAuthor').value();
   const summary = {};
-  _.forOwn(result, (books, year) => {
-    summary[year] = _.countBy(books, 'book.category');
+  _.forOwn(result, (books, author) => {
+    summary[author] = _(books).countBy('book.yearRead').value();
+    summary[author].total = books.length;
   });
+  const sorted = _.sortBy(summary, 'total');
   console.log(JSON.stringify(summary));
 })();
