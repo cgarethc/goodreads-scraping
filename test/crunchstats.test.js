@@ -13,20 +13,24 @@ test('genre', async () => {
   const result = await crunchstats.crunchGenre(samplebooks);
   expect(result['Dystopia'].count).toBe(5);
 
-  expect(result['Dystopia'].byPubYear[2019].count).toBe(2);
-  expect(result['Dystopia'].byPubYear[2019].urls).toEqual(["https://goodreads.com//book/show/42975172-the-testaments", "https://goodreads.com//book/show/42086795-machines-like-me"]);
+  expect(result['Dystopia'].byReadYear[2019].count).toBe(2);
+  expect(result['Dystopia'].byReadYear[2019].urls).toEqual(['https://goodreads.com//book/show/42975172-the-testaments', 'https://goodreads.com//book/show/42086795-machines-like-me']);
 
 
-  expect(result['Dystopia'].byPubYear[2018].count).toBe(1);
-  expect(result['Dystopia'].byPubYear[2018].urls).toEqual(["https://goodreads.com//book/show/36348525-severance"]);
-
-  expect(result['Dystopia'].byPubYear[2011].count).toBe(1);
-  expect(result['Dystopia'].byPubYear[2011].urls).toEqual(["https://goodreads.com//book/show/9297774-eve"]);
-
-  expect(result['Dystopia'].byPubYear[2015].count).toBe(1);
-  expect(result['Dystopia'].byPubYear[2015].urls).toEqual(["https://goodreads.com//book/show/25499718-children-of-time"]);
+  expect(result['Dystopia'].byReadYear[2020].count).toBe(3);
+  expect(result['Dystopia'].byReadYear[2020].urls).toEqual(['https://goodreads.com//book/show/36348525-severance', 'https://goodreads.com//book/show/9297774-eve', 'https://goodreads.com//book/show/25499718-children-of-time']);
 
 });
+
+test('setting', async () => {
+  const result = await crunchstats.crunchSetting(samplebooks);
+  expect(result['England'].count).toBe(2);
+  expect(result['England'].byReadYear[2020].urls).toEqual(
+    ["https://goodreads.com//book/show/169510.The_Debt_to_Pleasure", "https://goodreads.com//book/show/5890.The_Woman_in_White"]
+  );
+
+});
+
 
 test('years', async () => {
   const result = await crunchstats.allYearsRead(samplebooks);
