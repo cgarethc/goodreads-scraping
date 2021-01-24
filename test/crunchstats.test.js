@@ -31,9 +31,8 @@ test('setting', async () => {
 
 });
 
-test('improve setting', async() => {
-  await crunchstats.improveSettings(samplebooks);
-  const result = await crunchstats.crunchSetting(samplebooks);
+test('improve setting', async() => {  
+  const result = await crunchstats.crunchSetting(samplebooks, true);
   expect(result['England'].count).toBe(12);
 });
 

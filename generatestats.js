@@ -1,3 +1,9 @@
+/*
+  Examples: 
+  node generatestats.js -u 4622353 -d -m stats
+
+*/
+
 const cli = require("commander");
 const fs = require('fs');
 const admin = require('firebase-admin');
@@ -102,6 +108,7 @@ db.settings({ ignoreUndefinedProperties: true });
     console.log('Running stats');
 
     const genre = await crunchstats.crunchGenre(allBooks);
+    const setting = await crunchstats.crunchSetting(allBooks, true);
     const yearRead = await crunchstats.countByBookProperty(allBooks, 'yearRead');
     const yearPublished = await crunchstats.countByBookProperty(allBooks, 'datePub');
     const category = await crunchstats.countByCategoryAndYear(allBooks);
@@ -110,7 +117,8 @@ db.settings({ ignoreUndefinedProperties: true });
     const userStats = {
       id: cli.user,
       summary: { yearRead, yearPublished, category, author },
-      genre
+      genre,
+      setting
     }
 
     if (cli.file) {
