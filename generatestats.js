@@ -126,7 +126,7 @@ db.settings({ ignoreUndefinedProperties: true });
     }
 
     if (cli.database) {
-      let docRef = db.collection('userstats').doc(`${cli.user}-stats`);
+      let docRef = db.collection('userstats').doc(`${cli.user}-stats`);      
       await docRef.set(userStats);
     }
   }
