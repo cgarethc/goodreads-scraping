@@ -126,8 +126,18 @@ db.settings({ ignoreUndefinedProperties: true });
     }
 
     if (cli.database) {
-      let docRef = db.collection('userstats').doc(`${cli.user}-stats`);      
-      await docRef.set(userStats);
+      let docRef = db.collection('userstats').doc(`${cli.user}-genre`);      
+      await docRef.set(genre);
+      docRef = db.collection('userstats').doc(`${cli.user}-setting`);      
+      await docRef.set(setting);
+      docRef = db.collection('userstats').doc(`${cli.user}-yearRead`);      
+      await docRef.set(yearRead);
+      docRef = db.collection('userstats').doc(`${cli.user}-yearPublished`);      
+      await docRef.set(yearPublished);
+      docRef = db.collection('userstats').doc(`${cli.user}-category`);      
+      await docRef.set(category);
+      docRef = db.collection('userstats').doc(`${cli.user}-author`);      
+      await docRef.set(author);
     }
   }
 
