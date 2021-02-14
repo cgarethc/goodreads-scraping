@@ -51,6 +51,17 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "Run a generate stats -d",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/generatestats.js",
+            "args": ["-u", "3408361", "-d", "-m", "both"],
+            "outputCapture": "std"
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "Firebase award",
             "skipFiles": [
                 "<node_internals>/**"

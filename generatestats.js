@@ -50,7 +50,7 @@ db.settings({ ignoreUndefinedProperties: true });
 
     let counter = 0;
     for (let book of books) {
-      process.stdout.write(".");
+      process.stdout.write(counter % 10 == 0 ? 'x' : '.');
       const metadata = await goodreadsBook(book.bookURL);
 
       const genres = _.find(metadata, { key: 'Genres' });
