@@ -48,13 +48,14 @@ Create a background scraper that can walk through the library site while the use
 
 ### Management
 
-Replace shell script with a table of list/award parameters and add a reprocessing job that can run serverless somewhere (AWS Lambda+Dynamo or try GCP/Firebase actions).
+Replace shell script with a table of list/award parameters and add a reprocessing job that can run serverless somewhere (Try AWS Batch [https://docs.aws.amazon.com/batch/latest/userguide/jobs.html] with the table in Dynamo).
+
+Add incremental scraping - find some way to check last time the book detail was scraped, and only scrape new additions. Need to store some state for this in Dynamo too.
 
 ### Stats scraping
 
-Parallelise shelf book detail scraping to a sensible degree
 
-Impose basic shelf/genre data model on top to take out audiobook as a genre, amplify fiction vs non-fiction
+Parallelise shelf book detail scraping to a sensible degree
 
 ### Notes
 

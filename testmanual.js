@@ -104,8 +104,7 @@ async function parseWelly() {
 (async () => {
 
   var fs = require('fs');
-  var data = JSON.parse(fs.readFileSync('test/samplebooks.json', 'utf8'));
-
-  
-  console.log(JSON.stringify(summary));
+  const html = fs.readFileSync("examples/profile.htm").toString();
+  const bookElements = $('img.circularIcon', html);
+  console.log(bookElements['0'].attribs['alt']);
 })();

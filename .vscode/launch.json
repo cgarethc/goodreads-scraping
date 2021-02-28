@@ -56,7 +56,7 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}/generatestats.js",
-            "args": ["-u", "3408361", "-d", "-m", "both"],
+            "args": ["-u", "3408361", "-d", "-m", "stats"],
             "outputCapture": "std"
         },
         {
