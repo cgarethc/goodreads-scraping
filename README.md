@@ -1,4 +1,5 @@
 # goodreads-scraping
+
 Scraping tools for goodreads
 
 Lots of examples for populating Firestore in the alltheawards.sh script
@@ -38,22 +39,17 @@ Support a Goodreads profile scrape and:
 - show which books are already read
 - show which books are by authors that user has already read another book by
 
-Support a Goodreads book details scrape and:
-
-- walk through read shelf and compile details of books on it
-
 Create a background scraper that can walk through the library site while the user is viewing the list and:
 
 - Show the availability status at the library (whether actually available or just available to put on hold)
 
 ### Management
 
+Now that scraping shelves doesn't work, support upload of the Goodreads export format.
+
 Replace shell script with a table of list/award parameters and add a reprocessing job that can run serverless somewhere (Try AWS Batch [https://docs.aws.amazon.com/batch/latest/userguide/jobs.html] with the table in Dynamo).
 
-Add incremental scraping - find some way to check last time the book detail was scraped, and only scrape new additions. Need to store some state for this in Dynamo too.
-
 ### Stats scraping
-
 
 Parallelise shelf book detail scraping to a sensible degree
 
