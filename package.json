@@ -4,7 +4,8 @@
   "description": "Scraping tools for goodreads",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node populatefirestore.js -f justonelist.json"
   },
   "repository": {
     "type": "git",

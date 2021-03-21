@@ -40,6 +40,17 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "Just one list",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/populatefirestore.js",
+            "args": ["-i", "justonelist.json"],
+            "outputCapture": "std"
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "Run stats",
             "skipFiles": [
                 "<node_internals>/**"
