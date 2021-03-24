@@ -4,6 +4,7 @@ const library = require("./lib/scrapelibrary").search;
 const goodreadsList = require("./lib/scrapelist").scrape;
 const goodreadsAward = require("./lib/scrapeaward").scrape;
 const goodreadsShelf = require("./lib/scrapeshelf").scrape;
+const parsecsv = require("./lib/parsecsv").parse;
 
 (async () => {
   cli
@@ -13,6 +14,7 @@ const goodreadsShelf = require("./lib/scrapeshelf").scrape;
     .option("-a, --award <goodreads award URL>", "Award URL")
     .option("-u, --user <goodreads user URL>", "User URL")
     .option("-s, --shelf <goodreads user shelf name>", "User shelf name")
+    .option("-c, --csv <path to csv file>", "Goodreads CSV format file")
     .option("-f, --filter <filter for goodreads award type>", "Award filter")
     .option("-p, --pages <maximum number of pages to scrape>", "Max pages")
     .usage("node index.js [-l listurl]|[-a awardurl]")
@@ -24,7 +26,13 @@ const goodreadsShelf = require("./lib/scrapeshelf").scrape;
     titles = await goodreadsAward(cli.award, cli.filter, cli.pages);
   } else if(cli.user && cli.shelf){
     titles = await goodreadsShelf(cli.user, cli.shelf);
-  } 
+  } else if(cli.csv){
+    let filter;
+    if(cli.shelf){
+      filter = {'Exclusive Shelf': cli.shelf}
+    }
+    titles = await parsecsv(cli.csv, filter);
+  }
   else {
     console.error(cli.helpInformation());
     process.exit(2);

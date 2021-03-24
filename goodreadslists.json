@@ -77,19 +77,48 @@
      "name":"Orange Prize for Fiction'",
       "type":"Award"}
 
-"url":"https://www.goodreads.com/award/show/1696-shirley-jackson-award" "filter":"Shirley Jackson Award for Best Novel\ '", "id":"shirley-jackson-novel, "name": "Shirley Jackson Award for Best Novel" "type":"Award"
+{
+  "url":"https://www.goodreads.com/award/show/1696-shirley-jackson-award",
+   "filter":"Shirley Jackson Award for Best Novel\\ ", 
+   "id":"shirley-jackson-novel", 
+   "name": "Shirley Jackson Award for Best Novel" ,
+   "type":"Award"
+  }
 
-"url":"https://www.goodreads.com/award/show/111-whitbread-award", "filter":"Whitbread Award for First Novel'", "id":"whitbread-first-novel "name":"Whitbread Award for First Novel'", "type":"Award"
+{"url":"https://www.goodreads.com/award/show/111-whitbread-award",
+   "filter":"Whitbread Award for First Novel", 
+   "id":"whitbread-first-novel", "name":"Whitbread Award for First Novel", 
+   "type":"Award"}
 
-"url":"https://www.goodreads.com/award/show/13720-women-s-prize-for-fiction", -f "Women's Prize for Fiction\ \(" "id":"womens-prize-fiction "name":"Women's Prize for Fiction" "type":"Award"
+{"url":"https://www.goodreads.com/award/show/13720-women-s-prize-for-fiction",
+  "filter": "Women's Prize for Fiction\\ \\(",
+   "id":"womens-prize-fiction", 
+   "name":"Women's Prize for Fiction",
+    "type":"Award"}
 
-"url":"https://www.goodreads.com/award/show/34922-international-booker-prize", "filter":"Booker Prize\ \(' "id":"international-booker "name":"International Booker Prize Winners" "type":"Award"
+{"url":"https://www.goodreads.com/award/show/34922-international-booker-prize", 
+  "filter":"Booker Prize\\ \\(",
+   "id":"international-booker",
+    "name":"International Booker Prize Winners",
+     "type":"Award"}
 
-"url":"https://www.goodreads.com/award/show/33310-international-dublin-literary-award", "filter":"International Dublin Literary Award\ \(' "id":"international-dublin "name":"International Dublin Literary Award Winners" "type":"Award"
+{"url":"https://www.goodreads.com/award/show/33310-international-dublin-literary-award", 
+  "filter":"International Dublin Literary Award\\ \\(",
+   "id":"international-dublin",
+    "name":"International Dublin Literary Award Winners",
+     "type":"Award"}
 
-"url":"https://www.goodreads.com/award/show/378-pen-faulkner-award-for-fiction", "filter":"Award for Fiction\ \(' "id":"pen-faulkner "name":"PEN/Faulkner Award Winners" "type":"Award"
+{"url":"https://www.goodreads.com/award/show/378-pen-faulkner-award-for-fiction",
+   "filter":"Award for Fiction\\ \\(",
+    "id":"pen-faulkner",
+     "name":"PEN/Faulkner Award Winners",
+      "type":"Award"}
 
-"url":"https://www.goodreads.com/award/show/3812-los-angeles-times-book-prize", "filter":"Los Angeles Times Book Prize for Young Adult Literature' "id":"la-times-ya "name":"Los Angeles Times Book Prize for Young Adult Literature" "type":"Award"
+{"url":"https://www.goodreads.com/award/show/3812-los-angeles-times-book-prize", 
+  "filter":"Los Angeles Times Book Prize for Young Adult Literature",
+   "id":"la-times-ya",
+    "name":"Los Angeles Times Book Prize for Young Adult Literature",
+     "type":"Award"}
 
 "url":"https://www.goodreads.com/award/show/1318-costa-book-award", "filter":"Costa Book Award for First Novel' "id":"costa-first-novel "name":"Costa Book Award for First Novel" "type":"Award"
 
