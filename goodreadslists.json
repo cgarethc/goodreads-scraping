@@ -1,159 +1,234 @@
-{
-  "url":"https://www.goodreads.com/award/show/9-hugo-award", 
-  "filter":"Hugo Award for Best Novel\\ ", 
-  "id":"hugo-novel", 
-  "name":"Hugo Award for Best Novel", 
-  "type":"Award"
-}
-
-{
-  "url":"https://www.goodreads.com/award/show/13-booker-prize", 
-  "filter":"Booker Prize\\ \\(" ,
-  "id":"booker-winners", 
-  "name":"Booker Prize Winners", 
-  "type":"Award"
-}
-
-{
-  "url":"https://www.goodreads.com/award/show/33-national-book-award", 
-  "filter":"National Book Award for Fiction\\ ", 
-  "id":"national-novel", 
-  "name":"National Book Award for Fiction'", 
-  "type":"Award"}
-
-{"url":"https://www.goodreads.com/award/show/23-nebula-award" ,
-  "filter":"Nebula Award for Best Novel\\ ",
-   "id":"nebula-award",
-    "name":"Nebula Award for Best Novel'", "type":"Award"}
-
-{
-  "filter":"Kirkus Prize for Fiction", 
-  "url":"https://www.goodreads.com/award/show/20886-kirkus-prize", 
-  "id":"kirkus-fiction",
-   "name":"Kirkus Prize for Fiction",
-    "type":"Award"
+[
+  {
+    "url": "https://www.goodreads.com/award/show/9-hugo-award",
+    "filter": "Hugo Award for Best Novel\\ ",
+    "id": "hugo-novel",
+    "name": "Hugo Award for Best Novel",
+    "type": "Award"
+  },
+  {
+    "url": "https://www.goodreads.com/award/show/13-booker-prize",
+    "filter": "Booker Prize\\ \\(",
+    "id": "booker-winners",
+    "name": "Booker Prize Winners",
+    "type": "Award"
+  },
+  {
+    "url": "https://www.goodreads.com/award/show/33-national-book-award",
+    "filter": "National Book Award for Fiction\\ ",
+    "id": "national-novel",
+    "name": "National Book Award for Fiction'",
+    "type": "Award"
+  },
+  {
+    "url": "https://www.goodreads.com/award/show/23-nebula-award",
+    "filter": "Nebula Award for Best Novel\\ ",
+    "id": "nebula-award",
+    "name": "Nebula Award for Best Novel'",
+    "type": "Award"
+  },
+  {
+    "filter": "Kirkus Prize for Fiction",
+    "url": "https://www.goodreads.com/award/show/20886-kirkus-prize",
+    "id": "kirkus-fiction",
+    "name": "Kirkus Prize for Fiction",
+    "type": "Award"
+  },
+  {
+    "url": "https://www.goodreads.com/award/show/7-bram-stoker-award",
+    "filter": "Bram Stoker Award for Best Novel",
+    "id": "bram-stoker-novel",
+    "name": "Bram Stoker Award for Best Novel",
+    "type": "Award"
+  },
+  {
+    "url": "https://www.goodreads.com/award/show/5862-pen-open-book-award",
+    "id": "pen-open-book",
+    "filter": "PEN Open Book Award \\(",
+    "name": "PEN Open Book Award",
+    "type": "Award"
+  },
+  {
+    "url": "https://www.goodreads.com/award/show/2129-london-book-festival",
+    "id": "london-book-festival",
+    "name": "London Book Festival",
+    "type": "Award"
+  },
+  {
+    "id": "pulitzer-fiction",
+    "url": "https://www.goodreads.com/award/show/16-pulitzer-prize",
+    "filter": "Pulitzer Prize for Fiction",
+    "name": "Pulitzer Prize for Fiction",
+    "type": "Award"
+  },
+  {
+    "url": "https://www.goodreads.com/award/show/21-newbery-medal",
+    "filter": "Newbery Medal\\ \\(",
+    "id": "newbery-winner",
+    "name": "Newbery Medal",
+    "type": "Award"
+  },
+  {
+    "url": "https://www.goodreads.com/award/show/25900-ockham-new-zealand-book-awards",
+    "filter": "Ockham New Zealand Book Awards for Fiction\\ ",
+    "id": "ockham-fiction",
+    "name": "Ockham New Zealand Book Awards for Fiction",
+    "type": "Award"
+  },
+  {
+    "url": "https://www.goodreads.com/award/show/90-orange-prize",
+    "filter": "Orange Prize for Fiction\\ \\(",
+    "id": "orange-prize",
+    "name": "Orange Prize for Fiction'",
+    "type": "Award"
+  },
+  {
+    "url": "https://www.goodreads.com/award/show/1696-shirley-jackson-award",
+    "filter": "Shirley Jackson Award for Best Novel\\ ",
+    "id": "shirley-jackson-novel",
+    "name": "Shirley Jackson Award for Best Novel",
+    "type": "Award"
+  },
+  {
+    "url": "https://www.goodreads.com/award/show/111-whitbread-award",
+    "filter": "Whitbread Award for First Novel",
+    "id": "whitbread-first-novel",
+    "name": "Whitbread Award for First Novel",
+    "type": "Award"
+  },
+  {
+    "url": "https://www.goodreads.com/award/show/13720-women-s-prize-for-fiction",
+    "filter": "Women's Prize for Fiction\\ \\(",
+    "id": "womens-prize-fiction",
+    "name": "Women's Prize for Fiction",
+    "type": "Award"
+  },
+  {
+    "url": "https://www.goodreads.com/award/show/34922-international-booker-prize",
+    "filter": "Booker Prize\\ \\(",
+    "id": "international-booker",
+    "name": "International Booker Prize Winners",
+    "type": "Award"
+  },
+  {
+    "url": "https://www.goodreads.com/award/show/33310-international-dublin-literary-award",
+    "filter": "International Dublin Literary Award\\ \\(",
+    "id": "international-dublin",
+    "name": "International Dublin Literary Award Winners",
+    "type": "Award"
+  },
+  {
+    "url": "https://www.goodreads.com/award/show/378-pen-faulkner-award-for-fiction",
+    "filter": "Award for Fiction\\ \\(",
+    "id": "pen-faulkner",
+    "name": "PEN/Faulkner Award Winners",
+    "type": "Award"
+  },
+  {
+    "url": "https://www.goodreads.com/award/show/3812-los-angeles-times-book-prize",
+    "filter": "Los Angeles Times Book Prize for Young Adult Literature",
+    "id": "la-times-ya",
+    "name": "Los Angeles Times Book Prize for Young Adult Literature",
+    "type": "Award"
+  },
+  {
+    "url": "https://www.goodreads.com/award/show/1318-costa-book-award",
+    "filter": "Costa Book Award for First Novel",
+    "id": "costa-first-novel",
+    "name": "Costa Book Award for First Novel",
+    "type": "Award"
+  },
+  {
+    "url": "https://www.goodreads.com/award/show/1318-costa-book-award",
+    "filter": "Costa Book Award for Novel",
+    "id": "costa-novel",
+    "name": "Costa Book Award for Novel",
+    "type": "Award"
+  },
+  {
+    "url": "https://www.goodreads.com/award/show/13987-the-center-for-fiction-first-novel-prize",
+    "filter": "First Novel Prize\\ \\(",
+    "id": "center-fiction-winners",
+    "name": "The Center for Fiction First Novel Prize Winners",
+    "type": "Award"
+  },
+  {
+    "url": "https://www.goodreads.com/list/show/6.Best_Books_of_the_20th_Century",
+    "pages": "1",
+    "id": "best-books-20th",
+    "name": "Best books of the 20th century",
+    "type": "Goodreads List"
+  },
+  {
+    "url": "https://www.goodreads.com/list/show/88513.The_Essential_Computer_Engineer_s_Inspiration",
+    "id": "computer-engineer-inspiration",
+    "name": "The Essential Computer Engineer's Inspiration",
+    "type": "Goodreads List (Tech)"
+  },
+  {
+    "url": "https://www.goodreads.com/list/show/4093",
+    "pages": "1",
+    "id": "best-books-2010s",
+    "name": "Best Books of the Decade: 2010s",
+    "type": "Goodreads List"
+  },
+  {
+    "url": "https://www.goodreads.com/list/show/5",
+    "pages": "1",
+    "id": "best-books-2000s",
+    "name": "Best Books of the Decade: 2000s",
+    "type": "Goodreads List"
+  },
+  {
+    "url": "https://www.goodreads.com/list/show/17",
+    "pages": "1",
+    "id": "best-books-1990s",
+    "name": "Best Books of the Decade: 1990s",
+    "type": "Goodreads List"
+  },
+  {
+    "url": "https://www.goodreads.com/list/show/9",
+    "pages": "1",
+    "id": "best-books-1980s",
+    "name": "Best Books of the Decade: 1980s",
+    "type": "Goodreads List"
+  },
+  {
+    "url": "https://www.goodreads.com/list/show/47.Best_Dystopian_and_Post_Apocalyptic_Fiction",
+    "pages": "2",
+    "id": "dystopian",
+    "name": "Best Dystopian and Post-Apocalyptic Fiction",
+    "type": "Goodreads List"
+  },
+  {
+    "url": "https://www.goodreads.com/list/show/113523.100_Books_about_Science_and_Engineering_for_Grown_Ups",
+    "id": "100-science-and-engineering",
+    "name": "100 Books about Science and Engineering for Grown-Ups",
+    "type": "Goodreads List"
+  },
+  {
+    "url": "https://www.goodreads.com/list/show/1170.Best_Business_Books",
+    "pages": "2",
+    "id": "best-business-book",
+    "name": "The Best Business Books",
+    "type": "Goodreads List"
+  },
+  {
+    "url": "https://www.goodreads.com/list/show/141972.New_York_Times_100_Notable_Books_of_2019",
+    "id": "ny-times-notable-2019",
+    "name": "New York Times 100 Notable Books of 2019",
+    "type": "Publisher List"
+  },
+  {
+    "url": "https://www.goodreads.com/list/show/129936",
+    "id": "ny-times-notable-2018",
+    "name": "New York Times 100 Notable Books of 2018",
+    "type": "Publisher List"
+  },
+  {
+    "url": "https://www.goodreads.com/list/show/154828.Books_by_Basecamp",
+    "id": "books-by-basecamp",
+    "name": "Books by Basecamp",
+    "type": "Goodreads List (Tech)"
   }
-
-{"url":"https://www.goodreads.com/award/show/7-bram-stoker-award",
-   "filter":"Bram Stoker Award for Best Novel",
-    "id":"bram-stoker-novel", 
-    "name":"Bram Stoker Award for Best Novel",
-     "type":"Award"
-    }
-
-{"url":"https://www.goodreads.com/award/show/5862-pen-open-book-award", 
-  "id":"pen-open-book",
-   "filter":"PEN Open Book Award \\(",
-    "name":"PEN Open Book Award" ,"type":"Award"}
-
-{
-  "url": "https://www.goodreads.com/award/show/2129-london-book-festival",
-  "id": "london-book-festival",
-  "name": "London Book Festival",
-  "type": "Award"
-}
-
-{"id":"pulitzer-fiction",
-   "url":"https://www.goodreads.com/award/show/16-pulitzer-prize", 
-   "filter":"Pulitzer Prize for Fiction",
-    "name":"Pulitzer Prize for Fiction",
-    "type":"Award"}
-
-{"url":"https://www.goodreads.com/award/show/21-newbery-medal",
-   "filter":"Newbery Medal\\ \\(",
-    "id":"newbery-winner", 
-    "name":"Newbery Medal", 
-    "type":"Award"}
-
-{"url":"https://www.goodreads.com/award/show/25900-ockham-new-zealand-book-awards", 
-  "filter":"Ockham New Zealand Book Awards for Fiction\\ ",
-   "id":"ockham-fiction",
-    "name":"Ockham New Zealand Book Awards for Fiction",
-     "type":"Award"}
-
-{"url":"https://www.goodreads.com/award/show/90-orange-prize",
-   "filter":"Orange Prize for Fiction\\ \\(",
-    "id":"orange-prize",
-     "name":"Orange Prize for Fiction'",
-      "type":"Award"}
-
-{
-  "url":"https://www.goodreads.com/award/show/1696-shirley-jackson-award",
-   "filter":"Shirley Jackson Award for Best Novel\\ ", 
-   "id":"shirley-jackson-novel", 
-   "name": "Shirley Jackson Award for Best Novel" ,
-   "type":"Award"
-  }
-
-{"url":"https://www.goodreads.com/award/show/111-whitbread-award",
-   "filter":"Whitbread Award for First Novel", 
-   "id":"whitbread-first-novel", "name":"Whitbread Award for First Novel", 
-   "type":"Award"}
-
-{"url":"https://www.goodreads.com/award/show/13720-women-s-prize-for-fiction",
-  "filter": "Women's Prize for Fiction\\ \\(",
-   "id":"womens-prize-fiction", 
-   "name":"Women's Prize for Fiction",
-    "type":"Award"}
-
-{"url":"https://www.goodreads.com/award/show/34922-international-booker-prize", 
-  "filter":"Booker Prize\\ \\(",
-   "id":"international-booker",
-    "name":"International Booker Prize Winners",
-     "type":"Award"}
-
-{"url":"https://www.goodreads.com/award/show/33310-international-dublin-literary-award", 
-  "filter":"International Dublin Literary Award\\ \\(",
-   "id":"international-dublin",
-    "name":"International Dublin Literary Award Winners",
-     "type":"Award"}
-
-{"url":"https://www.goodreads.com/award/show/378-pen-faulkner-award-for-fiction",
-   "filter":"Award for Fiction\\ \\(",
-    "id":"pen-faulkner",
-     "name":"PEN/Faulkner Award Winners",
-      "type":"Award"}
-
-{"url":"https://www.goodreads.com/award/show/3812-los-angeles-times-book-prize", 
-  "filter":"Los Angeles Times Book Prize for Young Adult Literature",
-   "id":"la-times-ya",
-    "name":"Los Angeles Times Book Prize for Young Adult Literature",
-     "type":"Award"}
-
-"url":"https://www.goodreads.com/award/show/1318-costa-book-award", "filter":"Costa Book Award for First Novel' "id":"costa-first-novel "name":"Costa Book Award for First Novel" "type":"Award"
-
-"url":"https://www.goodreads.com/award/show/1318-costa-book-award", "filter":"Costa Book Award for Novel' "id":"costa-novel "name":"Costa Book Award for Novel" "type":"Award"
-
-{
-  "url": "https://www.goodreads.com/award/show/13987-the-center-for-fiction-first-novel-prize",
-  "filter":"First Novel Prize\\ \\(",
-  "id": "center-fiction-winners",
-  "name": "The Center for Fiction First Novel Prize Winners",
-  "type": "Award"
-}
-
-
-
-"url":"https://www.goodreads.com/list/show/6.Best_Books_of_the_20th_Century", "pages":"1", "id":"best-books-20th "name":"Best books of the 20th century" "type":"Goodreads List"
-
-"url":"https://www.goodreads.com/list/show/88513.The_Essential_Computer_Engineer_s_Inspiration", "id":"computer-engineer-inspiration "name":"The Essential Computer Engineer's Inspiration" "type":"Goodreads List (Tech)"
-
-"url":"https://www.goodreads.com/list/show/4093", "pages":"1", "id":"best-books-2010s "name":"Best Books of the Decade: 2010s" "type":"Goodreads List"
-
-"url":"https://www.goodreads.com/list/show/5", "pages":"1", "id":"best-books-2000s "name":"Best Books of the Decade: 2000s" "type":"Goodreads List"
-
-"url":"https://www.goodreads.com/list/show/17", "pages":"1", "id":"best-books-1990s "name":"Best Books of the Decade: 1990s" "type":"Goodreads List"
-
-"url":"https://www.goodreads.com/list/show/9", "pages":"1", "id":"best-books-1980s "name":"Best Books of the Decade: 1980s" "type":"Goodreads List"
-
-"url":"https://www.goodreads.com/list/show/47.Best_Dystopian_and_Post_Apocalyptic_Fiction", "pages":"2", "id":"dystopian, "name":"Best Dystopian and Post-Apocalyptic Fiction", "type":"Goodreads List"
-
-"url":"https://www.goodreads.com/list/show/113523.100_Books_about_Science_and_Engineering_for_Grown_Ups", "id":"100-science-and-engineering "name":"100 Books about Science and Engineering for Grown-Ups" "type":"Goodreads List"
-
-"url":"https://www.goodreads.com/list/show/1170.Best_Business_Books", "pages":"2" "id":"best-business-book "name":"The Best Business Books" "type":"Goodreads List"
-
-"url":"https://www.goodreads.com/list/show/141972.New_York_Times_100_Notable_Books_of_2019", "id":"ny-times-notable-2019 "name":"New York Times 100 Notable Books of 2019" "type":"Publisher List"
-
-"url":"https://www.goodreads.com/list/show/129936", "id":"ny-times-notable-2018","name": "New York Times 100 Notable Books of 2018", "type":"Publisher List"
-
-"url":"https://www.goodreads.com/list/show/154828.Books_by_Basecamp", "id":"books-by-basecamp "name":"Books by Basecamp" "type":"Goodreads List (Tech)"
+]
