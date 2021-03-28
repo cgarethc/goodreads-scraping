@@ -63,6 +63,7 @@ const scrape = async (searchFunction, listId, listName, listType, dbList, titles
     .version("0.0.1")
     .arguments("node index.js")
     .option("-f, --inputfile <path to file>", "JSON file containing list, award, filter, id, name, type records")
+    .option("-e, --env", "the LISTDEF environment variable contains the name of JSON file to read")
     .option("-l, --list <goodreads list URL>", "List URL")
     .option("-a, --award <goodreads award URL>", "Award URL")
     .option("-f, --filter <filter for goodreads award type>", "Award filter")
@@ -74,8 +75,16 @@ const scrape = async (searchFunction, listId, listName, listType, dbList, titles
     .usage("node index.js [-l listurl]|[-a awardurl] -i <id for list> -n <name for list> -t <type>")
     .parse(process.argv);
 
-  if (cli.inputfile) {
-    const listDefinitions = JSON.parse(fs.readFileSync(cli.inputfile, 'utf8'));
+  if (cli.inputfile || process.env['LISTDEF']) {
+    let filename;
+    if (cli.inputfile) {
+      filename = cli.inputfile;
+    }
+    else {
+      filename = process.env['LISTDEF'];
+    }
+    console.log('Using file', filename);
+    const listDefinitions = JSON.parse(fs.readFileSync(filename, 'utf8'));
     for (let definition of listDefinitions.lists) {
       let titles;
       console.log('Processing', definition.url, definition.name, definition.id);

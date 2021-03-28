@@ -1,0 +1,16 @@
+{
+  "lists": [
+    {
+      "url": "https://www.goodreads.com/list/show/141972.New_York_Times_100_Notable_Books_of_2019",
+      "id": "ny-times-notable-2019",
+      "name": "New York Times 100 Notable Books of 2019",
+      "type": "Publisher List"
+    },
+    {
+      "url": "https://www.goodreads.com/list/show/129936",
+      "id": "ny-times-notable-2018",
+      "name": "New York Times 100 Notable Books of 2018",
+      "type": "Publisher List"
+    }
+  ]
+}
