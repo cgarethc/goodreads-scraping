@@ -18,14 +18,14 @@
       "url": "https://www.goodreads.com/award/show/33-national-book-award",
       "filter": "National Book Award for Fiction\\ ",
       "id": "national-novel",
-      "name": "National Book Award for Fiction'",
+      "name": "National Book Award for Fiction",
       "type": "Award"
     },
     {
       "url": "https://www.goodreads.com/award/show/23-nebula-award",
       "filter": "Nebula Award for Best Novel\\ ",
       "id": "nebula-award",
-      "name": "Nebula Award for Best Novel'",
+      "name": "Nebula Award for Best Novel",
       "type": "Award"
     },
     {
@@ -80,7 +80,7 @@
       "url": "https://www.goodreads.com/award/show/90-orange-prize",
       "filter": "Orange Prize for Fiction\\ \\(",
       "id": "orange-prize",
-      "name": "Orange Prize for Fiction'",
+      "name": "Orange Prize for Fiction",
       "type": "Award"
     },
     {
@@ -144,6 +144,13 @@
       "filter": "Costa Book Award for Novel",
       "id": "costa-novel",
       "name": "Costa Book Award for Novel",
+      "type": "Award"
+    },
+    {
+      "url": "https://www.goodreads.com/award/show/17808-walter-scott-prize",
+      "filter": "for Historical Fiction\\ \\(",
+      "id": "walter-scott-winners",
+      "name": "Walter Scott Prize for Historical Fiction",
       "type": "Award"
     },
     {

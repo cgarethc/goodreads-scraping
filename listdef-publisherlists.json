@@ -11,6 +11,12 @@
       "id": "ny-times-notable-2018",
       "name": "New York Times 100 Notable Books of 2018",
       "type": "Publisher List"
+    },
+    {
+      "url": "https://www.goodreads.com/list/show/117971",
+      "id": "ny-times-notable-2017",
+      "name": "New York Times 100 Notable Books of 2017",
+      "type": "Publisher List"
     }
   ]
 }

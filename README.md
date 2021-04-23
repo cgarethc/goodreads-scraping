@@ -28,6 +28,12 @@ Include an identifier (with allowed Firestore characters for an ID) and a name, 
 
 `node populatefirestore.js -a https://www.goodreads.com/award/show/2129-london-book-festival -i london-book-festival -n "London Book Festival"`
 
+## Docker
+
+`npm run build` for the Docker build
+
+`npm run deploy` to tag and deploy the built image to the AWS ECR repo ready for the AWS Batch job
+
 ## TODO
 
 ### Experience

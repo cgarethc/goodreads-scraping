@@ -8,6 +8,7 @@ const wellington = require("./lib/scrapewellylibrary").search;
 const goodreadsList = require("./lib/scrapelist").scrape;
 const goodreadsAward = require("./lib/scrapeaward").scrape;
 const consolidate = require('./lib/consolidatelibrary').consolidate;
+const aws = require('aws-sdk');
 
 const serviceAccount = require('./what-can-i-borrow-firebase-adminsdk-8nxq2-60dfb93da5.json');
 
@@ -84,23 +85,47 @@ const scrape = async (searchFunction, listId, listName, listType, dbList, titles
       filename = process.env['LISTDEF'];
     }
     console.log('Using file', filename);
-    const listDefinitions = JSON.parse(fs.readFileSync(filename, 'utf8'));
-    for (let definition of listDefinitions.lists) {
-      let titles;
-      console.log('Processing', definition.url, definition.name, definition.id);
-      if (definition.url.includes('/list/')) {
-        titles = await goodreadsList(definition.url, definition.pages);
-      }
-      else if (definition.url.includes('/award/')) {
-        titles = await goodreadsAward(definition.url, definition.filter, definition.pages);
+
+    let listDefinitions;
+
+    try {
+      if (filename.startsWith('s3://')) {
+        console.log("reading from S3 bucket");
+        const s3 = new aws.S3();
+        var getParams = {
+          Bucket: 'wcib-list-definitions',
+          Key: filename.substring(5)
+        }
+
+        const data = await s3.getObject(getParams).promise();
+        listDefinitions = JSON.parse(data.Body.toString('utf-8'));
       }
       else {
-        console.error('URL not recognised', definition.url);
+        listDefinitions = JSON.parse(fs.readFileSync(filename, 'utf8'));
       }
-      console.log('Searching Wellington')
-      scrape(wellington, definition.id, definition.name, definition.type, 'welly', titles, 'wellington');
-      console.log('Searching Auckland');
-      scrape(auckland, definition.id, definition.name, definition.type, 'lists', titles, 'auckland');
+    }
+    catch (err) {
+      console.error('Failed to retrieve and parse the list definition', err);
+    }
+
+    if (listDefinitions) {
+      for (let definition of listDefinitions.lists) {
+        let titles;
+        console.log('Processing', definition.url, definition.name, definition.id);
+        if (definition.url.includes('/list/')) {
+          titles = await goodreadsList(definition.url, definition.pages);
+        }
+        else if (definition.url.includes('/award/')) {
+          titles = await goodreadsAward(definition.url, definition.filter, definition.pages);
+        }
+        else {
+          console.error('URL not recognised', definition.url);
+        }
+        console.log('Searching Wellington')
+        scrape(wellington, definition.id, definition.name, definition.type, 'welly', titles, 'wellington');
+        console.log('Searching Auckland');
+        scrape(auckland, definition.id, definition.name, definition.type, 'lists', titles, 'auckland');
+      }
     }
   }
   else {
