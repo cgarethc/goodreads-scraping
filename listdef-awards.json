@@ -154,6 +154,13 @@
       "type": "Award"
     },
     {
+      "url": "https://www.goodreads.com/award/show/1696-shirley-jackson-award",
+      "filter": "for Best Novel\\ \\(",
+      "id": "shirley-jackson-novel",
+      "name": "Shirley Jackson Award for Best Novel",
+      "type": "Award"
+    },
+    {
       "url": "https://www.goodreads.com/award/show/13987-the-center-for-fiction-first-novel-prize",
       "filter": "First Novel Prize\\ \\(",
       "id": "center-fiction-winners",

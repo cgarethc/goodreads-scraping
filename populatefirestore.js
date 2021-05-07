@@ -91,7 +91,7 @@ const scrape = async (searchFunction, listId, listName, listType, dbList, titles
     try {
       if (filename.startsWith('s3://')) {
         console.log("reading from S3 bucket");
-        const s3 = new aws.S3();
+        const s3 = new aws.S3({region: 'us-west-2'});
         var getParams = {
           Bucket: 'wcib-list-definitions',
           Key: filename.substring(5)
@@ -126,6 +126,9 @@ const scrape = async (searchFunction, listId, listName, listType, dbList, titles
         console.log('Searching Auckland');
         scrape(auckland, definition.id, definition.name, definition.type, 'lists', titles, 'auckland');
       }
+    }
+    else{
+      throw new Error('No list definitions to process');
     }
   }
   else {
