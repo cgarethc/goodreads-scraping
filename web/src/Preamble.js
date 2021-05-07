@@ -57,7 +57,7 @@ export default function Preamble(props) {
           If you'd like to import your Goodreads to-read list and see what is available in that, you can sign in with a Google account or an email address to do so.
       </Typography>)}
       {props.isSignedIn && (<Typography gutterBottom>
-          Now you're signed in, you can import your Goodreads export using the button below. Once you've imported the latest version of your Goodreads export, it will take a day or so to appear as a list in the drop-down below.
+          Now you're signed in, you can import your <a href="https://help.goodreads.com/s/article/How-do-I-import-or-export-my-books-1553870934590#:~:text=To%20Export%20your%20books%20to,time)%20note%20below%20the%20button.">Goodreads export</a> using the button below. Once you've imported the latest version of your Goodreads export, it will take a day or so to appear as a list in the drop-down below.
       </Typography>)}
       <Box display={showDetail ? 'none' : 'block'} className={classes.wrapButton} >
         <Button size="small" color="primary" variant="contained" onClick={event => setShowDetail(true)}>Tell me more</Button>
