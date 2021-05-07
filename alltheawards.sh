@@ -42,6 +42,8 @@ node populatefirestore.js -a https://www.goodreads.com/award/show/1318-costa-boo
 
 node populatefirestore.js -a https://www.goodreads.com/award/show/1318-costa-book-award -f 'Costa Book Award for Novel' -i costa-novel -n "Costa Book Award for Novel" -t "Award"
 
+node populatefirestore.js -a https://www.goodreads.com/award/show/13987-the-center-for-fiction-first-novel-prize -f 'First Novel Prize\ \(' -i center-fiction-winners -n "The Center for Fiction First Novel Prize Winners" -t "Award"
+
 # BEST OF LISTS
 
 node populatefirestore.js -l https://www.goodreads.com/list/show/6.Best_Books_of_the_20th_Century -p 1 -i best-books-20th -n "Best books of the 20th century" -t "Goodreads List"

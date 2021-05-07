@@ -1,0 +1,70 @@
+{"lists": [
+    {
+      "url": "https://www.goodreads.com/list/show/6.Best_Books_of_the_20th_Century",
+      "pages": "1",
+      "id": "best-books-20th",
+      "name": "Best books of the 20th century",
+      "type": "Goodreads List"
+    },
+    {
+      "url": "https://www.goodreads.com/list/show/88513.The_Essential_Computer_Engineer_s_Inspiration",
+      "id": "computer-engineer-inspiration",
+      "name": "The Essential Computer Engineer's Inspiration",
+      "type": "Goodreads List (Tech)"
+    },
+    {
+      "url": "https://www.goodreads.com/list/show/4093",
+      "pages": "1",
+      "id": "best-books-2010s",
+      "name": "Best Books of the Decade: 2010s",
+      "type": "Goodreads List"
+    },
+    {
+      "url": "https://www.goodreads.com/list/show/5",
+      "pages": "1",
+      "id": "best-books-2000s",
+      "name": "Best Books of the Decade: 2000s",
+      "type": "Goodreads List"
+    },
+    {
+      "url": "https://www.goodreads.com/list/show/17",
+      "pages": "1",
+      "id": "best-books-1990s",
+      "name": "Best Books of the Decade: 1990s",
+      "type": "Goodreads List"
+    },
+    {
+      "url": "https://www.goodreads.com/list/show/9",
+      "pages": "1",
+      "id": "best-books-1980s",
+      "name": "Best Books of the Decade: 1980s",
+      "type": "Goodreads List"
+    },
+    {
+      "url": "https://www.goodreads.com/list/show/47.Best_Dystopian_and_Post_Apocalyptic_Fiction",
+      "pages": "2",
+      "id": "dystopian",
+      "name": "Best Dystopian and Post-Apocalyptic Fiction",
+      "type": "Goodreads List"
+    },
+    {
+      "url": "https://www.goodreads.com/list/show/113523.100_Books_about_Science_and_Engineering_for_Grown_Ups",
+      "id": "100-science-and-engineering",
+      "name": "100 Books about Science and Engineering for Grown-Ups",
+      "type": "Goodreads List"
+    },
+    {
+      "url": "https://www.goodreads.com/list/show/1170.Best_Business_Books",
+      "pages": "2",
+      "id": "best-business-book",
+      "name": "The Best Business Books",
+      "type": "Goodreads List"
+    },
+    {
+      "url": "https://www.goodreads.com/list/show/154828.Books_by_Basecamp",
+      "id": "books-by-basecamp",
+      "name": "Books by Basecamp",
+      "type": "Goodreads List (Tech)"
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 # goodreads-scraping
+
 Scraping tools for goodreads
 
 Lots of examples for populating Firestore in the alltheawards.sh script
@@ -27,23 +28,42 @@ Include an identifier (with allowed Firestore characters for an ID) and a name, 
 
 `node populatefirestore.js -a https://www.goodreads.com/award/show/2129-london-book-festival -i london-book-festival -n "London Book Festival"`
 
+## Docker
+
+`npm run build` for the Docker build
+
+`npm run deploy` to tag and deploy the built image to the AWS ECR repo ready for the AWS Batch job
+
 ## TODO
 
 ### Experience
 
-Roll up the duplicates and show a button for each result in the same card
+Text typeahead filter for awards list
 
-Group lists into sensible sections - e.g. children's awards, literature awards, community lists
-
-Filter for awards list
-
-Support a Goodreads login and:
+Support a Goodreads profile scrape and:
 
 - show which books are already read
 - show which books are by authors that user has already read another book by
 
-Show the availability status at the library (whether actually available or just available to put on hold)
+Create a background scraper that can walk through the library site while the user is viewing the list and:
+
+- Show the availability status at the library (whether actually available or just available to put on hold)
 
 ### Management
 
-Replace shell script with a table of list/award parameters and add a reprocessing job that can run serverless somewhere (AWS Lambda+Dynamo or try GCP/Firebase actions).
+Now that scraping shelves doesn't work, support upload of the Goodreads export format.
+
+Replace shell script with a table of list/award parameters and add a reprocessing job that can run serverless somewhere (Try AWS Batch [https://docs.aws.amazon.com/batch/latest/userguide/jobs.html] with the table in Dynamo).
+
+### Stats scraping
+
+Parallelise shelf book detail scraping to a sensible degree
+
+### Notes
+
+Gareth 4622353
+Abby 4665939
+Fiona 3408361
+Pat 2363846
+Kate 68730687
+Matt Barnett 92263996

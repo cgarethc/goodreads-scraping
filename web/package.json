@@ -13,11 +13,12 @@
     "@material-ui/core": "latest",
     "@material-ui/icons": "^4.9.1",
     "clsx": "latest",
-    "firebase": "^7.23.0",
+    "firebase": "^7.24.0",
     "firebaseui": "^4.6.1",
     "react": "latest",
+    "react-csv-reader": "^3.3.0",
     "react-dom": "latest",
-    "react-firebaseui": "^4.1.0",
+    "react-firebaseui": "^4.2.0",
     "react-scripts": "^3.4.3"
   },
   "browserslist": {

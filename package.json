@@ -4,7 +4,11 @@
   "description": "Scraping tools for goodreads",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "node populatefirestore.js -f justonelist.json",
+    "login": "aws ecr get-login-password --region us-west-2 | docker login --username AWS --password-stdin 761562234256.dkr.ecr.us-west-2.amazonaws.com",
+    "deploy": "docker tag cronin:latest 761562234256.dkr.ecr.us-west-2.amazonaws.com/cronin:latest && docker push 761562234256.dkr.ecr.us-west-2.amazonaws.com/cronin:latest",
+    "build": "docker build -t cronin ."
   },
   "repository": {
     "type": "git",
@@ -17,9 +21,14 @@
   },
   "homepage": "https://github.com/cgarethc/goodreads-scraping#readme",
   "dependencies": {
+    "aws-sdk": "^2.891.0",
     "cheerio": "^1.0.0-rc.3",
+    "chrono-node": "^2.1.10",
     "commander": "^5.1.0",
+    "csv": "^5.4.0",
     "firebase-admin": "^9.0.0",
+    "lodash": "^4.17.20",
+    "luxon": "^1.25.0",
     "superagent": "^5.3.1"
   }
 }
