@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/cgarethc/goodreads-scraping#readme",
   "dependencies": {
-    "aws-sdk": "^2.891.0",
-    "cheerio": "^1.0.0-rc.3",
+    "aws-sdk": "^2.903.0",
+    "cheerio": "1.0.0-rc.6",
     "chrono-node": "^2.1.10",
     "commander": "^5.1.0",
     "csv": "^5.4.0",
