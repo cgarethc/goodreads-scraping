@@ -2,6 +2,7 @@ const fs = require("fs");
 const $ = require("cheerio");
 const scrapewelly = require('./lib/scrapewellylibrary.js');
 const consolidate = require('./lib/consolidatelibrary').consolidate;
+const process = require('./lib/processusertoreads').process;
 const _ = require('lodash');
 
 async function parseList() {
@@ -102,9 +103,5 @@ async function parseWelly() {
 }
 
 (async () => {
-
-  var fs = require('fs');
-  const html = fs.readFileSync("examples/profile.htm").toString();
-  const bookElements = $('img.circularIcon', html);
-  console.log(bookElements['0'].attribs['alt']);
+  
 })();

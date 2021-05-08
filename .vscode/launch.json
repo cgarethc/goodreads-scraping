@@ -51,6 +51,17 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "User toreads",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/populatefirestore.js",
+            "args": ["-u"],
+            "outputCapture": "std"
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "Run stats",
             "skipFiles": [
                 "<node_internals>/**"
@@ -77,12 +88,11 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/populatefirestore.js",
-             
+            "program": "${workspaceFolder}/populatefirestore.js",             
             "args": ["-f", "Kirkus Prize for Fiction", "-a", "https://www.goodreads.com/award/show/20886-kirkus-prize",
                 "-i", "kirkus-fiction" ,"-n", "Kirkus Prize for Fiction"],
             "outputCapture": "std"
-        }
+        },
         {
             "type": "node",
             "request": "launch",

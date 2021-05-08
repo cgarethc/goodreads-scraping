@@ -13,6 +13,7 @@ import BrightnessAutoIcon from '@material-ui/icons/BrightnessAuto';
 import PersonIcon from '@material-ui/icons/Person';
 import ComputerIcon from '@material-ui/icons/Computer';
 import MenuBookIcon from '@material-ui/icons/MenuBook';
+import FaceIcon from '@material-ui/icons/Face';
 
 import { makeStyles } from '@material-ui/core/styles';
 
@@ -64,7 +65,7 @@ const useStyles = makeStyles((theme) => ({
 function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
-      {'Copyright © '}      
+      {'Copyright © '}
         Gareth Cronin
       {' '}
       {new Date().getFullYear()}
@@ -85,6 +86,7 @@ export default function App() {
   const [books, setBooks] = React.useState([]);
   const [selectedAward, selectAward] = React.useState('');
   const [selectedLibrary, selectLibrary] = React.useState(previouslySelectedLibrary ? previouslySelectedLibrary : 'Auckland');
+  const [userToRead, setUserToRead] = React.useState();
 
   const [isSignedIn, setIsSignedIn] = React.useState(false);
 
@@ -100,48 +102,64 @@ export default function App() {
     return libraryName === 'Wellington' ? 'wellington' : 'auckland';
   };
 
-  const loadAndSelectLibrary = (library) => {
+  const loadAndSelectLibrary = async (library) => {
     setBooks([]);
     selectLibrary(library);
     selectAward('');
     window.localStorage.setItem('previouslySelectedLibrary', library);
     setLoading(true);
-    db.collection(libraryNameToDbList(library)).get().then((querySnapshot) => {
-      const allLists = [];
-      querySnapshot.forEach((doc) => {
-        const data = doc.data();
-        allLists.push({
-          name: data.name,
-          id: data.id,
-          type: data.type
-        });
+
+    const querySnapshot = await db.collection(libraryNameToDbList(library)).get();
+    const allLists = [];
+    querySnapshot.forEach((doc) => {
+      const data = doc.data();
+      allLists.push({
+        name: data.name,
+        id: data.id,
+        type: data.type
       });
-      allLists.sort((left, right) => {
-        if (left.type === right.type) {
-          return (left.name < right.name) ? -1 : (left.name > right.name) ? 1 : 0;
-        }
-        else {
-          return (left.type < right.type) ? -1 : 1;
-        }
-      });
-      setAwards(allLists);
-      setLoading(false);
     });
+    allLists.sort((left, right) => {
+      if (left.type === right.type) {
+        return (left.name < right.name) ? -1 : (left.name > right.name) ? 1 : 0;
+      }
+      else {
+        return (left.type < right.type) ? -1 : 1;
+      }
+    });
+    setAwards(allLists);
+
+    // see if we have a user to-reads list
+    const userId = firebase.auth().currentUser.uid;
+    const toReadData = await db.collection('usertoreads').doc(userId).get();
+    if (toReadData.exists) {
+      setUserToRead(toReadData.data());
+    }
+
+    setLoading(false);
   }
 
   const loadBooksForAward = async (award) => {
     setBooks([]);
     setLoading(true);
     selectAward(award);
-    const awardRef = db.collection(libraryNameToDbList(selectedLibrary)).doc(award);
-    const awardDoc = await awardRef.get();
-    if (awardDoc.exists) {
-      setBooks(awardDoc.data().books);
+
+    if (award === 'toread') {
+      setBooks(userToRead[libraryNameToDbList(selectedLibrary)]);
       window.localStorage.setItem('previouslySelectedAward', award);
     }
     else {
-      console.error('Could find the award doc', award);
+      const awardRef = db.collection(libraryNameToDbList(selectedLibrary)).doc(award);
+      const awardDoc = await awardRef.get();
+      if (awardDoc.exists) {
+        setBooks(awardDoc.data().books);
+        window.localStorage.setItem('previouslySelectedAward', award);
+      }
+      else {
+        console.error('Could find the award doc', award);
+      }
     }
+
     setLoading(false);
   }
 
@@ -167,7 +185,7 @@ export default function App() {
         <Typography variant="h4" component="h1" gutterBottom>
           What can I borrow?
         </Typography>
-        <Preamble firebase={firebase} uiConfig={uiConfig} isSignedIn={isSignedIn}/>
+        <Preamble firebase={firebase} uiConfig={uiConfig} isSignedIn={isSignedIn} />
         <Box my={4}>
           {loading && <CircularProgress />}
           {!loading && awards && (
@@ -196,19 +214,27 @@ export default function App() {
                     loadBooksForAward(event.target.value);
                   }}
                 >
+                  {userToRead && (
+                    <MenuItem key='toread' value='toread'>
+                      <ListItemIcon>
+                        <FaceIcon />
+                      </ListItemIcon>
+                      <Typography variant="inherit" noWrap>My "to read" list</Typography>
+                    </MenuItem>
+                  )}
                   {awards.map((award, index) => {
                     let awardTypeIcon;
-                    if(award.type === 'Award'){
-                      awardTypeIcon = <BrightnessAutoIcon fontSize="small"/>;
+                    if (award.type === 'Award') {
+                      awardTypeIcon = <BrightnessAutoIcon fontSize="small" />;
                     }
-                    else if(award.type === 'Goodreads List'){
-                      awardTypeIcon = <PersonIcon fontSize="small"/>;
+                    else if (award.type === 'Goodreads List') {
+                      awardTypeIcon = <PersonIcon fontSize="small" />;
                     }
-                    else if(award.type === 'Goodreads List (Tech)'){
-                      awardTypeIcon = <ComputerIcon fontSize="small"/>;
+                    else if (award.type === 'Goodreads List (Tech)') {
+                      awardTypeIcon = <ComputerIcon fontSize="small" />;
                     }
-                    else if(award.type === 'Publisher List'){
-                      awardTypeIcon = <MenuBookIcon fontSize="small"/>;
+                    else if (award.type === 'Publisher List') {
+                      awardTypeIcon = <MenuBookIcon fontSize="small" />;
                     }
                     return (
                       <MenuItem key={index} value={award.id}>

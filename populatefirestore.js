@@ -8,6 +8,7 @@ const wellington = require("./lib/scrapewellylibrary").search;
 const goodreadsList = require("./lib/scrapelist").scrape;
 const goodreadsAward = require("./lib/scrapeaward").scrape;
 const consolidate = require('./lib/consolidatelibrary').consolidate;
+const processusertoreads = require('./lib/processusertoreads').process;
 const aws = require('aws-sdk');
 
 const serviceAccount = require('./what-can-i-borrow-firebase-adminsdk-8nxq2-60dfb93da5.json');
@@ -73,6 +74,7 @@ const scrape = async (searchFunction, listId, listName, listType, dbList, titles
     .option("-i, --id <id for the list>", "ID")
     .option("-n, --name <friendly name for the list>", "Name")
     .option("-t, --type <friendly name for the type of list>", "Type")
+    .option("-u --users", "Process the user to-read lists that have been imported from Goodreads")
     .usage("node index.js [-l listurl]|[-a awardurl] -i <id for list> -n <name for list> -t <type>")
     .parse(process.argv);
 
@@ -130,6 +132,9 @@ const scrape = async (searchFunction, listId, listName, listType, dbList, titles
     else{
       throw new Error('No list definitions to process');
     }
+  }
+  else if(cli.users || process.env['USERTOREADS']){
+    processusertoreads(db);
   }
   else {
     let titles;
