@@ -93,6 +93,9 @@ export default function App() {
   React.useEffect(() => {
     const unregisterAuthObserver = firebase.auth().onAuthStateChanged(user => {
       setIsSignedIn(!!user);
+      if (!user) {
+        setUserToRead(undefined);
+      }
     });
     return () => unregisterAuthObserver(); // Make sure we un-register Firebase observers when the component unmounts.
   }, []);
@@ -130,10 +133,13 @@ export default function App() {
     setAwards(allLists);
 
     // see if we have a user to-reads list
-    const userId = firebase.auth().currentUser.uid;
-    const toReadData = await db.collection('usertoreads').doc(userId).get();
-    if (toReadData.exists) {
-      setUserToRead(toReadData.data());
+    if (firebase.auth().currentUser) {
+      const userId = firebase.auth().currentUser.uid;
+      const toReadData = await db.collection('usertoreads').doc(userId).get();
+      if (toReadData.exists) {
+        setUserToRead(toReadData.data());
+      }
+
     }
 
     setLoading(false);
@@ -214,7 +220,7 @@ export default function App() {
                     loadBooksForAward(event.target.value);
                   }}
                 >
-                  {userToRead && (
+                  {(userToRead && userToRead.auckland) && (
                     <MenuItem key='toread' value='toread'>
                       <ListItemIcon>
                         <FaceIcon />
