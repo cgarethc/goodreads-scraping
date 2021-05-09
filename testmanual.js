@@ -1,5 +1,5 @@
 const fs = require("fs");
-const $ = require("cheerio");
+const $ = require("cheerio").default;
 const scrapewelly = require('./lib/scrapewellylibrary.js');
 const consolidate = require('./lib/consolidatelibrary').consolidate;
 const process = require('./lib/processusertoreads').process;
