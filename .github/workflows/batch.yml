@@ -8,6 +8,7 @@ on:
       - 'lib/**'
       - 'package.json'
       - 'Dockerfile'
+      - '.github/workflows/batch.yml'
 
 jobs:
   deploy:
