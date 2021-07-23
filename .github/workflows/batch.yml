@@ -1,0 +1,43 @@
+name: Production build for populate firestore in Docker container on ECR
+
+on:
+  push:
+    branches: [ master ]
+    paths:
+      - 'populatefirestore.js'
+      - 'lib/**'
+      - 'package.json'
+      - 'Dockerfile'
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@master
+
+      - name: Write Firebase credentials from secret
+        env:
+          FIREBASE_CREDENTIALS: ${{secrets.FIREBASE_CREDENTIALS}}
+        run: 'echo "$FIREBASE_CREDENTIALS" > what-can-i-borrow-firebase-adminsdk-8nxq2-60dfb93da5.json'
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-west-2
+
+      - name: Login to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v1
+
+      - name: Build, tag, and push image to Amazon ECR
+        env:
+          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+          ECR_REPOSITORY: cronin
+          IMAGE_TAG: latest
+        run: |
+          docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
+          docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
