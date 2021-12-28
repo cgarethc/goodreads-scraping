@@ -143,7 +143,7 @@ export default function App() {
     setLoading(true);
     selectAward(award);
 
-    if (award === 'toread') {
+    if (award === 'toread' && userToRead) {
       setBooks(userToRead[libraryNameToDbList(selectedLibrary)]);
     }
     else {
@@ -176,7 +176,7 @@ export default function App() {
       loadBooksForAward(selectedAward);
     }
   },
-    [selectedAward]);
+    [selectedAward, userToRead]);
 
   const classes = useStyles();
 
@@ -215,7 +215,7 @@ export default function App() {
                     selectAward(event.target.value);
                   }}
                 >
-                  {(userToRead && userToRead.auckland) && (
+                  {(userToRead && awards.length > 0) && (
                     <MenuItem key='toread' value='toread'>
                       <ListItemIcon>
                         <FaceIcon />
