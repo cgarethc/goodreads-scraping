@@ -24,6 +24,7 @@ import "firebase/firestore";
 
 import Book from './Book';
 import Preamble from './Preamble';
+import { useLocalStorage } from './LocalStorage';
 
 const firebaseConfig = {
   apiKey: "AIzaSyAIOcRc5qxnGuz6RVH8fj8-0KYFXVkKzds",
@@ -66,7 +67,7 @@ function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
-        Gareth Cronin
+      Gareth Cronin
       {' '}
       {new Date().getFullYear()}
       {'.'}
@@ -75,17 +76,12 @@ function Copyright() {
 }
 
 export default function App() {
-  const previouslySelectedAward = window.localStorage.getItem('previouslySelectedAward');
-  const previouslySelectedLibrary = window.localStorage.getItem('previouslySelectedLibrary');
-  if (!previouslySelectedLibrary) {
-    window.localStorage.setItem('previouslySelectedLibrary', 'Auckland');
-  }
 
   const [loading, setLoading] = React.useState(false);
   const [awards, setAwards] = React.useState([]);
   const [books, setBooks] = React.useState([]);
-  const [selectedAward, selectAward] = React.useState('');
-  const [selectedLibrary, selectLibrary] = React.useState(previouslySelectedLibrary ? previouslySelectedLibrary : 'Auckland');
+  const [selectedAward, selectAward] = useLocalStorage('previouslySelectedAward', '');
+  const [selectedLibrary, selectLibrary] = useLocalStorage('previouslySelectedLibrary', 'Auckland');
   const [userToRead, setUserToRead] = React.useState();
 
   const [isSignedIn, setIsSignedIn] = React.useState(false);
@@ -97,7 +93,7 @@ export default function App() {
         setUserToRead(undefined);
       }
     });
-    return () => unregisterAuthObserver(); // Make sure we un-register Firebase observers when the component unmounts.
+    return () => unregisterAuthObserver();
   }, []);
 
 
@@ -105,11 +101,8 @@ export default function App() {
     return libraryName === 'Wellington' ? 'wellington' : 'auckland';
   };
 
-  const loadAndSelectLibrary = async (library) => {
+  const loadListsForLibrary = async (library) => {
     setBooks([]);
-    selectLibrary(library);
-    selectAward('');
-    window.localStorage.setItem('previouslySelectedLibrary', library);
     setLoading(true);
 
     const querySnapshot = await db.collection(libraryNameToDbList(library)).get();
@@ -152,14 +145,12 @@ export default function App() {
 
     if (award === 'toread') {
       setBooks(userToRead[libraryNameToDbList(selectedLibrary)]);
-      window.localStorage.setItem('previouslySelectedAward', award);
     }
     else {
       const awardRef = db.collection(libraryNameToDbList(selectedLibrary)).doc(award);
       const awardDoc = await awardRef.get();
       if (awardDoc.exists) {
         setBooks(awardDoc.data().books);
-        window.localStorage.setItem('previouslySelectedAward', award);
       }
       else {
         console.error('Could find the award doc', award);
@@ -170,18 +161,22 @@ export default function App() {
   }
 
   React.useEffect(() => {
-    if (awards.length === 0 && !loading && selectedLibrary) {
-      loadAndSelectLibrary(selectedLibrary);
+    if (selectedLibrary) {
+      loadListsForLibrary(selectedLibrary);
+      if (selectedAward) {
+        loadBooksForAward(selectedAward);
+      }
     }
-    else if (awards.length > 0 && previouslySelectedAward && !selectedAward) {
-      selectAward(previouslySelectedAward);
-    }
-    else if (selectedAward && books.length === 0) {
+  },
+    [selectedLibrary]
+  );
+
+  React.useEffect(() => {
+    if (selectedAward) {
       loadBooksForAward(selectedAward);
     }
   },
-    [awards.length, loading, selectedLibrary, books.length, previouslySelectedAward]
-  );
+    [selectedAward]);
 
   const classes = useStyles();
 
@@ -203,7 +198,7 @@ export default function App() {
                   id="select-library"
                   value={selectedLibrary}
                   onChange={(event) => {
-                    loadAndSelectLibrary(event.target.value);
+                    selectLibrary(event.target.value);
                   }}
                 >
                   <MenuItem value='Auckland'><Typography>Auckland</Typography></MenuItem>
@@ -217,7 +212,7 @@ export default function App() {
                   id="award-select"
                   value={selectedAward}
                   onChange={(event) => {
-                    loadBooksForAward(event.target.value);
+                    selectAward(event.target.value);
                   }}
                 >
                   {(userToRead && userToRead.auckland) && (
