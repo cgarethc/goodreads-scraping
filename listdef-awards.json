@@ -8,6 +8,13 @@
       "type": "Award"
     },
     {
+      "url": "https://www.goodreads.com/award/show/6104-dylan-thomas-prize",
+      "filter": "Dylan Thomas Prize \\(",
+      "id": "dylan-thomas",
+      "name": "Dylan Thomas Prize Winners",
+      "type": "Award"
+    },
+    {
       "url": "https://www.goodreads.com/award/show/13-booker-prize",
       "filter": "Booker Prize\\ \\(",
       "id": "booker-winners",
