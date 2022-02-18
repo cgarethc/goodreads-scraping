@@ -255,7 +255,7 @@ export default function App() {
         </Box>
         <Box>
           {
-            selectedAward && books.length > 0 && (
+            selectedAward && books && books.length > 0 && (
               <>
                 {books.map((book, index) => {
                   return (
