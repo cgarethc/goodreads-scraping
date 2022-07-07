@@ -7,6 +7,12 @@
       "type": "Goodreads List"
     },
     {
+      "url": "https://www.goodreads.com/list/show/177853.New_York_Times_Ten_Best_Books_Fiction",
+      "id": "nyt-best-fiction",
+      "name": "New York Times Best Books (Fiction)",
+      "type": "Goodreads List"
+    },
+    {
       "url": "https://www.goodreads.com/list/show/88513.The_Essential_Computer_Engineer_s_Inspiration",
       "id": "computer-engineer-inspiration",
       "name": "The Essential Computer Engineer's Inspiration",
