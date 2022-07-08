@@ -1,4 +1,4 @@
-# Production S3 copy and Cloudfront cache invalidation
+# Production S3 copy and Cloudfront cache invalidation.
 
 name: Production build for web
 
