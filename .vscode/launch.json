@@ -34,7 +34,7 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}/whatcaniborrow.js",
-            "args": ["-a", "https://www.goodreads.com/award/show/9-hugo-award"],
+            "args": ["-l", "https://www.goodreads.com/award/show/1318-costa-book-award"],
             "outputCapture": "std"
         },
         {
