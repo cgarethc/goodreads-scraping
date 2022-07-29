@@ -17,6 +17,12 @@
       "id": "ny-times-notable-2017",
       "name": "New York Times 100 Notable Books of 2017",
       "type": "Publisher List"
+    },
+    {
+      "url": "https://www.goodreads.com/list/show/177853.New_York_Times_Ten_Best_Books_Fiction",
+      "id": "nyt-best-fiction",
+      "name": "New York Times Best Books (Fiction)",
+      "type": "Publisher List"
     }
   ]
 }
