@@ -34,7 +34,7 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}/whatcaniborrow.js",
-            "args": ["-l", "https://www.goodreads.com/award/show/1318-costa-book-award"],
+            "args": ["-l", "https://www.goodreads.com/list/show/177853.New_York_Times_Ten_Best_Books_Fiction"],
             "outputCapture": "std"
         },
         {
