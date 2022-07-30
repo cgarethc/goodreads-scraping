@@ -65,6 +65,12 @@
       "id": "books-by-basecamp",
       "name": "Books by Basecamp",
       "type": "Goodreads List (Tech)"
+    },
+    {
+      "url": "https://www.goodreads.com/list/show/164686.Barack_Obama_s_Summer_Reading_List_2021",
+      "id": "obama-summer-2021",
+      "name": "Barack Obama's Summer Reading List 2021",
+      "type": "Goodreads List"
     }
   ]
 }
