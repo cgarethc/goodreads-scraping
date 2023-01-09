@@ -28,7 +28,7 @@
     "csv": "^5.4.0",
     "firebase-admin": "^9.0.0",
     "lodash": "^4.17.20",
-    "luxon": "^1.25.0",
+    "luxon": "^1.28.1",
     "superagent": "^5.3.1"
   },
   "devDependencies": {
