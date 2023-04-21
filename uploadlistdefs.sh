@@ -1,0 +1,1 @@
+aws s3 cp ./listdefs s3://wcib-list-definitions --recursive
