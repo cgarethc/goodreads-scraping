@@ -1,0 +1,238 @@
+{
+  "totalPages": 1,
+  "page": 0,
+  "totalResults": 3,
+  "data": [
+    {
+      "id": "b4379337-f2cc-55ca-bf85-e2316d8da72d",
+      "customerId": "cd34be0a-7ce5-4118-89af-47364b864e7c",
+      "entityType": "FormatGroup",
+      "coverUrl": {
+        "small": "https://secure.syndetics.com/index.aspx?isbn=9781741769746/sc.gif&upc=&client=auckvega&type=unbound",
+        "medium": "https://secure.syndetics.com/index.aspx?isbn=9781741769746/mc.gif&upc=&client=auckvega&type=unbound",
+        "large": "https://secure.syndetics.com/index.aspx?isbn=9781741769746/lc.gif&upc=&client=auckvega&type=unbound"
+      },
+      "title": "Doomsday book",
+      "publicationDate": "2005",
+      "primaryAgent": {
+        "id": "3df292fb-3b81-11ec-a90c-ab64182e12ed",
+        "label": "Willis, Connie."
+      },
+      "materialTabs": [
+        {
+          "name": "eBook",
+          "type": "electronic",
+          "availability": {
+            "isGetItSuppressed": false,
+            "urls": [
+              "https://fe.bolindadigital.com/wldcs_bol_fo/b2i/productDetail.html?productId=AAU_011264&b2bSite=3115",
+              "http://link.overdrive.com/?websiteID=262&titleID=319522"
+            ],
+            "status": {
+              "general": "CheckAvailability",
+              "electronicLocator": "Available"
+            },
+            "vendors": {
+              "overdrive": {
+                "reserveId": [
+                  "17186CCF-8B47-4122-BB7E-E24424CCC0C0"
+                ]
+              },
+              "borrowbox": {
+                "reserveId": [
+                  "AAU_011264"
+                ]
+              }
+            }
+          },
+          "recordIds": [
+            "2970938",
+            "3612024"
+          ],
+          "materialTypes": [
+            "z"
+          ],
+          "editions": [
+            {
+              "id": "3fab8ad2-54af-11ed-a59e-c3a991a5339f",
+              "availabilityStatus": "Available",
+              "hasItems": false,
+              "recordId": "2970938",
+              "publicationDate": "2005",
+              "type": "electronic",
+              "subscriptionId": "6d5d5b7b-de86-47b7-ada5-0040c26c54bf",
+              "vendors": {
+                "borrowbox": {
+                  "reserveId": [
+                    "AAU_011264"
+                  ]
+                }
+              },
+              "isGetItSuppressed": false
+            },
+            {
+              "id": "6c56a18e-55bd-11ed-a59e-b35ba9776a52",
+              "availabilityStatus": "Available",
+              "hasItems": false,
+              "recordId": "3612024",
+              "publicationDate": "2005",
+              "type": "electronic",
+              "subscriptionId": "731a345c-097d-447b-876e-1c227b069044",
+              "vendors": {
+                "overdrive": {
+                  "reserveId": [
+                    "17186CCF-8B47-4122-BB7E-E24424CCC0C0"
+                  ]
+                }
+              },
+              "isGetItSuppressed": false
+            }
+          ],
+          "checkAvailabilityFromOtherSources": true,
+          "identifiedBy": {
+            "isbn": [
+              "9781741769746",
+              "1741769744",
+              "9781741769746",
+              "1741769744"
+            ]
+          }
+        }
+      ],
+      "identifiers": {
+        "isbn": "9781741769746"
+      },
+      "language": "eng"
+    },
+    {
+      "id": "e2093b30-19a9-5c4c-92b9-458f3f13164f",
+      "customerId": "cd34be0a-7ce5-4118-89af-47364b864e7c",
+      "entityType": "FormatGroup",
+      "coverUrl": {
+        "small": "https://secure.syndetics.com/index.aspx?isbn=9780575131149/sc.gif&upc=&client=auckvega&type=unbound",
+        "medium": "https://secure.syndetics.com/index.aspx?isbn=9780575131149/mc.gif&upc=&client=auckvega&type=unbound",
+        "large": "https://secure.syndetics.com/index.aspx?isbn=9780575131149/lc.gif&upc=&client=auckvega&type=unbound"
+      },
+      "title": "Time is the fire : the best of Connie Willis",
+      "publicationDate": "2013",
+      "primaryAgent": {
+        "id": "3df292fb-3b81-11ec-a90c-ab64182e12ed",
+        "label": "Willis, Connie."
+      },
+      "materialTabs": [
+        {
+          "name": "Book",
+          "type": "physical",
+          "availability": {
+            "isGetItSuppressed": false,
+            "status": {
+              "general": "Available"
+            }
+          },
+          "recordIds": [
+            "2806459"
+          ],
+          "materialTypes": [
+            "a"
+          ],
+          "locations": [
+            {
+              "code": "mh",
+              "label": "Howick",
+              "availabilityStatus": "Available"
+            }
+          ],
+          "hasMoreLocations": false,
+          "locationsTotalResults": 1,
+          "editions": [
+            {
+              "id": "54bbf530-54ae-11ed-bf54-a93ff2c0e418",
+              "availabilityStatus": "Available",
+              "hasItems": true,
+              "recordId": "2806459",
+              "publicationDate": "2013",
+              "type": "physical",
+              "isGetItSuppressed": false
+            }
+          ],
+          "checkAvailabilityFromOtherSources": false,
+          "identifiedBy": {
+            "isbn": [
+              "9780575131149",
+              "0575131144"
+            ]
+          }
+        }
+      ],
+      "identifiers": {
+        "isbn": "9780575131149"
+      },
+      "language": "eng"
+    },
+    {
+      "id": "e37a6583-c23b-5c5e-aa9c-7b123b588d57",
+      "customerId": "cd34be0a-7ce5-4118-89af-47364b864e7c",
+      "entityType": "FormatGroup",
+      "coverUrl": {
+        "small": "https://secure.syndetics.com/index.aspx?isbn=9780765379085/sc.gif&upc=&client=auckvega&type=unbound",
+        "medium": "https://secure.syndetics.com/index.aspx?isbn=9780765379085/mc.gif&upc=&client=auckvega&type=unbound",
+        "large": "https://secure.syndetics.com/index.aspx?isbn=9780765379085/lc.gif&upc=&client=auckvega&type=unbound"
+      },
+      "title": "An informal history of the Hugos : a personal look back at the Hugo Awards, 1953-2000",
+      "publicationDate": "2018",
+      "primaryAgent": {
+        "id": "391722ba-3b81-11ec-8e6c-5b46087dfbaa",
+        "label": "Walton, Jo."
+      },
+      "materialTabs": [
+        {
+          "name": "Book",
+          "type": "physical",
+          "availability": {
+            "isGetItSuppressed": false,
+            "status": {
+              "general": "Available"
+            }
+          },
+          "recordIds": [
+            "3616862"
+          ],
+          "materialTypes": [
+            "a"
+          ],
+          "locations": [
+            {
+              "code": "rf",
+              "label": "Wellsford",
+              "availabilityStatus": "Available"
+            }
+          ],
+          "hasMoreLocations": false,
+          "locationsTotalResults": 1,
+          "editions": [
+            {
+              "id": "954ce90c-5555-11ed-bf54-c193f74673b2",
+              "availabilityStatus": "Available",
+              "hasItems": true,
+              "recordId": "3616862",
+              "publicationDate": "2018",
+              "type": "physical",
+              "isGetItSuppressed": false
+            }
+          ],
+          "checkAvailabilityFromOtherSources": false,
+          "identifiedBy": {
+            "isbn": [
+              "9780765379085",
+              "0765379082"
+            ]
+          }
+        }
+      ],
+      "identifiers": {
+        "isbn": "9780765379085"
+      },
+      "language": "eng"
+    }
+  ]
+}

@@ -1,0 +1,1144 @@
+{
+  "totalPages": 14,
+  "page": 0,
+  "totalResults": 134,
+  "data": [
+    {
+      "id": "9abed09e-9a25-58e6-a44a-3301f2837654",
+      "customerId": "cd34be0a-7ce5-4118-89af-47364b864e7c",
+      "entityType": "FormatGroup",
+      "coverUrl": {
+        "small": "https://secure.syndetics.com/index.aspx?isbn=9780141199702/sc.gif&upc=&client=auckvega&type=unbound",
+        "medium": "https://secure.syndetics.com/index.aspx?isbn=9780141199702/mc.gif&upc=&client=auckvega&type=unbound",
+        "large": "https://secure.syndetics.com/index.aspx?isbn=9780141199702/lc.gif&upc=&client=auckvega&type=unbound"
+      },
+      "title": "A Tale of Two Cities",
+      "publicationDate": "1906-2020",
+      "primaryAgent": {
+        "id": "a1d26efc-3b83-11ec-a90c-3310ebf38b0f",
+        "label": "Dickens, Charles, 1812-1870."
+      },
+      "materialTabs": [
+        {
+          "name": "Book",
+          "type": "physical",
+          "availability": {
+            "isGetItSuppressed": false,
+            "status": {
+              "general": "Available"
+            }
+          },
+          "recordIds": [
+            "1047251",
+            "1941436",
+            "1941847"
+          ],
+          "materialTypes": [
+            "a"
+          ],
+          "locations": [
+            {
+              "code": "ah",
+              "label": "Central City Special Collections",
+              "availabilityStatus": "Available"
+            },
+            {
+              "code": "ar",
+              "label": "Remuera",
+              "availabilityStatus": "Available"
+            },
+            {
+              "code": "my",
+              "label": "Botany",
+              "availabilityStatus": "Unavailable"
+            },
+            {
+              "code": "ac",
+              "label": "Central City",
+              "availabilityStatus": "Unavailable"
+            },
+            {
+              "code": "ng",
+              "label": "Glenfield",
+              "availabilityStatus": "Unavailable"
+            },
+            {
+              "code": "mc",
+              "label": "Manukau",
+              "availabilityStatus": "Unavailable"
+            }
+          ],
+          "hasMoreLocations": true,
+          "locationsTotalResults": 11,
+          "editions": [
+            {
+              "id": "89323d08-546e-11ed-bf54-cb5c9d9ac53f",
+              "availabilityStatus": "Available",
+              "hasItems": true,
+              "recordId": "1047251",
+              "publicationDate": "1996",
+              "type": "physical",
+              "isGetItSuppressed": false
+            },
+            {
+              "id": "ba29a1ab-5484-11ed-a59e-b3632b407abf",
+              "availabilityStatus": "Available",
+              "hasItems": true,
+              "recordId": "1941436",
+              "publicationDate": "1947",
+              "type": "physical",
+              "isGetItSuppressed": true
+            },
+            {
+              "id": "d7c9bc13-5481-11ed-a59e-5f654b7367a1",
+              "availabilityStatus": "Available",
+              "hasItems": true,
+              "recordId": "1941847",
+              "publicationDate": "[1906]",
+              "type": "physical",
+              "isGetItSuppressed": true
+            }
+          ],
+          "checkAvailabilityFromOtherSources": false,
+          "identifiedBy": {
+            "isbn": [
+              "9780141199702",
+              "0141199709",
+              "9781865051291",
+              "1865051292"
+            ]
+          }
+        },
+        {
+          "name": "eBook",
+          "type": "electronic",
+          "availability": {
+            "isGetItSuppressed": false,
+            "urls": [
+              "https://samples.overdrive.com/?crid=1437409d-53af-45c7-8deb-9d2e570665f5&.epub-sample.overdrive.com",
+              "http://auckland.lib.overdrive.com/ContentDetails.htm?ID=C02F9972-631D-483C-A0A3-D6359534851D",
+              "http://link.overdrive.com/?websiteId=262&titleId=4128525",
+              "http://link.overdrive.com/?websiteId=262&titleId=784354",
+              "https://samples.overdrive.com/tale-of-two-370af8?.epub-sample.overdrive.com"
+            ],
+            "status": {
+              "general": "CheckAvailability",
+              "electronicLocator": "Available"
+            },
+            "vendors": {
+              "overdrive": {
+                "reserveId": [
+                  "1437409D-53AF-45C7-8DEB-9D2E570665F5",
+                  "370AF87C-61CD-42B7-BC71-065BEF59DB7B",
+                  "C02F9972-631D-483C-A0A3-D6359534851D"
+                ]
+              }
+            }
+          },
+          "recordIds": [
+            "3761298",
+            "3759266",
+            "2795086"
+          ],
+          "materialTypes": [
+            "z"
+          ],
+          "editions": [
+            {
+              "id": "7f05ea1e-5572-11ed-bf54-53f4978a414b",
+              "availabilityStatus": "Available",
+              "hasItems": false,
+              "recordId": "3761298",
+              "publicationDate": "2019",
+              "type": "electronic",
+              "subscriptionId": "731a345c-097d-447b-876e-1c227b069044",
+              "vendors": {
+                "overdrive": {
+                  "reserveId": [
+                    "1437409D-53AF-45C7-8DEB-9D2E570665F5"
+                  ]
+                }
+              },
+              "isGetItSuppressed": false
+            },
+            {
+              "id": "f3d36261-5573-11ed-bf54-3782ed0e9165",
+              "availabilityStatus": "Available",
+              "hasItems": false,
+              "recordId": "3759266",
+              "publicationDate": "2012",
+              "type": "electronic",
+              "subscriptionId": "731a345c-097d-447b-876e-1c227b069044",
+              "vendors": {
+                "overdrive": {
+                  "reserveId": [
+                    "370AF87C-61CD-42B7-BC71-065BEF59DB7B"
+                  ]
+                }
+              },
+              "isGetItSuppressed": false
+            },
+            {
+              "id": "c5beb553-54a5-11ed-bf54-4f38a552569c",
+              "availabilityStatus": "Available",
+              "hasItems": false,
+              "recordId": "2795086",
+              "publicationDate": "2011",
+              "type": "electronic",
+              "subscriptionId": "731a345c-097d-447b-876e-1c227b069044",
+              "vendors": {
+                "overdrive": {
+                  "reserveId": [
+                    "C02F9972-631D-483C-A0A3-D6359534851D"
+                  ]
+                }
+              },
+              "isGetItSuppressed": false
+            }
+          ],
+          "checkAvailabilityFromOtherSources": true,
+          "identifiedBy": {
+            "isbn": [
+              "9781620116609",
+              "162011660X"
+            ]
+          }
+        },
+        {
+          "name": "Large Print",
+          "type": "physical",
+          "availability": {
+            "isGetItSuppressed": false,
+            "status": {
+              "general": "Unavailable"
+            }
+          },
+          "recordIds": [
+            "1138687"
+          ],
+          "materialTypes": [
+            "l"
+          ],
+          "locations": [
+            {
+              "code": "ac",
+              "label": "Central City",
+              "availabilityStatus": "Unavailable"
+            },
+            {
+              "code": "ne",
+              "label": "East Coast Bays",
+              "availabilityStatus": "Unavailable"
+            }
+          ],
+          "hasMoreLocations": false,
+          "locationsTotalResults": 2,
+          "editions": [
+            {
+              "id": "97d169af-546f-11ed-a59e-c199c40f2ddb",
+              "availabilityStatus": "Unavailable",
+              "hasItems": true,
+              "recordId": "1138687",
+              "publicationDate": "1999",
+              "type": "physical",
+              "isGetItSuppressed": false
+            }
+          ],
+          "checkAvailabilityFromOtherSources": false,
+          "identifiedBy": {
+            "isbn": [
+              "0060933232",
+              "9780060933234",
+              "048641776X",
+              "9780486417769",
+              "1856953157",
+              "9781856953153",
+              "0786277343",
+              "9780786277346",
+              "1405634359",
+              "9781405634359",
+              "9781471286827",
+              "1471286827"
+            ]
+          }
+        },
+        {
+          "name": "Audio CD",
+          "type": "physical",
+          "availability": {
+            "isGetItSuppressed": false,
+            "status": {
+              "general": "Available"
+            }
+          },
+          "recordIds": [
+            "3903652"
+          ],
+          "materialTypes": [
+            "i"
+          ],
+          "locations": [
+            {
+              "code": "wh",
+              "label": "Waitakere Central",
+              "availabilityStatus": "Available"
+            },
+            {
+              "code": "as",
+              "label": "St Heliers",
+              "availabilityStatus": "Unavailable"
+            }
+          ],
+          "hasMoreLocations": false,
+          "locationsTotalResults": 2,
+          "editions": [
+            {
+              "id": "b28d7e1b-55a7-11ed-bf54-9fbf603a1b66",
+              "availabilityStatus": "Available",
+              "hasItems": true,
+              "recordId": "3903652",
+              "publicationDate": "2009",
+              "type": "physical",
+              "isGetItSuppressed": false
+            }
+          ],
+          "checkAvailabilityFromOtherSources": false,
+          "identifiedBy": {
+            "isbn": [
+              "9780792776802",
+              "0792776801"
+            ]
+          }
+        },
+        {
+          "name": "eAudiobook",
+          "type": "electronic",
+          "availability": {
+            "isGetItSuppressed": false,
+            "urls": [
+              "https://fe.bolindadigital.com/wldcs_bol_fo/b2i/productDetail.html?productId=BOL_925317&b2bSite=3115",
+              "http://samples.overdrive.com/?crid=4AA7B871-18FD-4A1D-A1A0-EA3713DBBF9B&.epub-sample.overdrive.com",
+              "http://samples.overdrive.com/?crid=03554581-7701-4FBA-9950-A8442C617463&.epub-sample.overdrive.com",
+              "http://link.overdrive.com/?websiteID=262&titleID=133269",
+              "http://excerpts.cdn.overdrive.com/FormatType-425/2389-1/479504-ATaleOfTwoCities.mp3",
+              "http://excerpts.cdn.overdrive.com/FormatType-25/2389-1/505747-ATaleOfTwoCities.wma",
+              "http://link.overdrive.com/?websiteID=262&titleID=505747",
+              "http://excerpts.cdn.overdrive.com/FormatType-25/2389-1/479504-ATaleOfTwoCities.wma",
+              "http://auckland.lib.overdrive.com/ContentDetails.htm?ID=BB6DBF5D-2D8A-4168-881D-EB87BEF5E68E",
+              "http://excerpts.cdn.overdrive.com/FormatType-425/2389-1/505747-ATaleOfTwoCities.mp3",
+              "http://excerpts.cdn.overdrive.com/FormatType-425/2343-1/2403501-ATaleOfTwoCities.mp3",
+              "http://excerpts.cdn.overdrive.com/FormatType-25/0992-1/133269-ATaleOfTwoCities.wma",
+              "http://link.overdrive.com/?websiteID=262&titleID=69187",
+              "http://samples.overdrive.com/?crid=97188787-b96f-4209-a8f7-4d6ad2d3b10e&.epub-sample.overdrive.com",
+              "http://samples.overdrive.com/?crid=9B4928BB-8EFB-43BB-A022-2622E72B1794&.epub-sample.overdrive.com",
+              "http://excerpts.cdn.overdrive.com/FormatType-425/0992-1/133269-ATaleOfTwoCities.mp3",
+              "http://link.overdrive.com/?websiteId=262&titleId=479504",
+              "http://auckland.lib.overdrive.com/ContentDetails.htm?ID=97188787-B96F-4209-A8F7-4D6AD2D3B10E"
+            ],
+            "status": {
+              "general": "CheckAvailability",
+              "electronicLocator": "Available"
+            },
+            "vendors": {
+              "overdrive": {
+                "reserveId": [
+                  "97188787-B96F-4209-A8F7-4D6AD2D3B10E",
+                  "C3FEC4B0-6C5E-41F9-A5EF-F147D5537C95",
+                  "03554581-7701-4FBA-9950-A8442C617463",
+                  "9B4928BB-8EFB-43BB-A022-2622E72B1794",
+                  "4AA7B871-18FD-4A1D-A1A0-EA3713DBBF9B",
+                  "BB6DBF5D-2D8A-4168-881D-EB87BEF5E68E"
+                ]
+              },
+              "borrowbox": {
+                "reserveId": [
+                  "BOL_925317"
+                ]
+              }
+            }
+          },
+          "recordIds": [
+            "3878573",
+            "3268657",
+            "2389602",
+            "3345648",
+            "3766785",
+            "3381377",
+            "3085918"
+          ],
+          "materialTypes": [
+            "u"
+          ],
+          "editions": [
+            {
+              "id": "7dafb7ee-556c-11ed-a59e-f5bd2f522bfb",
+              "availabilityStatus": "Available",
+              "edition": "Unabridged.",
+              "hasItems": false,
+              "recordId": "3878573",
+              "publicationDate": "2020",
+              "type": "electronic",
+              "subscriptionId": "6d5d5b7b-de86-47b7-ada5-0040c26c54bf",
+              "vendors": {
+                "borrowbox": {
+                  "reserveId": [
+                    "BOL_925317"
+                  ]
+                }
+              },
+              "isGetItSuppressed": false
+            },
+            {
+              "id": "c3124887-54c1-11ed-a59e-7bf69d6be46a",
+              "availabilityStatus": "Available",
+              "edition": "Unabridged.",
+              "hasItems": false,
+              "recordId": "3268657",
+              "publicationDate": "2015",
+              "type": "electronic",
+              "subscriptionId": "731a345c-097d-447b-876e-1c227b069044",
+              "vendors": {
+                "overdrive": {
+                  "reserveId": [
+                    "97188787-B96F-4209-A8F7-4D6AD2D3B10E"
+                  ]
+                }
+              },
+              "isGetItSuppressed": false
+            },
+            {
+              "id": "4e69f990-549d-11ed-bf54-cd985fd191aa",
+              "availabilityStatus": "Available",
+              "hasItems": false,
+              "recordId": "2389602",
+              "publicationDate": "2011",
+              "type": "electronic",
+              "subscriptionId": "731a345c-097d-447b-876e-1c227b069044",
+              "vendors": {
+                "overdrive": {
+                  "reserveId": [
+                    "C3FEC4B0-6C5E-41F9-A5EF-F147D5537C95"
+                  ]
+                }
+              },
+              "isGetItSuppressed": false
+            },
+            {
+              "id": "126f44cb-5506-11ed-bf54-099e96b88c6e",
+              "availabilityStatus": "Available",
+              "hasItems": false,
+              "recordId": "3345648",
+              "publicationDate": "2010",
+              "type": "electronic",
+              "subscriptionId": "731a345c-097d-447b-876e-1c227b069044",
+              "vendors": {
+                "overdrive": {
+                  "reserveId": [
+                    "03554581-7701-4FBA-9950-A8442C617463"
+                  ]
+                }
+              },
+              "isGetItSuppressed": false
+            },
+            {
+              "id": "3c028006-5598-11ed-a59e-8912dceb8bb8",
+              "availabilityStatus": "Unavailable",
+              "edition": "Unabridged.",
+              "hasItems": false,
+              "recordId": "3766785",
+              "publicationDate": "2010",
+              "type": "physical",
+              "vendors": {
+                "overdrive": {
+                  "reserveId": [
+                    "9B4928BB-8EFB-43BB-A022-2622E72B1794"
+                  ]
+                }
+              },
+              "isGetItSuppressed": true
+            },
+            {
+              "id": "32372d5e-551e-11ed-a59e-9fbacbee98df",
+              "availabilityStatus": "Available",
+              "hasItems": false,
+              "recordId": "3381377",
+              "publicationDate": "2005",
+              "type": "electronic",
+              "subscriptionId": "731a345c-097d-447b-876e-1c227b069044",
+              "vendors": {
+                "overdrive": {
+                  "reserveId": [
+                    "4AA7B871-18FD-4A1D-A1A0-EA3713DBBF9B"
+                  ]
+                }
+              },
+              "isGetItSuppressed": false
+            },
+            {
+              "id": "8a55ef55-54d8-11ed-a59e-fd6b906f66fc",
+              "availabilityStatus": "Available",
+              "hasItems": false,
+              "recordId": "3085918",
+              "publicationDate": "2003",
+              "type": "electronic",
+              "subscriptionId": "731a345c-097d-447b-876e-1c227b069044",
+              "vendors": {
+                "overdrive": {
+                  "reserveId": [
+                    "BB6DBF5D-2D8A-4168-881D-EB87BEF5E68E"
+                  ]
+                }
+              },
+              "isGetItSuppressed": false
+            }
+          ],
+          "checkAvailabilityFromOtherSources": true,
+          "identifiedBy": {
+            "isbn": [
+              "9780655689720",
+              "0655689729",
+              "9781681417455",
+              "1681417456",
+              "9781483090412",
+              "1483090418"
+            ]
+          }
+        }
+      ],
+      "identifiers": {
+        "isbn": "9781620116609"
+      },
+      "language": "eng",
+      "seriesTitle": "Classic fiction"
+    },
+    {
+      "id": "63592c05-fe6e-500d-ae0b-ebe654745444",
+      "customerId": "cd34be0a-7ce5-4118-89af-47364b864e7c",
+      "entityType": "FormatGroup",
+      "coverUrl": {
+        "small": "https://secure.syndetics.com/index.aspx?isbn=0877547386/sc.gif&upc=&client=auckvega&type=unbound",
+        "medium": "https://secure.syndetics.com/index.aspx?isbn=0877547386/mc.gif&upc=&client=auckvega&type=unbound",
+        "large": "https://secure.syndetics.com/index.aspx?isbn=0877547386/lc.gif&upc=&client=auckvega&type=unbound"
+      },
+      "title": "Charles Dickens's A tale of two Cities",
+      "publicationDate": "1987",
+      "materialTabs": [
+        {
+          "name": "Book",
+          "type": "physical",
+          "availability": {
+            "isGetItSuppressed": false,
+            "status": {
+              "general": "Unavailable"
+            }
+          },
+          "recordIds": [
+            "1599906"
+          ],
+          "materialTypes": [
+            "a"
+          ],
+          "locations": [
+            {
+              "code": "ac",
+              "label": "Central City",
+              "availabilityStatus": "Unavailable"
+            }
+          ],
+          "hasMoreLocations": false,
+          "locationsTotalResults": 1,
+          "editions": [
+            {
+              "id": "e9220789-547d-11ed-a59e-0b9fcb65ea9d",
+              "availabilityStatus": "Unavailable",
+              "hasItems": true,
+              "recordId": "1599906",
+              "publicationDate": "1987",
+              "type": "physical",
+              "isGetItSuppressed": false
+            }
+          ],
+          "checkAvailabilityFromOtherSources": false,
+          "identifiedBy": {
+            "isbn": [
+              "0877547386",
+              "9780877547389"
+            ]
+          }
+        }
+      ],
+      "identifiers": {
+        "isbn": "0877547386"
+      },
+      "language": "eng",
+      "seriesTitle": "Modern critical interpretations"
+    },
+    {
+      "id": "7b224c6c-96a1-5868-9431-0d0c9ef3045e",
+      "customerId": "cd34be0a-7ce5-4118-89af-47364b864e7c",
+      "entityType": "FormatGroup",
+      "title": "A tale of two cities, and The uncommercial traveller",
+      "primaryAgent": {
+        "id": "a1d26efc-3b83-11ec-a90c-3310ebf38b0f",
+        "label": "Dickens, Charles, 1812-1870."
+      },
+      "materialTabs": [
+        {
+          "name": "Book",
+          "type": "physical",
+          "availability": {
+            "isGetItSuppressed": false,
+            "status": {
+              "general": "CheckedOut"
+            }
+          },
+          "recordIds": [
+            "1684222"
+          ],
+          "materialTypes": [
+            "a"
+          ],
+          "locations": [
+            {
+              "code": "mcz",
+              "label": "Research South (Manukau Library)",
+              "availabilityStatus": "Unavailable"
+            }
+          ],
+          "hasMoreLocations": false,
+          "locationsTotalResults": 1,
+          "editions": [
+            {
+              "id": "27059e55-5480-11ed-a59e-d3fe1de9bf3d",
+              "availabilityStatus": "CheckedOut",
+              "hasItems": true,
+              "recordId": "1684222",
+              "publicationDate": "[Date of publication not identified]",
+              "type": "physical",
+              "isGetItSuppressed": false
+            }
+          ],
+          "checkAvailabilityFromOtherSources": false
+        }
+      ],
+      "language": "eng",
+      "seriesTitle": "The works of Charles Dickens ;"
+    },
+    {
+      "id": "0e37495b-5aaf-5b85-8426-0a267ff2cd4b",
+      "customerId": "cd34be0a-7ce5-4118-89af-47364b864e7c",
+      "entityType": "FormatGroup",
+      "title": "The adventures of Oliver Twist, and, The old curiosity shop, and A tale of two cities",
+      "publicationDate": "1800-1899",
+      "primaryAgent": {
+        "id": "a1d26efc-3b83-11ec-a90c-3310ebf38b0f",
+        "label": "Dickens, Charles, 1812-1870."
+      },
+      "materialTabs": [
+        {
+          "name": "Book",
+          "type": "physical",
+          "availability": {
+            "isGetItSuppressed": true,
+            "status": {
+              "general": "Available"
+            }
+          },
+          "recordIds": [
+            "2899689"
+          ],
+          "materialTypes": [
+            "a"
+          ],
+          "locations": [
+            {
+              "code": "nd",
+              "label": "Devonport",
+              "availabilityStatus": "Available"
+            }
+          ],
+          "hasMoreLocations": false,
+          "locationsTotalResults": 1,
+          "editions": [
+            {
+              "id": "80672666-54b9-11ed-bf54-9d52bc483de8",
+              "availabilityStatus": "Available",
+              "hasItems": true,
+              "recordId": "2899689",
+              "publicationDate": "18XX",
+              "type": "physical",
+              "isGetItSuppressed": true
+            }
+          ],
+          "checkAvailabilityFromOtherSources": false
+        }
+      ],
+      "language": "eng",
+      "seriesTitle": "Dickens's works ;"
+    },
+    {
+      "id": "0718aba3-1928-5fc8-b442-24b7833c70c2",
+      "customerId": "cd34be0a-7ce5-4118-89af-47364b864e7c",
+      "entityType": "FormatGroup",
+      "coverUrl": {
+        "small": "https://secure.syndetics.com/index.aspx?isbn=/sc.gif&upc=5021456183227&client=auckvega&type=unbound",
+        "medium": "https://secure.syndetics.com/index.aspx?isbn=/mc.gif&upc=5021456183227&client=auckvega&type=unbound",
+        "large": "https://secure.syndetics.com/index.aspx?isbn=/lc.gif&upc=5021456183227&client=auckvega&type=unbound"
+      },
+      "title": "Oliver Twist ; A tale of two cities.",
+      "publicationDate": "2012",
+      "materialTabs": [
+        {
+          "name": "DVD",
+          "type": "physical",
+          "availability": {
+            "isGetItSuppressed": false,
+            "status": {
+              "general": "Available"
+            }
+          },
+          "recordIds": [
+            "3291471"
+          ],
+          "materialTypes": [
+            "g"
+          ],
+          "locations": [
+            {
+              "code": "nb",
+              "label": "Birkenhead",
+              "availabilityStatus": "Available"
+            },
+            {
+              "code": "av",
+              "label": "Pt Chevalier",
+              "availabilityStatus": "Available"
+            }
+          ],
+          "hasMoreLocations": false,
+          "locationsTotalResults": 2,
+          "editions": [
+            {
+              "id": "762bd72c-54e2-11ed-bf54-4340bd955d5f",
+              "availabilityStatus": "Available",
+              "hasItems": true,
+              "recordId": "3291471",
+              "publicationDate": "2012",
+              "type": "physical",
+              "isGetItSuppressed": false
+            }
+          ],
+          "checkAvailabilityFromOtherSources": false,
+          "identifiedBy": {
+            "upc": [
+              "5021456183227"
+            ]
+          }
+        }
+      ],
+      "identifiers": {
+        "upc": "5021456183227"
+      },
+      "language": "eng",
+      "seriesTitle": "Classic literature on film"
+    },
+    {
+      "id": "42ebf742-a167-53fb-9674-144aae7b3bc8",
+      "customerId": "cd34be0a-7ce5-4118-89af-47364b864e7c",
+      "entityType": "FormatGroup",
+      "coverUrl": {
+        "small": "https://secure.syndetics.com/index.aspx?isbn=9781408276600/sc.gif&upc=&client=auckvega&type=unbound",
+        "medium": "https://secure.syndetics.com/index.aspx?isbn=9781408276600/mc.gif&upc=&client=auckvega&type=unbound",
+        "large": "https://secure.syndetics.com/index.aspx?isbn=9781408276600/lc.gif&upc=&client=auckvega&type=unbound"
+      },
+      "title": "A tale of two cities",
+      "publicationDate": "2008",
+      "primaryAgent": {
+        "id": "25fc2a99-3b78-11ec-8e6c-b5b46e241e64",
+        "label": "Johnson, A."
+      },
+      "materialTabs": [
+        {
+          "name": "Book",
+          "type": "physical",
+          "availability": {
+            "isGetItSuppressed": false,
+            "status": {
+              "general": "Available"
+            }
+          },
+          "recordIds": [
+            "3625129"
+          ],
+          "materialTypes": [
+            "a"
+          ],
+          "locations": [
+            {
+              "code": "na",
+              "label": "Albany Village",
+              "availabilityStatus": "Available"
+            },
+            {
+              "code": "nb",
+              "label": "Birkenhead",
+              "availabilityStatus": "Available"
+            },
+            {
+              "code": "nd",
+              "label": "Devonport",
+              "availabilityStatus": "Available"
+            },
+            {
+              "code": "ng",
+              "label": "Glenfield",
+              "availabilityStatus": "Available"
+            },
+            {
+              "code": "am",
+              "label": "Mt Albert",
+              "availabilityStatus": "Available"
+            },
+            {
+              "code": "wn",
+              "label": "New Lynn",
+              "availabilityStatus": "Available"
+            }
+          ],
+          "hasMoreLocations": true,
+          "locationsTotalResults": 11,
+          "editions": [
+            {
+              "id": "73d140b5-5519-11ed-a59e-fface16caf49",
+              "availabilityStatus": "Available",
+              "hasItems": true,
+              "recordId": "3625129",
+              "publicationDate": "2008",
+              "type": "physical",
+              "isGetItSuppressed": false
+            }
+          ],
+          "checkAvailabilityFromOtherSources": false,
+          "identifiedBy": {
+            "isbn": [
+              "9781408276600",
+              "1408276607",
+              "9781408243787",
+              "1408243784"
+            ]
+          }
+        }
+      ],
+      "identifiers": {
+        "isbn": "9781408276600"
+      },
+      "language": "eng",
+      "seriesTitle": "Penguin readers Level 5"
+    },
+    {
+      "id": "ea3ada03-79f5-56de-b07e-cb6eb6d9134e",
+      "customerId": "cd34be0a-7ce5-4118-89af-47364b864e7c",
+      "entityType": "FormatGroup",
+      "coverUrl": {
+        "small": "https://secure.syndetics.com/index.aspx?isbn=9780241589182/sc.gif&upc=&client=auckvega&type=unbound",
+        "medium": "https://secure.syndetics.com/index.aspx?isbn=9780241589182/mc.gif&upc=&client=auckvega&type=unbound",
+        "large": "https://secure.syndetics.com/index.aspx?isbn=9780241589182/lc.gif&upc=&client=auckvega&type=unbound"
+      },
+      "title": "A tale of two cities",
+      "publicationDate": "2023",
+      "primaryAgent": {
+        "id": "25b13faa-3b78-11ec-8e6c-078c1df0cadf",
+        "label": "Williams, Kate"
+      },
+      "materialTabs": [
+        {
+          "name": "Book",
+          "type": "physical",
+          "availability": {
+            "isGetItSuppressed": false,
+            "status": {
+              "general": "Available"
+            }
+          },
+          "recordIds": [
+            "4095882"
+          ],
+          "materialTypes": [
+            "a"
+          ],
+          "locations": [
+            {
+              "code": "nd",
+              "label": "Devonport",
+              "availabilityStatus": "Available"
+            },
+            {
+              "code": "ne",
+              "label": "East Coast Bays",
+              "availabilityStatus": "Available"
+            },
+            {
+              "code": "mg",
+              "label": "Highland Park",
+              "availabilityStatus": "Available"
+            },
+            {
+              "code": "mh",
+              "label": "Howick",
+              "availabilityStatus": "Available"
+            },
+            {
+              "code": "mc",
+              "label": "Manukau",
+              "availabilityStatus": "Available"
+            },
+            {
+              "code": "wn",
+              "label": "New Lynn",
+              "availabilityStatus": "Available"
+            }
+          ],
+          "hasMoreLocations": true,
+          "locationsTotalResults": 16,
+          "editions": [
+            {
+              "id": "c25d66c5-70a1-11ed-bf76-239a90a542b1",
+              "availabilityStatus": "Available",
+              "edition": "Penguin Readers edition.",
+              "hasItems": true,
+              "recordId": "4095882",
+              "publicationDate": "2023",
+              "type": "physical",
+              "isGetItSuppressed": false
+            }
+          ],
+          "checkAvailabilityFromOtherSources": false,
+          "identifiedBy": {
+            "isbn": [
+              "9780241589182",
+              "0241589185"
+            ],
+            "lccn": [
+              "jb2023015536"
+            ]
+          }
+        }
+      ],
+      "identifiers": {
+        "isbn": "9780241589182",
+        "lccn": "jb2023015536"
+      },
+      "language": "eng",
+      "seriesTitle": "Penguin readers. Level 6"
+    },
+    {
+      "id": "4d53dec9-9ef4-5d58-b345-924e14d929f4",
+      "customerId": "cd34be0a-7ce5-4118-89af-47364b864e7c",
+      "entityType": "FormatGroup",
+      "coverUrl": {
+        "small": "https://secure.syndetics.com/index.aspx?isbn=007099689X/sc.gif&upc=&client=auckvega&type=unbound",
+        "medium": "https://secure.syndetics.com/index.aspx?isbn=007099689X/mc.gif&upc=&client=auckvega&type=unbound",
+        "large": "https://secure.syndetics.com/index.aspx?isbn=007099689X/lc.gif&upc=&client=auckvega&type=unbound"
+      },
+      "title": "A tale of two cities",
+      "publicationDate": "1973",
+      "primaryAgent": {
+        "id": "a47a5780-3b7b-11ec-8e6c-8f5e08aaae49",
+        "label": "Toomey, Elizabeth"
+      },
+      "materialTabs": [
+        {
+          "name": "Book",
+          "type": "physical",
+          "availability": {
+            "isGetItSuppressed": true,
+            "status": {
+              "general": "Available"
+            }
+          },
+          "recordIds": [
+            "1934966"
+          ],
+          "materialTypes": [
+            "a"
+          ],
+          "locations": [
+            {
+              "code": "ah",
+              "label": "Central City Special Collections",
+              "availabilityStatus": "Available"
+            }
+          ],
+          "hasMoreLocations": false,
+          "locationsTotalResults": 1,
+          "editions": [
+            {
+              "id": "9b164ec4-5484-11ed-a59e-b3146c4d297c",
+              "availabilityStatus": "Available",
+              "edition": "Full-color ed.",
+              "hasItems": true,
+              "recordId": "1934966",
+              "publicationDate": "1973",
+              "type": "physical",
+              "isGetItSuppressed": true
+            }
+          ],
+          "checkAvailabilityFromOtherSources": false,
+          "identifiedBy": {
+            "isbn": [
+              "007099689X",
+              "9780070996892"
+            ]
+          }
+        }
+      ],
+      "identifiers": {
+        "isbn": "007099689X"
+      },
+      "language": "eng",
+      "seriesTitle": "Adventures in English"
+    },
+    {
+      "id": "9ac6e14b-8c27-44c9-86e1-4b8c2734c94a",
+      "customerId": "cd34be0a-7ce5-4118-89af-47364b864e7c",
+      "entityType": "FormatGroup",
+      "coverUrl": {
+        "small": "https://secure.syndetics.com/index.aspx?isbn=9780739059203/sc.gif&upc=038081352602&client=auckvega&type=unbound",
+        "medium": "https://secure.syndetics.com/index.aspx?isbn=9780739059203/mc.gif&upc=038081352602&client=auckvega&type=unbound",
+        "large": "https://secure.syndetics.com/index.aspx?isbn=9780739059203/lc.gif&upc=038081352602&client=auckvega&type=unbound"
+      },
+      "title": "Vocal selections from A tale of two cities",
+      "publicationDate": "2009",
+      "primaryAgent": {
+        "id": "ceea4be1-3b70-11ec-8e6c-4962a6445f1f",
+        "label": "Santoriello, Jill, 1965-"
+      },
+      "materialTabs": [
+        {
+          "name": "Printed music",
+          "type": "physical",
+          "availability": {
+            "isGetItSuppressed": false,
+            "status": {
+              "general": "Available"
+            }
+          },
+          "recordIds": [
+            "2580960"
+          ],
+          "materialTypes": [
+            "c"
+          ],
+          "locations": [
+            {
+              "code": "ac",
+              "label": "Central City",
+              "availabilityStatus": "Available"
+            }
+          ],
+          "hasMoreLocations": false,
+          "locationsTotalResults": 1,
+          "editions": [
+            {
+              "id": "e399f94c-54a1-11ed-bf54-1ffc2161871e",
+              "availabilityStatus": "Available",
+              "hasItems": true,
+              "recordId": "2580960",
+              "publicationDate": "2009",
+              "type": "physical",
+              "isGetItSuppressed": false
+            }
+          ],
+          "checkAvailabilityFromOtherSources": false,
+          "identifiedBy": {
+            "isbn": [
+              "9780739059203",
+              "0739059203"
+            ],
+            "upc": [
+              "038081352602"
+            ]
+          }
+        }
+      ],
+      "identifiers": {
+        "isbn": "9780739059203",
+        "upc": "038081352602"
+      },
+      "language": "eng"
+    },
+    {
+      "id": "036a515c-1d97-5743-a5ed-94475b776535",
+      "customerId": "cd34be0a-7ce5-4118-89af-47364b864e7c",
+      "entityType": "FormatGroup",
+      "coverUrl": {
+        "small": "https://secure.syndetics.com/index.aspx?isbn=9781620972090/sc.gif&upc=&client=auckvega&type=unbound",
+        "medium": "https://secure.syndetics.com/index.aspx?isbn=9781620972090/mc.gif&upc=&client=auckvega&type=unbound",
+        "large": "https://secure.syndetics.com/index.aspx?isbn=9781620972090/lc.gif&upc=&client=auckvega&type=unbound"
+      },
+      "title": "Reclaiming Gotham : Bill de Blasio and the movement to end America's tale of two cities",
+      "publicationDate": "2017",
+      "primaryAgent": {
+        "id": "7af8d8d7-5565-11ed-a59e-d96715ab1401",
+        "label": "González, Juan, 1947-"
+      },
+      "materialTabs": [
+        {
+          "name": "Book",
+          "type": "physical",
+          "availability": {
+            "isGetItSuppressed": false,
+            "status": {
+              "general": "Available"
+            }
+          },
+          "recordIds": [
+            "3737132"
+          ],
+          "materialTypes": [
+            "a"
+          ],
+          "locations": [
+            {
+              "code": "ne",
+              "label": "East Coast Bays",
+              "availabilityStatus": "Available"
+            }
+          ],
+          "hasMoreLocations": false,
+          "locationsTotalResults": 1,
+          "editions": [
+            {
+              "id": "7afb49d9-5565-11ed-a59e-a194e890fe27",
+              "availabilityStatus": "Available",
+              "hasItems": true,
+              "recordId": "3737132",
+              "publicationDate": "2017",
+              "type": "physical",
+              "isGetItSuppressed": false
+            }
+          ],
+          "checkAvailabilityFromOtherSources": false,
+          "identifiedBy": {
+            "isbn": [
+              "9781620972090",
+              "1620972093"
+            ],
+            "lccn": [
+              "  2017018383"
+            ]
+          }
+        }
+      ],
+      "identifiers": {
+        "isbn": "9781620972090",
+        "lccn": "  2017018383"
+      },
+      "language": "eng",
+      "missingWords": [
+        "Dickens,",
+        "Charles"
+      ]
+    }
+  ]
+}

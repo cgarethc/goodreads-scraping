@@ -3,7 +3,7 @@
 const fs = require('fs');
 const admin = require('firebase-admin');
 const cli = require("commander");
-const auckland = require("./lib/scrapelibrary").search;
+const auckland = require("./lib/scrapenewaucklandlibrary").search;
 const wellington = require("./lib/scrapewellylibrary").search;
 const goodreadsList = require("./lib/scrapelist").scrape;
 const goodreadsAward = require("./lib/scrapeaward").scrape;
@@ -68,7 +68,7 @@ const scrape = async (searchFunction, listId, listName, listType, dbList, titles
     .option("-e, --env", "the LISTDEF environment variable contains the name of JSON file to read")
     .option("-l, --list <goodreads list URL>", "List URL")
     .option("-a, --award <goodreads award URL>", "Award URL")
-    .option("-f, --filter <filter for goodreads award type>", "Award filter")
+    .option("-r, --filter <filter for goodreads award type>", "Award filter")
     .option("-p, --pages <maximum number of pages to scrape>", "Max pages")
     .option("-c, --place <Wellington|Auckland>", "Library (defaults to both)")
     .option("-i, --id <id for the list>", "ID")

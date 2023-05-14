@@ -19,6 +19,15 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "Run new Auckland script",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/lib/scrapenewaucklandlibrary.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "Run testbook",
             "skipFiles": [
                 "<node_internals>/**"

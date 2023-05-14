@@ -1,6 +1,6 @@
 const cli = require("commander");
 
-const library = require("./lib/scrapelibrary").search;
+const library = require("./lib/scrapenewaucklandlibrary").search;
 const goodreadsList = require("./lib/scrapelist").scrape;
 const goodreadsAward = require("./lib/scrapeaward").scrape;
 const goodreadsShelf = require("./lib/scrapeshelf").scrape;
@@ -40,6 +40,7 @@ const parsecsv = require("./lib/parsecsv").parse;
 
   console.log("Searching for", titles.length, "titles at the library");
   (await titles).forEach(async (title) => {
+    console.log('Searching for', title.bookTitle, 'by', title.bookAuthor);
     const results = await library(title.bookAuthor, title.bookTitle);    
     results.forEach((result) => {
       const formattedResult = `${result.type} ${title.awardType?title.awardType:''} "${result.title}" by ${result.author}\n${title.bookURL}\n${result.url}`;

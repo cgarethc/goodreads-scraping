@@ -59,6 +59,7 @@
     {
       "url": "https://www.goodreads.com/award/show/2129-london-book-festival",
       "id": "london-book-festival",
+      "filter": "London Book Festival for General Fiction\\ ",
       "name": "London Book Festival",
       "type": "Award"
     },
