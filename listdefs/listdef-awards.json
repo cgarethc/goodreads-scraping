@@ -185,9 +185,10 @@
     {
       "url": "https://www.goodreads.com/award/show/46-locus-award",
       "id": "locus-scifi-novel",
-      "filter": "Locus Award for Science Fiction Novel\\ \\(",
-      "name": "Locus Award for Science Fiction Novel",
-      "type": "Award"
+      "filter": "Locus Award for.+Novel\\ \\(",
+      "name": "Locus Award",
+      "type": "Award",
+      "pages": 20
     }
   ]
 }
