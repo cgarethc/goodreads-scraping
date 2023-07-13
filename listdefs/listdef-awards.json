@@ -176,10 +176,17 @@
       "type": "Award"
     },
     {
-      "url": "https://www.goodreads.com/award/show/1443-miles-franklin-literary-award",      
+      "url": "https://www.goodreads.com/award/show/1443-miles-franklin-literary-award",
       "id": "miles-franklin-winners",
       "filter": "Miles Franklin Literary Award\\ \\(",
       "name": "Miles Franklin Literary Award Winners",
+      "type": "Award"
+    },
+    {
+      "url": "https://www.goodreads.com/award/show/46-locus-award",
+      "id": "locus-",
+      "filter": "Locus Award for Science Fiction Novel\\ \\(",
+      "name": "Locus Award for Science Fiction Novel",
       "type": "Award"
     }
   ]
