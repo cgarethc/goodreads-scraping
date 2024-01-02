@@ -20,8 +20,14 @@
     },
     {
       "url": "https://www.goodreads.com/list/show/177853.New_York_Times_Ten_Best_Books_Fiction",
-      "id": "nyt-best-fiction",
-      "name": "New York Times Best Books (Fiction)",
+      "id": "nyt-best-fiction-2004",
+      "name": "New York Times Best Books (Fiction) 2004-2022",
+      "type": "Publisher List"
+    },
+    {
+      "url": "https://www.goodreads.com/list/show/196201.New_York_Times_Ten_Best_Books_2023_Fiction",
+      "id": "nyt-best-fiction-2023",
+      "name": "New York Times Best Books (Fiction) 2023",
       "type": "Publisher List"
     }
   ]
