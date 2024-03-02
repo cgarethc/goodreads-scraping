@@ -196,6 +196,13 @@
       "name": "Locus Award",
       "type": "Award",
       "pages": 20
+    },
+    {
+      "url": "https://www.goodreads.com/award/show/39627-libby-award",
+      "id": "libby-adult-fiction",
+      "filter": "Best Adult Fiction",
+      "name": "Libby Award for Best Adult Fiction Nominees",
+      "type": "Award"
     }
   ]
 }
